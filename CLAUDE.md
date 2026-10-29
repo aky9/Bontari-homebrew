@@ -58,9 +58,11 @@ can collide with one from Corgo's module.
 
 ## Releases
 
-Bump `version` in `module/module.json`, then push a matching tag (`v0.1.0`). `.github/workflows/release.yml`
-runs the full setup, pins the manifest's `download` to the tag's zip, and publishes a release marked latest.
-The install URL follows the latest release:
+Bump `version` in `module/module.json` and merge to `main`. `.github/workflows/release.yml` runs on every push
+to `main`; when no release `v<version>` exists yet it runs the full setup, pins the manifest's `download` to
+that release's zip, and publishes the release (creating its tag) marked latest. A push that keeps the version
+releases nothing. Releasing does not need a tag push, which this repository's Claude sessions cannot do (the
+git proxy refuses tag refs). The install URL follows the latest release:
 
     https://github.com/aky9/bontari-homebrew/releases/latest/download/module.json
 
