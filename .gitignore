@@ -1,0 +1,7 @@
+node_modules/
+dist/
+__pycache__/
+*.zip
+
+# Derived from data/Nathans-Homebrew-Cyberpunk-Items.xlsx: regenerate with `npm run parse`.
+data/*.parsed.json

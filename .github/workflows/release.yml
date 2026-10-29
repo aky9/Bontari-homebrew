@@ -1,0 +1,69 @@
+# Builds the module and publishes it as a GitHub Release whenever a version tag is pushed:
+#
+#   git tag v0.1.0 && git push origin v0.1.0
+#
+# The tag must match "version" in module/module.json. Each release carries two assets:
+#   module.zip   - dist/bontari-homebrew with module.json at the zip root, which is what Foundry expects
+#   module.json  - the manifest Foundry installs and updates from
+# The shipped manifest's "download" is pinned to this tag's zip, so an older manifest keeps fetching the zip
+# it was built with. Every release is marked "latest", which is what the install URL follows:
+#   https://github.com/aky9/bontari-homebrew/releases/latest/download/module.json
+name: Release
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Check the tag matches module.json
+        run: |
+          version=$(node -p "require('./module/module.json').version")
+          if [ "${GITHUB_REF_NAME#v}" != "$version" ]; then
+            echo "tag $GITHUB_REF_NAME does not match module/module.json version $version" >&2
+            exit 1
+          fi
+
+      - name: Install, parse, build, validate
+        run: ./setup.sh
+
+      - name: Pin the manifest's download URL to this release
+        run: |
+          node -e '
+            const fs = require("fs");
+            const p = "dist/bontari-homebrew/module.json";
+            const m = JSON.parse(fs.readFileSync(p, "utf8"));
+            m.download = `https://github.com/${process.env.GITHUB_REPOSITORY}/releases/download/${process.env.GITHUB_REF_NAME}/module.zip`;
+            fs.writeFileSync(p, JSON.stringify(m, null, 2) + "\n");
+            console.log("download:", m.download);
+          '
+
+      - name: Zip the module
+        run: cd dist/bontari-homebrew && zip -r ../../module.zip . && unzip -l ../../module.zip | head -20
+
+      - name: Publish the release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          assets="module.zip dist/bontari-homebrew/module.json"
+          if gh release view "$GITHUB_REF_NAME" >/dev/null 2>&1; then
+            gh release upload "$GITHUB_REF_NAME" $assets --clobber
+          else
+            gh release create "$GITHUB_REF_NAME" $assets --title "$GITHUB_REF_NAME" --generate-notes --latest
+          fi

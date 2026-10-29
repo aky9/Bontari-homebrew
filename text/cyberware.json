@@ -1,0 +1,12 @@
+{
+ "_notes": "Automation data for the Cyberware tab, keyed by the item's name in the sheet. The item's text, cost, install, and Humanity Loss come from the sheet; see tools/build_cyberware.py for the fields.",
+ "items": {
+  "Syn-Heart": {
+   "type": "cyberwareInternal",
+   "icon": "grafted_muscle_and_bone_lace",
+   "effects": [{"changes": [["bonuses.athletics", 2]]}],
+   "notes": ["The +2 to Athletics applies automatically while this is installed.",
+             "The +1 MOVE when paired with Syn-Lungs (Bontari Edition) is not automated: add it by hand when both are installed."]
+  }
+ }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "bontari-homebrew",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "parse": "python3 tools/parse_sheet.py",
+    "build": "python3 tools/build.py && node tools/compile.mjs",
+    "validate": "node tools/validate.mjs dist/bontari-homebrew"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "1.1.0",
+    "classic-level": "^3.0.0"
+  }
+}

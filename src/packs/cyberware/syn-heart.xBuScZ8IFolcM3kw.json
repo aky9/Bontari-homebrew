@@ -1,0 +1,123 @@
+{
+ "_id": "xBuScZ8IFolcM3kw",
+ "_key": "!items!xBuScZ8IFolcM3kw",
+ "name": "Syn-Heart",
+ "type": "cyberware",
+ "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/grafted_muscle_and_bone_lace.svg",
+ "system": {
+  "ammoVariety": [],
+  "attackmod": 0,
+  "brand": "",
+  "canIgnoreArmor": true,
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "core": false,
+  "critFailEffect": "jammed",
+  "damage": "1d6",
+  "description": {
+   "value": "<p><strong>Cost:</strong> 1,000eb<br>\n<strong>Install:</strong> Hospital<br>\n<strong>Humanity Loss:</strong> 7 (2d6)</p>\n<p>Internal Body Cyberware. Grants the user +2 to Athletics checks. When paired with Syn-Lungs the user's MOVE increases by 1.</p>\n<p><strong>Type:</strong> Internal Body Cyberware<br>\n<strong>Option Slots:</strong> uses 1</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>The +2 to Athletics applies automatically while this is installed.</li>\n<li>The +1 MOVE when paired with Syn-Lungs (Bontari Edition) is not automated: add it by hand when both are installed.</li>\n</ul>\n<p><em>From Nathan's Homebrew Cyberpunk Items by Nathan (Cyberware).</em></p>"
+  },
+  "dvTable": "",
+  "favorite": false,
+  "fireModes": {
+   "autoFire": 0,
+   "suppressiveFire": false
+  },
+  "humanityLoss": {
+   "static": 7,
+   "roll": "2d6"
+  },
+  "ignoreArmorPercent": 50,
+  "ignoreBelowSP": 0,
+  "installLocation": "hospital",
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "isFoundational": false,
+  "isRanged": false,
+  "isWeapon": false,
+  "magazine": {
+   "ammoData": null,
+   "max": 0,
+   "value": 0
+  },
+  "price": {
+   "market": 1000
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "rof": 1,
+  "size": 1,
+  "source": {
+   "book": "Nathan's Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "type": "cyberwareInternal",
+  "unarmedAutomaticCalculation": true,
+  "usage": "installed",
+  "usesType": "magazine",
+  "weaponSkill": "Archery",
+  "weaponType": "assaultRifle"
+ },
+ "effects": [
+  {
+   "_id": "eofkMYacCzMmvdvd",
+   "_key": "!items.effects!xBuScZ8IFolcM3kw.eofkMYacCzMmvdvd",
+   "name": "Syn-Heart",
+   "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/grafted_muscle_and_bone_lace.svg",
+   "changes": [
+    {
+     "key": "bonuses.athletics",
+     "mode": 2,
+     "priority": null,
+     "value": "2"
+    }
+   ],
+   "description": "",
+   "disabled": false,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "skill"
+      },
+      "situational": {
+       "0": {
+        "isSituational": false,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  }
+ ],
+ "folder": "8qxTip0BhFJyWFSa",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}
