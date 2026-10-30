@@ -1,7 +1,7 @@
 """Shared helpers for building the Bontari Homebrew item documents.
 
 Copied from corgo-77-module's tools/common.py and cut down: the ID scheme and the description whitespace
-rule are the same, the source line credits Nathan's spreadsheet instead of Corgo's document.
+rule are the same, the source line credits Bontari's spreadsheet instead of Corgo's document.
 """
 import hashlib, html, json, re, sys
 
@@ -15,8 +15,8 @@ for _stream in (sys.stdout, sys.stderr):
         pass
 
 MODULE_ID = "bontari-homebrew"
-SOURCE_BOOK = "Nathan's Homebrew Cyberpunk Items"
-SOURCE_AUTHOR = "Nathan"
+SOURCE_BOOK = "Bontari Homebrew Cyberpunk Items"
+SOURCE_AUTHOR = "Bontari"
 # Edition suffix for items that modify an existing core or Corgo's 77 item, so the two never share a name.
 EDITION = " (Bontari Edition)"
 
@@ -47,7 +47,7 @@ def html_escape(s):
 
 
 def text_html(text):
-    """Nathan's cell text as HTML: a blank line starts a paragraph, a single line break is a <br>.
+    """Bontari's cell text as HTML: a blank line starts a paragraph, a single line break is a <br>.
 
     A newline follows every block tag: Foundry strips tags for list summaries and tooltips, and a tag with no
     whitespace around it welds the words either side of it together.
@@ -68,7 +68,7 @@ def dump_json(path, data, ensure_ascii=False):
 
 
 def description_html(stats, text, facts, notes, tab):
-    """The item description: the sheet's stat columns, Nathan's text, the facts this module adds, the Foundry
+    """The item description: the sheet's stat columns, Bontari's text, the facts this module adds, the Foundry
     notes, and the source line."""
     parts = []
     if stats:

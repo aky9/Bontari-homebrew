@@ -1,7 +1,7 @@
 # Developing the Bontari Homebrew module
 
-A Foundry VTT module, `bontari-homebrew`, for the Cyberpunk RED - Core 0.92.4 system, built from Nathan's
-spreadsheet of homebrew items. Nathan asked for it; he is credited as the author of the content.
+A Foundry VTT module, `bontari-homebrew`, for the Cyberpunk RED - Core 0.92.4 system, built from Bontari's
+spreadsheet of homebrew items. Bontari asked for it and is credited as the author of the content.
 
 The tooling is adapted from `aky9/corgo-77-module`, whose CLAUDE.md records the 0.92.4 conventions (cyberware
 typing, Active Effect usage, Humanity Loss dice, armor penalty, description whitespace). They apply here
@@ -15,12 +15,12 @@ unchanged: read that file's "Conventions taken from the 0.92.4 source" before ad
 Python 3 (standard library only) and Node 18 or newer. `./setup.sh` runs everything below. By hand:
 
     npm ci
-    npm run parse      # data/Nathans-Homebrew-Cyberpunk-Items.xlsx -> data/sheet.parsed.json (git-ignored)
+    npm run parse      # data/Bontari-Homebrew-Cyberpunk-Items.xlsx -> data/sheet.parsed.json (git-ignored)
     npm run build      # parsed rows + text/*.json -> src/packs -> dist/bontari-homebrew
     npm run validate   # reads the compiled packs back and checks them against the 0.92.4 snapshot
 
-To take in a newer version of Nathan's sheet, download it from Google Drive as .xlsx over
-`data/Nathans-Homebrew-Cyberpunk-Items.xlsx` and run `npm run parse` and `npm run build`.
+To take in a newer version of Bontari's sheet, download it from Google Drive as .xlsx over
+`data/Bontari-Homebrew-Cyberpunk-Items.xlsx` and run `npm run parse` and `npm run build`.
 
 ## How the build works
 
@@ -40,8 +40,8 @@ can collide with one from Corgo's module.
 
 ## Rules for item content
 
-- **Every item carries Nathan's text in full**: the sheet's stat columns, his description, then the facts
-  the module adds (Type, Option Slots), then the Foundry notes, then the source line. Do not rewrite his text;
+- **Every item carries Bontari's text in full**: the sheet's stat columns, Bontari's description, then the facts
+  the module adds (Type, Option Slots), then the Foundry notes, then the source line. Do not rewrite that text;
   typos included, it is his.
 - **Foundry guidance goes in a spec's `notes`**: what is automated and what has to be applied by hand.
 - **Modifications get " (Bontari Edition)"** (`common.EDITION`) at the end of their name: any item that
@@ -54,7 +54,7 @@ can collide with one from Corgo's module.
   text the sheet does not contain to build an item it only modifies.
 - **Rows with a gap** (no cost, a probable copy-paste error) are built from what the sheet gives, with a
   Foundry note naming the gap. **Incomplete rows** (Shrapnel Arrows, Grenade Arrows, SuperFlex Steel Limbs)
-  are not built until Nathan fills them in.
+  are not built until Bontari fills them in.
 
 ## Releases
 

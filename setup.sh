@@ -24,7 +24,7 @@ node_major=$(node -p 'process.versions.node.split(".")[0]')
 command -v python3 >/dev/null 2>&1 || fail "python3 not found; install Python 3 (https://python.org)"
 printf 'node %s, npm %s, %s\n' "$(node --version)" "$(npm --version)" "$(python3 --version)"
 
-[ -f data/Nathans-Homebrew-Cyberpunk-Items.xlsx ] || fail "data/Nathans-Homebrew-Cyberpunk-Items.xlsx is missing; the build reads Nathan's sheet from there"
+[ -f data/Bontari-Homebrew-Cyberpunk-Items.xlsx ] || fail "data/Bontari-Homebrew-Cyberpunk-Items.xlsx is missing; the build reads Bontari's sheet from there"
 
 step "installing node dependencies"
 npm ci

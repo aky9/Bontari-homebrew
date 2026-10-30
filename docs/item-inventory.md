@@ -1,6 +1,6 @@
-# Nathan's Homebrew Cyberpunk Items: what is new and what is modified
+# Bontari Homebrew Cyberpunk Items: what is new and what is modified
 
-Source: `Nathans-Homebrew-Cyberpunk-Items.xlsx` in aky9/bontari-homebrew (export of Nathan's Google Sheet, last
+Source: `Bontari-Homebrew-Cyberpunk-Items.xlsx` in aky9/bontari-homebrew (export of Bontari's Google Sheet, last
 edited 2026-10-28). 95 entries across 12 tabs; the "Fashionware & Cyberlimb Coverings" tab and "Sheet6" are empty.
 
 Each name was matched against the 1,037 items Cyberpunk RED - Core 0.92.4 ships (`tools/cpr-0.92.4-items.json`),
@@ -14,21 +14,21 @@ counts as a copy.
 |---|---|---|
 | **MOD-CORE** | Changes an official item. Where the Foundry system has it, it's named in the table. | 4 |
 | **MOD-OFFICIAL** | Changes an official item (Edgerunners Mission Kit) that the Foundry system does not include. | 2 |
-| **MOD-CORGO** | Same name as a Corgo's 77 item, with Nathan's own rules, cost, or Humanity Loss. | 4 |
+| **MOD-CORGO** | Same name as a Corgo's 77 item, with Bontari's own rules, cost, or Humanity Loss. | 4 |
 | **COPY-CORGO** | Rules text is Corgo's, word for word. | 1 |
 | **NEW (built on X)** | A new item that is an existing item plus changes (a branded Cyberarm, a TUped helmet). | 24 |
-| **NEW** | Nathan's own item. | 50 |
+| **NEW** | Bontari's own item. | 50 |
 | **LORE** | No mechanics: websites and free apps that are setting flavor. | 5 |
 | **RULE** | Not an item: HQ upgrades. | 2 |
 | **INCOMPLETE** | Missing the text needed to build it. | 3 |
 
-Separately, ⚠ marks entries that can be built but have a gap or a probable copy-paste error to ask Nathan about.
+Separately, ⚠ marks entries that can be built but have a gap or a probable copy-paste error to ask Bontari about.
 
 ## Official Items with Altered Rules (6)
 
 | Item | Tag | Existing item | Notes |
 |---|---|---|---|
-| Gorilla Arms (Edgerunners) | MOD-OFFICIAL | none in Foundry; Corgo has his own **Gorilla Arm** | Nathan's change (Brawling ignores half armor, two arms = BODY 11 for Brawling damage) is close to Corgo's Gorilla Arm, which already uses Brawling. |
+| Gorilla Arms (Edgerunners) | MOD-OFFICIAL | none in Foundry; Corgo has his own **Gorilla Arm** | Bontari's change (Brawling ignores half armor, two arms = BODY 11 for Brawling damage) is close to Corgo's Gorilla Arm, which already uses Brawling. |
 | Agents (Core) | MOD-CORE | `Agent` (gear, Core) | Becomes hackable (5 HP, a Control Node) and loses its +2 Library Search; adds Standard (100eb, DV 8) and Excellent (500eb, DV 10) tiers. |
 | Cyberfingers (Black Chrome) | MOD-CORE | 14 `* Cyberfinger` items (BC) | Replaces individual cyberfingers with two cyberhand slots. This is a rule, not an item change. |
 | Projectile Launch System (Edgerunners) | MOD-OFFICIAL | none in Foundry | Can take a Power Rebuild. Rule only. |
@@ -42,7 +42,7 @@ Separately, ⚠ marks entries that can be built but have a gap or a probable cop
 | HEAP | NEW | Rocket, ignores SP 13 or lower. |
 | Bunker Buster | NEW | Rocket, +4d6 to cover. |
 | Sabot Ammunition | NEW | Bullets and Slugs, ignores SP 11 or lower. Related to Corgo's HVAP Ammunition, but the rules differ. |
-| Subsonic Ammunition | MOD-CORGO | Corgo's: Bullets and Slugs, −2 to hear a Single Shot. Nathan's: Bullets only, stealth kill on SP 11 or lower within 6 m. Same cost (40eb for 10). |
+| Subsonic Ammunition | MOD-CORGO | Corgo's: Bullets and Slugs, −2 to hear a Single Shot. Bontari's: Bullets only, stealth kill on SP 11 or lower within 6 m. Same cost (40eb for 10). |
 | Shrapnel Arrows | INCOMPLETE | No cost. |
 | Grenade Arrows | INCOMPLETE | Name only. |
 
@@ -78,7 +78,7 @@ The tab opens with a rule: apps run on a Neuroport or an Agent and do nothing wi
 
 | Item | Tag | Notes |
 |---|---|---|
-| Bipod | MOD-CORGO | Corgo's: all ranged weapons, Mounted, +1 to all attacks. Nathan's: two-handed Shoulder Arms or Heavy Weapons guns only, +1 to Aimed Shot, Autofire, and Suppressive Fire. |
+| Bipod | MOD-CORGO | Corgo's: all ranged weapons, Mounted, +1 to all attacks. Bontari's: two-handed Shoulder Arms or Heavy Weapons guns only, +1 to Aimed Shot, Autofire, and Suppressive Fire. |
 | Reflex Sight | COPY-CORGO | Same rules text and cost as Corgo's; only "Fits" narrows to non-thrown weapons. Don't rebuild it; point to Corgo's. |
 | Flashlight Rail | NEW | Takes no attachment slot. |
 | Superchrome Coating | NEW | A weapon version of the core's Superchrome® Covering; wording similar to Corgo's Fashionista mod. |
@@ -93,9 +93,9 @@ The tab opens with a rule: apps run on a Neuroport or an Agent and do nothing wi
 | Rosetta Stone PolyGlot | NEW | Chipware |
 | Kiroshi Mk. II's | NEW (built on Cybereye + Image Enhance) | |
 | Rocklin Audiomaster | NEW (built on Cyberaudio Suite + AudioVox) | 5 slots instead of the core's 3 |
-| Syn-Lungs | MOD-CORGO | Corgo's: 250eb, Clinic, 1d6. Nathan's: 500eb, Hospital, 2d6, +1 MOVE when paired with Syn-Heart. |
+| Syn-Lungs | MOD-CORGO | Corgo's: 250eb, Clinic, 1d6. Bontari's: 500eb, Hospital, 2d6, +1 MOVE when paired with Syn-Heart. |
 | Syn-Heart | NEW | Pairs with Syn-Lungs |
-| Lynx Paws | MOD-CORGO | Corgo's: 1,000eb, Clinic, 1d6, 2 slots, +2/+4. Nathan's: 500eb, Hospital, 2d6, +2 at half MOVE. |
+| Lynx Paws | MOD-CORGO | Corgo's: 1,000eb, Clinic, 1d6, 2 slots, +2/+4. Bontari's: 500eb, Hospital, 2d6, +2 at half MOVE. |
 | Advanced Neural Matrix | NEW | Different from Corgo's Advanced Neural Link. |
 | NovelTech Corvette Cyberlegs | NEW (built on Cyberleg + Skate Foot) | |
 | Arasaka Judoka Cyberarms | NEW (built on Cyberarm) | |

@@ -17,7 +17,7 @@
   "critFailEffect": "jammed",
   "damage": "1d6",
   "description": {
-   "value": "<p><strong>Cost:</strong> 1,000eb<br>\n<strong>Install:</strong> Hospital<br>\n<strong>Humanity Loss:</strong> 7 (2d6)</p>\n<p>Internal Body Cyberware. Grants the user +2 to Athletics checks. When paired with Syn-Lungs the user's MOVE increases by 1.</p>\n<p><strong>Type:</strong> Internal Body Cyberware<br>\n<strong>Option Slots:</strong> uses 1</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>The +2 to Athletics applies automatically while this is installed.</li>\n<li>The +1 MOVE when paired with Syn-Lungs (Bontari Edition) is not automated: add it by hand when both are installed.</li>\n</ul>\n<p><em>From Nathan's Homebrew Cyberpunk Items by Nathan (Cyberware).</em></p>"
+   "value": "<p><strong>Cost:</strong> 1,000eb<br>\n<strong>Install:</strong> Hospital<br>\n<strong>Humanity Loss:</strong> 7 (2d6)</p>\n<p>Internal Body Cyberware. Grants the user +2 to Athletics checks. When paired with Syn-Lungs the user's MOVE increases by 1.</p>\n<p><strong>Type:</strong> Internal Body Cyberware<br>\n<strong>Option Slots:</strong> uses 1</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>The +2 to Athletics applies automatically while this is installed.</li>\n<li>The +1 MOVE when paired with Syn-Lungs (Bontari Edition) is not automated: add it by hand when both are installed.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Cyberware).</em></p>"
   },
   "dvTable": "",
   "favorite": false,
@@ -58,7 +58,7 @@
   "rof": 1,
   "size": 1,
   "source": {
-   "book": "Nathan's Homebrew Cyberpunk Items",
+   "book": "Bontari Homebrew Cyberpunk Items",
    "page": 0
   },
   "type": "cyberwareInternal",

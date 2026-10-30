@@ -1,6 +1,6 @@
 # Bontari Homebrew for Cyberpunk RED - Core (Unofficial)
 
-Nathan's homebrew items for Cyberpunk RED, as Foundry VTT compendiums. This module only adds compendiums. It
+Bontari's homebrew items for Cyberpunk RED, as Foundry VTT compendiums. This module only adds compendiums. It
 does not modify the Cyberpunk RED - Core system.
 
 ## Requirements
@@ -8,7 +8,7 @@ does not modify the Cyberpunk RED - Core system.
 - Foundry VTT v12
 - Cyberpunk RED - Core system v0.92.4
 - Recommended: [Corgo's 77 Collection](https://github.com/aky9/corgo-77-module). Several items refer to
-  Corgo's items, and Corgo's Reflex Sight is the one Nathan's sheet uses.
+  Corgo's items, and Corgo's Reflex Sight is the one Bontari's sheet uses.
 
 ## Installing
 
@@ -25,13 +25,13 @@ does not modify the Cyberpunk RED - Core system.
 
 | Compendium | Contents |
 |---|---|
-| Bontari: Cyberware | Cyberware from Nathan's Cyberware tab |
+| Bontari: Cyberware | Cyberware from Bontari's Cyberware tab |
 
 Items that change an existing item from the core rules or from Corgo's 77 Collection carry
 **(Bontari Edition)** at the end of their name, so they never clash with the item they replace. Use them
 instead of the original.
 
-Every item carries Nathan's text in full, then **Foundry notes** saying what is automated and what has to be
+Every item carries Bontari's text in full, then **Foundry notes** saying what is automated and what has to be
 applied by hand.
 
 ## Legal

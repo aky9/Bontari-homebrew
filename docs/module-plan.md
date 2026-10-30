@@ -1,12 +1,12 @@
-# Plan: a Foundry module for Nathan's homebrew items
+# Plan: a Foundry module for Bontari's homebrew items
 
-**Goal.** A Foundry VTT module, `bontari-homebrew`, for the Cyberpunk RED - Core 0.92.4 system. It ships Nathan's
-items as compendiums, built from his spreadsheet, and installs from one manifest URL. The tagged list of every
+**Goal.** A Foundry VTT module, `bontari-homebrew`, for the Cyberpunk RED - Core 0.92.4 system. It ships Bontari's
+items as compendiums, built from the spreadsheet, and installs from one manifest URL. The tagged list of every
 entry is in `item-inventory.md`, next to this file.
 
 ## Decisions (settled 2026-10-29)
 
-1. **Permission.** Nathan asked for this module. He is credited as the author of the content.
+1. **Permission.** Bontari asked for this module and is credited as the author of the content.
 2. **Where it lives.** Its own repository, `aky9/bontari-homebrew`, as a separate module with its own
    version and releases. The build tools are copied from `corgo-77-module`.
 3. **Corgo's module is recommended, not required.**
@@ -15,7 +15,7 @@ entry is in `item-inventory.md`, next to this file.
    so the ID differs too. New items, including the "built on X" variants, are built the way the corgo
    module builds its items, with no suffix.
 5. **The ⚠ entries** are built from what the sheet gives, with a Foundry note naming the gap. **The
-   INCOMPLETE entries** are left out and listed by name in the build output until Nathan fills them in.
+   INCOMPLETE entries** are left out and listed by name in the build output until Bontari fills them in.
 
 ## How the module installs
 
@@ -38,8 +38,8 @@ The steps are the same as corgo's, cut down to fit a spreadsheet:
 3. **Automation data.** Hand-written in `text/<pack>.json`, keyed by item name, as corgo does it. The sheet is
    prose, so the numbers Foundry needs are written once here: SP, armor penalty, slot counts, damage,
    effects, `enhances`, and the item a variant is built on. The build fails on a spec with no row and on a
-   row with no spec or entry on a skip list. That way a new row in Nathan's sheet can't go missing quietly.
-4. **Build.** `tools/build.py` writes `src/packs/<pack>/*.json`. Each item's description is Nathan's text
+   row with no spec or entry on a skip list. That way a new row in Bontari's sheet can't go missing quietly.
+4. **Build.** `tools/build.py` writes `src/packs/<pack>/*.json`. Each item's description is Bontari's text
    word for word, then "Foundry notes", then a line naming the source.
 5. **Compile.** `tools/compile.mjs` runs the Foundry CLI to make LevelDB packs in `dist/bontari-homebrew/`.
 6. **Validate.** `tools/validate.mjs` checks against the 0.92.4 snapshot: allowed values, field sets, the
@@ -73,17 +73,17 @@ headings and stat blocks, so they won't fit a spreadsheet as they are.
 | Cyberware Enhancements | 4 Self-ICE upgrades | `itemUpgrade` (cyberware), `enhances: Self-ICE`, no Active Effects (corgo's rule) |
 | Tech Upgrades | 9 invented upgrades | `itemUpgrade` on the item type each applies to, with the DV and both costs in its description |
 | Gear, Apps & Drugs | 7 apps with effects, 5 lore apps, Spice, Nicotine (3 tiers), Biotoxin, UV Flashlight, Battleboot | `gear`; drugs follow the core's Primary and Addiction effect pattern |
-| Altered Official Items | Agent (Standard, Excellent), Medium Armorjack (Body, Head) | Copies of the core items with Nathan's change applied, named "<name> (Bontari Edition)". Used *in place of* the core ones. |
+| Altered Official Items | Agent (Standard, Excellent), Medium Armorjack (Body, Head) | Copies of the core items with Bontari's change applied, named "<name> (Bontari Edition)". Used *in place of* the core ones. |
 | House Rules | Gorilla Arms, PLS, Cyberfingers, Exotic Bodysculpting, the Agent and App rules, HQ Upgrades | `JournalEntry`, one page each |
 
 ### How each tag is handled
 
 - **MOD-CORE with an item in Foundry** (Agent, Medium Armorjack). Copy the item from the 0.92.4 snapshot and
-  change only what Nathan changes. A module can't edit the system's own compendiums, so the GM uses these.
+  change only what Bontari changes. A module can't edit the system's own compendiums, so the GM uses these.
 - **MOD-CORE or MOD-OFFICIAL that change a rule** (Gorilla Arms, PLS, Cyberfingers, Exotic Bodysculpting).
   These go in the House Rules journal. I won't build Gorilla Arms or the PLS as items. Foundry has neither,
   and the sheet gives only the change, so building them would mean copying Edgerunners Mission Kit text.
-- **MOD-CORGO** (Subsonic, Bipod, Syn-Lungs, Lynx Paws). Full items carrying Nathan's rules, named
+- **MOD-CORGO** (Subsonic, Bipod, Syn-Lungs, Lynx Paws). Full items carrying Bontari's rules, named
   "<name> (Bontari Edition)". Each notes which Corgo item it replaces, so a world with both modules knows which one to use.
 - **COPY-CORGO** (Reflex Sight). Not built. The README points to Corgo's.
 - **NEW (built on X).** Built as full items. The base core item is named in the Foundry notes, and the base
@@ -106,7 +106,7 @@ headings and stat blocks, so they won't fit a spreadsheet as they are.
    armor penalty on the altered Medium Armorjack, and the branded limbs' slots. Like corgo's NPCs, this module
    isn't verified until someone opens it in Foundry.
 
-## Questions for Nathan
+## Questions for Bontari
 
 - Shrapnel Arrows and Grenade Arrows: cost and rules. SuperFlex Steel Limbs: cost, and what Kyudo Hassetsu is.
 - Hello Cutie Kitty Bap: damage, ROF, hands, and which shotgun line it uses.

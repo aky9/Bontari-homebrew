@@ -3,5 +3,5 @@ dist/
 __pycache__/
 *.zip
 
-# Derived from data/Nathans-Homebrew-Cyberpunk-Items.xlsx: regenerate with `npm run parse`.
+# Derived from data/Bontari-Homebrew-Cyberpunk-Items.xlsx: regenerate with `npm run parse`.
 data/*.parsed.json

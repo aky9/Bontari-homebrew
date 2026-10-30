@@ -1,4 +1,4 @@
-"""Read Nathan's spreadsheet into data/sheet.parsed.json: one record per item row.
+"""Read Bontari's spreadsheet into data/sheet.parsed.json: one record per item row.
 
 An .xlsx is a zip of XML, so this needs only the standard library. Each tab has a header row (the first
 non-empty row) and one row per item, with the item's name in column B. Every non-empty column is kept under
@@ -13,7 +13,7 @@ from pathlib import Path
 from common import dump_json
 
 ROOT = Path(__file__).resolve().parent.parent
-SHEET = ROOT / "data/Nathans-Homebrew-Cyberpunk-Items.xlsx"
+SHEET = ROOT / "data/Bontari-Homebrew-Cyberpunk-Items.xlsx"
 OUT = ROOT / "data/sheet.parsed.json"
 NS = {"m": "http://schemas.openxmlformats.org/spreadsheetml/2006/main",
       "r": "http://schemas.openxmlformats.org/officeDocument/2006/relationships"}
