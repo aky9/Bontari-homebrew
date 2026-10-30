@@ -1,0 +1,123 @@
+{
+ "_id": "GZm4UTNPgNClLrM6",
+ "_key": "!items!GZm4UTNPgNClLrM6",
+ "name": "Syn-Lungs (Bontari Edition)",
+ "type": "cyberware",
+ "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/nasal_filters.svg",
+ "system": {
+  "ammoVariety": [],
+  "attackmod": 0,
+  "brand": "",
+  "canIgnoreArmor": true,
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "core": false,
+  "damage": "1d6",
+  "description": {
+   "value": "<p><strong>Install:</strong> Hospital<br>\n<strong>Cost:</strong> 500eb<br>\n<strong>Humanity Loss:</strong> 7 (2d6)</p>\n<p>Internal Body Cyberware. Grants the user +2 to Endurance checks and doubles the amount of time they can hold their breath. When paired with Syn-Heart the user's MOVE increases by 1.</p>\n<p><strong>Type:</strong> Internal Body Cyberware<br>\n<strong>Option Slots:</strong> uses 1<br>\n<strong>Replaces:</strong> Syn-Lungs (Corgo's 77 Collection)</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>The +2 to Endurance applies automatically while this is installed.</li>\n<li>The +1 MOVE when paired with Syn-Heart is not automated: add it by hand when both are installed.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Cyberware).</em></p>"
+  },
+  "dvTable": "",
+  "favorite": false,
+  "fireModes": {
+   "autoFire": 0,
+   "suppressiveFire": false
+  },
+  "humanityLoss": {
+   "static": 7,
+   "roll": "2d6"
+  },
+  "ignoreArmorPercent": 50,
+  "installLocation": "hospital",
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "isFoundational": false,
+  "isRanged": false,
+  "isWeapon": false,
+  "magazine": {
+   "ammoData": null,
+   "max": 0,
+   "value": 0
+  },
+  "price": {
+   "market": 500
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "rof": 1,
+  "size": 1,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "type": "cyberwareInternal",
+  "unarmedAutomaticCalculation": true,
+  "usage": "installed",
+  "usesType": "magazine",
+  "weaponSkill": "Archery",
+  "weaponType": "assaultRifle",
+  "critFailEffect": "jammed",
+  "ignoreBelowSP": 0
+ },
+ "effects": [
+  {
+   "_id": "tcsRj06kDbYGnxa0",
+   "_key": "!items.effects!GZm4UTNPgNClLrM6.tcsRj06kDbYGnxa0",
+   "name": "Syn-Lungs (Bontari Edition)",
+   "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/nasal_filters.svg",
+   "changes": [
+    {
+     "key": "bonuses.endurance",
+     "mode": 2,
+     "priority": null,
+     "value": "2"
+    }
+   ],
+   "description": "",
+   "disabled": false,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "skill"
+      },
+      "situational": {
+       "0": {
+        "isSituational": false,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  }
+ ],
+ "folder": "f72oPlLbCCKJprMw",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

@@ -1,0 +1,125 @@
+{
+ "_notes": "Invented Tech Upgrades: itemUpgrades on the item type each applies to. Each one's price is its Cost #2; Cost #1 is stated in the item.",
+ "items": {
+  "Dual-Chip": {
+   "base": "Bayonet",
+   "folder": "Invented Tech Upgrades",
+   "set": {
+    "type": "cyberware",
+    "size": 0
+   },
+   "price": 1000,
+   "notes": [
+    "Price is Cost #2 only; Cost #1 is the cost of the more expensive Skill Chip.",
+    "Combining the chips is done by hand: give the Skill Chip the second skill, and Humanity Loss 7 (2d6)."
+   ],
+   "enhances": "Skill Chip"
+  },
+  "Ultra-light Furniture Kit": {
+   "base": "Bayonet",
+   "folder": "Invented Tech Upgrades",
+   "set": {
+    "type": "weapon",
+    "size": 0
+   },
+   "price": 500,
+   "notes": [
+    "Price is Cost #2 only; Cost #1 is the cost of the weapon.",
+    "Lowering the BODY requirement is not automated."
+   ]
+  },
+  "Optimized Popup": {
+   "base": "Bayonet",
+   "folder": "Invented Tech Upgrades",
+   "set": {
+    "type": "cyberware",
+    "size": 0
+   },
+   "price": 500,
+   "notes": [
+    "Price is Cost #2 only; Cost #1 is the cost of the Popup weapon.",
+    "Lower the Popup weapon's size (its Option Slots) by 1 by hand, minimum 1."
+   ]
+  },
+  "Tech Rebuild: Overcharge": {
+   "base": "Bayonet",
+   "folder": "Invented Tech Upgrades",
+   "set": {
+    "type": "weapon",
+    "size": 0
+   },
+   "price": 5000,
+   "notes": [
+    "Price is Cost #2 only; Cost #1 is the cost of the Tech Rebuild.",
+    "Not automated. The Tech, Smart, and Power Rebuilds are Corgo's 77 weapon mods."
+   ]
+  },
+  "Smart Rebuild: Overclock": {
+   "base": "Bayonet",
+   "folder": "Invented Tech Upgrades",
+   "set": {
+    "type": "weapon",
+    "size": 0
+   },
+   "price": 5000,
+   "notes": [
+    "Price is Cost #2 only; Cost #1 is the cost of the Smart Rebuild.",
+    "Not automated. The Tech, Smart, and Power Rebuilds are Corgo's 77 weapon mods."
+   ]
+  },
+  "Power Rebuild: Overtuning": {
+   "base": "Bayonet",
+   "folder": "Invented Tech Upgrades",
+   "set": {
+    "type": "weapon",
+    "size": 0
+   },
+   "price": 5000,
+   "notes": [
+    "Price is Cost #2 only; Cost #1 is the cost of the Power Rebuild.",
+    "Not automated. The Tech, Smart, and Power Rebuilds are Corgo's 77 weapon mods."
+   ]
+  },
+  "Auto-Doc Bodyweight Injector": {
+   "base": "Bayonet",
+   "folder": "Invented Tech Upgrades",
+   "set": {
+    "type": "cyberware",
+    "size": 0
+   },
+   "price": 5000,
+   "notes": [
+    "Price is Cost #2 only; Cost #1 is the cost of the Bodyweight AutoInjector.",
+    "Not automated."
+   ],
+   "enhances": "Bodyweight AutoInjector"
+  },
+  "Stun Bunny": {
+   "base": "Bayonet",
+   "folder": "Invented Tech Upgrades",
+   "set": {
+    "type": "weapon",
+    "size": 0
+   },
+   "price": 100,
+   "notes": [
+    "Price is Cost #2 only; Cost #1 is the cost of a blunt Melee Weapon and a Stun Baton.",
+    "Not automated."
+   ]
+  },
+  "IR/UV Sniping Scope": {
+   "base": "Bayonet",
+   "folder": "Invented Tech Upgrades",
+   "set": {
+    "type": "weapon",
+    "size": 1,
+    "isElectronic": true
+   },
+   "price": 500,
+   "notes": [
+    "Price is Cost #2 only; Cost #1 is the cost of a Sniping Scope and an Infrared Nightvision Scope or UV scope.",
+    "An attachment: install it like the core Sniping Scope (1 slot). Its scope benefits are not automated."
+   ]
+  }
+ }
+}

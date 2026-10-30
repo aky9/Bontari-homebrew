@@ -1,0 +1,41 @@
+{
+ "_notes": "Attachments tab. Reflex Sight is Corgo's own (see text/skip.json); Bipod is a Bontari Edition (bontari-editions.json).",
+ "items": {
+  "Flashlight Rail": {
+   "base": "Bayonet",
+   "folder": "Attachments",
+   "set": {
+    "size": 0
+   },
+   "notes": [
+    "Takes no attachment slot. Equip a Flashlight or UV Flashlight separately."
+   ]
+  },
+  "Superchrome Coating": {
+   "base": "Bayonet",
+   "folder": "Attachments",
+   "set": {
+    "modifiers.Wardrobe & Style": {
+     "type": "modifier",
+     "value": 2,
+     "isSituational": false,
+     "onByDefault": false
+    }
+   },
+   "notes": [
+    "The sheet does not give its slot cost, so it uses 1.",
+    "The +2 to Wardrobe & Style is the upgrade's own modifier; it does not stack with another weapon's."
+   ]
+  },
+  "Anti-Drone Smart Scope": {
+   "base": "Bayonet",
+   "folder": "Attachments",
+   "set": {
+    "isElectronic": true
+   },
+   "notes": [
+    "The sheet does not give its slot cost, so it uses 1. The extra damage die against drones is not automated."
+   ]
+  }
+ }
+}

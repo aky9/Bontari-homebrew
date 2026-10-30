@@ -1,0 +1,33 @@
+{
+ "_id": "5DS7EqwrhI7CYyIx",
+ "_key": "!journal!5DS7EqwrhI7CYyIx",
+ "name": "Bontari House Rules: Apps",
+ "pages": [
+  {
+   "_id": "Etm84sqWS871P44k",
+   "_key": "!journal.pages!5DS7EqwrhI7CYyIx.Etm84sqWS871P44k",
+   "name": "Apps",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>Apps are purchased for either your Neuroport or your Agent. You do not get the benefits of an app while your Neuroport is inactive, missing, or you don't have an Agent on your person. You can even redownload your apps if you get a new Neuroport or Agent (so long as you have access to a CitiNet).</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>The apps are in the Bontari: Gear, Apps &amp; Drugs compendium.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Bontari House Rules: Apps).</em></p>"
+   },
+   "sort": 100000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "system": {}
+  }
+ ],
+ "folder": null,
+ "sort": 200000,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

@@ -1,0 +1,78 @@
+{
+ "_id": "Bq2r07mCLUIIZSZs",
+ "_key": "!items!Bq2r07mCLUIIZSZs",
+ "name": "Ballistic Coprocessor (Bontari Edition)",
+ "type": "cyberware",
+ "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/techscanner.svg",
+ "system": {
+  "ammoVariety": [],
+  "attackmod": 0,
+  "brand": "",
+  "canIgnoreArmor": true,
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "core": false,
+  "damage": "1d6",
+  "description": {
+   "value": "<p><strong>Install:</strong> Clinic<br>\n<strong>Cost:</strong> 500eb<br>\n<strong>Humanity Loss:</strong> 3 (1d6)</p>\n<p>Cyberarm option. Reduces standard attack penalty for ricochet shots from -4 to -2. Can be installed in a meat arm.</p>\n<p><strong>Type:</strong> Cyberarm<br>\n<strong>Option Slots:</strong> uses 1<br>\n<strong>Replaces:</strong> Ballistic Coprocessor (Corgo's 77 Collection)</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>The sheet does not give its slot cost, so it uses 1. The ricochet penalty is not automated.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Cyberware).</em></p>"
+  },
+  "dvTable": "",
+  "favorite": false,
+  "fireModes": {
+   "autoFire": 0,
+   "suppressiveFire": false
+  },
+  "humanityLoss": {
+   "static": 3,
+   "roll": "1d6"
+  },
+  "ignoreArmorPercent": 50,
+  "installLocation": "clinic",
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "isFoundational": false,
+  "isRanged": false,
+  "isWeapon": false,
+  "magazine": {
+   "ammoData": null,
+   "max": 0,
+   "value": 0
+  },
+  "price": {
+   "market": 500
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "rof": 1,
+  "size": 1,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "type": "cyberArm",
+  "unarmedAutomaticCalculation": true,
+  "usage": "installed",
+  "usesType": "magazine",
+  "weaponSkill": "Archery",
+  "weaponType": "assaultRifle",
+  "critFailEffect": "jammed",
+  "ignoreBelowSP": 0
+ },
+ "effects": [],
+ "folder": "f72oPlLbCCKJprMw",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

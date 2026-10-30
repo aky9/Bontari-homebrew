@@ -1,0 +1,47 @@
+{
+ "_id": "jKuzQkeGn4S94Uup",
+ "_key": "!items!jKuzQkeGn4S94Uup",
+ "name": "Delayed Super-Biotoxin",
+ "type": "gear",
+ "img": "systems/cyberpunk-red-core/icons/compendium/gear/flashlight.svg",
+ "system": {
+  "amount": 1,
+  "brand": "",
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "description": {
+   "value": "<p><strong>Cost:</strong> 1,000eb<br>\n<strong>Vendor:</strong> Dr. Feelgood</p>\n<p>\"Not gonna tell you what's in it, but there's no antidote. There's enough in here that even if they do get supportive care they'll be crippled for life. Whatever you do don't get any of it on or in you. I can't save you if you do.\"</p>\n<p>When consumed orally the substance takes 30 minutes to affect the target, after which they must make a DV 17 Resist Drugs/Torture check. On a success their BODY is reduced by 2 permenantly. On a failure, in addition to the reduction in BODY, they suffer 3d6 damage direct to their HP in addition to the reduction in BODY. If this reduces the target to 0 BODY the target will die unless they are kept within a cryotank or on life support in a hospital. There is no way to restore BODY loss due to this poison.</p>\n<p>When injested the consumer can make a DV 19 Perception check. The DV is reduced by 2 for each dose of Delayed Super-Biotoxin consumed in the same sitting. On a success the user knows their food/drink has been tainted. A single dose of Detox applied before the biotoxin takes effect causes the user to suffer none of it's effects.</p>\n<p>Particularly strong tasting food/drink can increase the DV of the Perception check, per GM's descretion. Requires 250 REP with Dr. Feelgood to purchase.</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>Nothing is automated: the BODY loss, damage, and Perception check are applied by hand.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Gear).</em></p>"
+  },
+  "equipped": "owned",
+  "favorite": false,
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": false,
+  "price": {
+   "market": 1000
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "usage": "carried"
+ },
+ "effects": [],
+ "folder": "f0tZDIO18eGNU4U4",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

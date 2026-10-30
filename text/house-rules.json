@@ -1,0 +1,71 @@
+{
+ "_notes": "The House Rules journal: Bontari's rule changes that are not items. Each page carries the sheet row's text in full.",
+ "entries": [
+  {
+   "name": "Bontari House Rules: Altered Official Items",
+   "pages": [
+    {
+     "name": "Gorilla Arms (Edgerunners)",
+     "row": "Gorilla Arms (Edgerunners)",
+     "notes": [
+      "Cyberpunk RED - Core has no Gorilla Arms item. Corgo's 77 Collection has its own Gorilla Arm, which already uses Brawling."
+     ]
+    },
+    {
+     "name": "Agents (Core)",
+     "row": "Agents (Core)",
+     "notes": [
+      "Built as Agent, Standard (Bontari Edition) and Agent, Excellent (Bontari Edition) in the Bontari Editions compendium."
+     ]
+    },
+    {
+     "name": "Cyberfingers (Black Chrome)",
+     "row": "Cyberfingers (Black Chrome)"
+    },
+    {
+     "name": "Projectile Launch System (Edgerunners)",
+     "row": "Projectile Launch System (Edgerunners)",
+     "notes": [
+      "Cyberpunk RED - Core has no Projectile Launch System item."
+     ]
+    },
+    {
+     "name": "Exotic Bodysculpting (Core)",
+     "row": "Exotic Bodysculpting (Core)"
+    },
+    {
+     "name": "Medium Armorjack (Core)",
+     "row": "Medium Armorjack (Core)",
+     "notes": [
+      "Built as Medium Armorjack (Body) (Bontari Edition) and Medium Armorjack (Head) (Bontari Edition) in the Bontari Editions compendium."
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Bontari House Rules: Apps",
+   "pages": [
+    {
+     "name": "Apps",
+     "text": "Apps are purchased for either your Neuroport or your Agent. You do not get the benefits of an app while your Neuroport is inactive, missing, or you don't have an Agent on your person. You can even redownload your apps if you get a new Neuroport or Agent (so long as you have access to a CitiNet).",
+     "notes": [
+      "The apps are in the Bontari: Gear, Apps & Drugs compendium."
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Bontari House Rules: HQ Upgrades",
+   "pages": [
+    {
+     "name": "Morale Boost X+: Outdoor Pet Area",
+     "row": "Morale Boost X+: Outdoor Pet Area"
+    },
+    {
+     "name": "Armory",
+     "row": "Armory"
+    }
+   ]
+  }
+ ]
+}

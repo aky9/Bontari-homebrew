@@ -1,0 +1,79 @@
+{
+ "_id": "U1LaegY7BoH4XeOZ",
+ "_key": "!items!U1LaegY7BoH4XeOZ",
+ "name": "Rocklin Wallcrawler MagLegs",
+ "type": "cyberware",
+ "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/cyberleg.svg",
+ "system": {
+  "ammoVariety": [],
+  "attackmod": 0,
+  "brand": "",
+  "canIgnoreArmor": true,
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "core": false,
+  "damage": "1d6",
+  "description": {
+   "value": "<p><strong>Install:</strong> Hospital<br>\n<strong>Cost:</strong> 1,000eb<br>\n<strong>Humanity Loss:</strong> 14 (4d6)</p>\n<p>Paired Cyberlegs with pre-installed Grip Feet and 2 option slots. Allows user to move without penalty on all metal surfaces at any orientation, including upside down. When used on a metal surface, user cannot be knocked prone.</p>\n<p><strong>Type:</strong> Cyberleg (Foundational)<br>\n<strong>Option Slots:</strong> provides 2</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>One item is the pair of legs: install it once. Its 2 slots are the 2 option slots of each leg, so a paired option uses one of them.</li>\n<li>The Grip Feet are built in and use none of the slots. Moving on metal is not automated.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Cyberware).</em></p>"
+  },
+  "dvTable": "",
+  "favorite": false,
+  "fireModes": {
+   "autoFire": 0,
+   "suppressiveFire": false
+  },
+  "humanityLoss": {
+   "static": 14,
+   "roll": "4d6"
+  },
+  "ignoreArmorPercent": 50,
+  "installLocation": "hospital",
+  "installedItems": {
+   "allowed": true,
+   "allowedTypes": [
+    "itemUpgrade",
+    "cyberware"
+   ],
+   "list": [],
+   "slots": 2,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "isFoundational": true,
+  "isRanged": false,
+  "isWeapon": false,
+  "magazine": {
+   "ammoData": null,
+   "max": 0,
+   "value": 0
+  },
+  "price": {
+   "market": 1000
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "rof": 1,
+  "size": 0,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "type": "cyberLeg",
+  "unarmedAutomaticCalculation": true,
+  "usage": "toggled",
+  "usesType": "magazine",
+  "weaponSkill": "Archery",
+  "weaponType": "assaultRifle",
+  "critFailEffect": "jammed",
+  "ignoreBelowSP": 0
+ },
+ "effects": [],
+ "folder": "SQlJ9B8NJ9xUkRdK",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

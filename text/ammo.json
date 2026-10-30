@@ -1,0 +1,70 @@
+{
+ "_notes": "Ammo tab. Shrapnel and Grenade Arrows are incomplete (text/skip.json); Subsonic Ammunition is a Bontari Edition (bontari-editions.json).",
+ "items": {
+  "HEAP (High-Explosive Armor Piercing)": {
+   "base": "Rocket (Armor-Piercing)",
+   "name": "HEAP Rocket",
+   "folder": "Rockets",
+   "set": {
+    "type": "special"
+   },
+   "notes": [
+    "Ignoring SP 13 or lower is not automated."
+   ]
+  },
+  "Bunker Buster": {
+   "base": "Rocket (Armor-Piercing)",
+   "name": "Bunker Buster Rocket",
+   "folder": "Rockets",
+   "set": {
+    "type": "special"
+   },
+   "notes": [
+    "The extra 4d6 to cover is not automated."
+   ]
+  },
+  "Sabot (Say-boh) Ammunition": {
+   "base": "Rifle (Armor-Piercing)",
+   "folder": "Bullets & Slugs",
+   "price": 100,
+   "set": {
+    "type": "special"
+   },
+   "split": [
+    {
+     "name": "Sabot Ammunition (Medium Pistol)",
+     "set": {
+      "variety": "medPistol"
+     }
+    },
+    {
+     "name": "Sabot Ammunition (Heavy Pistol)",
+     "set": {
+      "variety": "heavyPistol"
+     }
+    },
+    {
+     "name": "Sabot Ammunition (Very Heavy Pistol)",
+     "set": {
+      "variety": "vHeavyPistol"
+     }
+    },
+    {
+     "name": "Sabot Ammunition (Rifle)",
+     "set": {
+      "variety": "rifle"
+     }
+    },
+    {
+     "name": "Sabot Ammunition (Slug)",
+     "set": {
+      "variety": "shotgunSlug"
+     }
+    }
+   ],
+   "notes": [
+    "Ignoring SP 11 or lower is not automated."
+   ]
+  }
+ }
+}

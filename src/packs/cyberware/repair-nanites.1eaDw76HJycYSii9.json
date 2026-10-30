@@ -1,0 +1,78 @@
+{
+ "_id": "1eaDw76HJycYSii9",
+ "_key": "!items!1eaDw76HJycYSii9",
+ "name": "Repair Nanites",
+ "type": "cyberware",
+ "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/nasal_filters.svg",
+ "system": {
+  "ammoVariety": [],
+  "attackmod": 0,
+  "brand": "",
+  "canIgnoreArmor": true,
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "core": false,
+  "damage": "1d6",
+  "description": {
+   "value": "<p><strong>Install:</strong> Clinic<br>\n<strong>Cost:</strong> 2,000eb<br>\n<strong>Humanity Loss:</strong> NA</p>\n<p>Internal Cyberware. May only be installed in FBC or ACPA. Using an action, the user can activate the Nanites to restore HP equal to their BODY. Requires a 24 hour period before it can be used again. Cannot be upgraded to increase restored HP.</p>\n<p><strong>Type:</strong> Internal Body Cyberware<br>\n<strong>Option Slots:</strong> uses 1</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>The sheet gives its Humanity Loss as \"NA\" (it goes only in an FBC or ACPA), so it is 0 here.</li>\n<li>Restoring HP is not automated.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Cyberware).</em></p>"
+  },
+  "dvTable": "",
+  "favorite": false,
+  "fireModes": {
+   "autoFire": 0,
+   "suppressiveFire": false
+  },
+  "humanityLoss": {
+   "static": 0,
+   "roll": "0"
+  },
+  "ignoreArmorPercent": 50,
+  "installLocation": "clinic",
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "isFoundational": false,
+  "isRanged": false,
+  "isWeapon": false,
+  "magazine": {
+   "ammoData": null,
+   "max": 0,
+   "value": 0
+  },
+  "price": {
+   "market": 2000
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "rof": 1,
+  "size": 1,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "type": "cyberwareInternal",
+  "unarmedAutomaticCalculation": true,
+  "usage": "toggled",
+  "usesType": "magazine",
+  "weaponSkill": "Archery",
+  "weaponType": "assaultRifle",
+  "critFailEffect": "jammed",
+  "ignoreBelowSP": 0
+ },
+ "effects": [],
+ "folder": "8qxTip0BhFJyWFSa",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

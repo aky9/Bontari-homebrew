@@ -1,0 +1,47 @@
+{
+ "_id": "ZLqJ1OxdxiKYxeZx",
+ "_key": "!items!ZLqJ1OxdxiKYxeZx",
+ "name": "CandyVan",
+ "type": "gear",
+ "img": "systems/cyberpunk-red-core/icons/compendium/gear/agent.svg",
+ "system": {
+  "amount": 1,
+  "brand": "",
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "description": {
+   "value": "<p><strong>Cost:</strong> 0eb</p>\n<p>The app of the Green Hippie gang affiliated drug dealer \"Candy Man\". Get clean organic Spice. Features a large selection of marijauna strains and edibles.</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>Setting flavor: no rules effect.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Apps).</em></p>"
+  },
+  "equipped": "owned",
+  "favorite": false,
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "price": {
+   "market": 0
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "usage": "carried"
+ },
+ "effects": [],
+ "folder": "sXhaWkoUj28nbbrO",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

@@ -1,0 +1,472 @@
+{
+ "_notes": "Automation data for the Sandevistans tab. Each is the core Sandevistan with Bontari's effects: Primary Effects are situational toggles on by default, Secondary Effects start off. Generated once by hand from the sheet; edit it directly.",
+ "folders": [
+  "Sandevistans"
+ ],
+ "items": {
+  "Dynalar Sandevistan": {
+   "base": "Sandevistan",
+   "folder": "Sandevistans",
+   "set": {
+    "size": 2
+   },
+   "effects": [
+    {
+     "name": "Dynalar: Primary Effects",
+     "situational": true,
+     "on_by_default": true,
+     "changes": [
+      [
+       "bonuses.initiative",
+       3
+      ],
+      [
+       "bonuses.evasion",
+       1
+      ]
+     ]
+    },
+    {
+     "name": "Dynalar: Secondary Effects",
+     "situational": true,
+     "changes": [
+      [
+       "bonuses.ranged",
+       1
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "Activate it like the core Sandevistan: the Primary Effects are toggles in the roll dialog, on by default, and the Secondary Effects are toggles that start off. Turn on only the ones you use.",
+    "The Secondary Effect's MOVE +1 is not automated.",
+    "Its Note names the Zetatech Sandevistan; the sheet probably means the Dynalar.",
+    "Humanity Loss for activating it and for each Secondary Effect is not automated.",
+    "The sheet gives no install location, so it uses the core Sandevistan's (Clinic)."
+   ]
+  },
+  "Zetatech Sandevistan": {
+   "base": "Sandevistan",
+   "folder": "Sandevistans",
+   "set": {
+    "size": 2
+   },
+   "effects": [
+    {
+     "name": "Zetatech: Primary Effects",
+     "situational": true,
+     "on_by_default": true,
+     "changes": [
+      [
+       "bonuses.initiative",
+       3
+      ]
+     ]
+    },
+    {
+     "name": "Zetatech: Secondary Effects",
+     "situational": true,
+     "changes": [
+      [
+       "bonuses.ranged",
+       1
+      ],
+      [
+       "bonuses.melee",
+       1
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "Activate it like the core Sandevistan: the Primary Effects are toggles in the roll dialog, on by default, and the Secondary Effects are toggles that start off. Turn on only the ones you use.",
+    "Humanity Loss for activating it and for each Secondary Effect is not automated.",
+    "The sheet gives no install location, so it uses the core Sandevistan's (Clinic)."
+   ]
+  },
+  "Kendachi Sandevistan": {
+   "base": "Sandevistan",
+   "folder": "Sandevistans",
+   "set": {
+    "size": 2
+   },
+   "effects": [
+    {
+     "name": "Kendachi: Primary Effects",
+     "situational": true,
+     "on_by_default": true,
+     "changes": [
+      [
+       "bonuses.initiative",
+       3
+      ],
+      [
+       "bonuses.evasion",
+       1
+      ]
+     ]
+    },
+    {
+     "name": "Kendachi: Secondary Effects",
+     "situational": true,
+     "changes": [
+      [
+       "bonuses.melee",
+       2
+      ],
+      [
+       "bonuses.initiative",
+       1
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "Activate it like the core Sandevistan: the Primary Effects are toggles in the roll dialog, on by default, and the Secondary Effects are toggles that start off. Turn on only the ones you use.",
+    "It also needs 1 Internal Option Slot.",
+    "Humanity Loss for activating it and for each Secondary Effect is not automated.",
+    "The sheet gives no install location, so it uses the core Sandevistan's (Clinic)."
+   ]
+  },
+  "Militech Sandevistan": {
+   "base": "Sandevistan",
+   "folder": "Sandevistans",
+   "set": {
+    "size": 2
+   },
+   "effects": [
+    {
+     "name": "Militech: Primary Effects",
+     "situational": true,
+     "on_by_default": true,
+     "changes": [
+      [
+       "bonuses.initiative",
+       3
+      ],
+      [
+       "bonuses.evasion",
+       1
+      ]
+     ]
+    },
+    {
+     "name": "Militech: Secondary Effects",
+     "situational": true,
+     "changes": [
+      [
+       "bonuses.ranged",
+       2
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "Activate it like the core Sandevistan: the Primary Effects are toggles in the roll dialog, on by default, and the Secondary Effects are toggles that start off. Turn on only the ones you use.",
+    "It also needs 1 Internal Option Slot.",
+    "The Secondary Effect's MOVE +2 is not automated.",
+    "Humanity Loss for activating it and for each Secondary Effect is not automated.",
+    "The sheet gives no install location, so it uses the core Sandevistan's (Clinic)."
+   ]
+  },
+  "QianT Sandevistan \"Warp Dancer\"": {
+   "base": "Sandevistan",
+   "folder": "Sandevistans",
+   "set": {
+    "size": 2
+   },
+   "effects": [
+    {
+     "name": "Warp Dancer: Primary Effects",
+     "situational": true,
+     "on_by_default": true,
+     "changes": [
+      [
+       "bonuses.initiative",
+       4
+      ],
+      [
+       "bonuses.evasion",
+       1
+      ]
+     ]
+    },
+    {
+     "name": "Warp Dancer: Secondary Effects",
+     "situational": true,
+     "changes": [
+      [
+       "bonuses.initiative",
+       1
+      ],
+      [
+       "bonuses.melee",
+       2
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "Activate it like the core Sandevistan: the Primary Effects are toggles in the roll dialog, on by default, and the Secondary Effects are toggles that start off. Turn on only the ones you use.",
+    "It also needs 1 Internal Option Slot.",
+    "The Secondary Effect's MOVE +4 is not automated.",
+    "Humanity Loss for activating it and for each Secondary Effect is not automated.",
+    "The sheet gives no install location, so it uses the core Sandevistan's (Clinic)."
+   ]
+  },
+  "Fuyutsuki Sandevistan \"Uzushio\"": {
+   "base": "Sandevistan",
+   "folder": "Sandevistans",
+   "set": {
+    "size": 2
+   },
+   "effects": [
+    {
+     "name": "Uzushio: Primary Effects",
+     "situational": true,
+     "on_by_default": true,
+     "changes": [
+      [
+       "bonuses.initiative",
+       4
+      ],
+      [
+       "bonuses.evasion",
+       1
+      ],
+      [
+       "bonuses.perception",
+       2
+      ]
+     ]
+    },
+    {
+     "name": "Uzushio: Secondary Effects",
+     "situational": true,
+     "changes": [
+      [
+       "bonuses.initiative",
+       1
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "Activate it like the core Sandevistan: the Primary Effects are toggles in the roll dialog, on by default, and the Secondary Effects are toggles that start off. Turn on only the ones you use.",
+    "It also needs 2 Internal Option Slots.",
+    "The ROF 2 Actions and one-Action tasks are not automated. One Secondary Effect line in the sheet is unfinished (\"Conditional, mostly for technical stuff?)\").",
+    "Humanity Loss for activating it and for each Secondary Effect is not automated.",
+    "The sheet gives no install location, so it uses the core Sandevistan's (Clinic)."
+   ]
+  },
+  "Militech Sandevistan \"Falcon\"": {
+   "base": "Sandevistan",
+   "folder": "Sandevistans",
+   "set": {
+    "size": 2
+   },
+   "effects": [
+    {
+     "name": "Falcon: Primary Effects",
+     "situational": true,
+     "on_by_default": true,
+     "changes": [
+      [
+       "bonuses.initiative",
+       5
+      ],
+      [
+       "bonuses.evasion",
+       2
+      ]
+     ]
+    },
+    {
+     "name": "Falcon: Secondary Effects",
+     "situational": true,
+     "changes": [
+      [
+       "bonuses.ranged",
+       2
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "Activate it like the core Sandevistan: the Primary Effects are toggles in the roll dialog, on by default, and the Secondary Effects are toggles that start off. Turn on only the ones you use.",
+    "It also needs 2 Internal Option Slots.",
+    "The second Evasion target and the Secondary Effect's MOVE +6 are not automated.",
+    "Humanity Loss for activating it and for each Secondary Effect is not automated.",
+    "The sheet gives no install location, so it uses the core Sandevistan's (Clinic)."
+   ]
+  },
+  "Arasaka Sandevistan \"Kagekaze\"": {
+   "base": "Sandevistan",
+   "folder": "Sandevistans",
+   "set": {
+    "size": 2
+   },
+   "effects": [
+    {
+     "name": "Kagekaze: Primary Effects",
+     "situational": true,
+     "on_by_default": true,
+     "changes": [
+      [
+       "bonuses.initiative",
+       4
+      ],
+      [
+       "bonuses.stealth",
+       2
+      ]
+     ]
+    },
+    {
+     "name": "Kagekaze: Secondary Effects",
+     "situational": true,
+     "changes": [
+      [
+       "bonuses.stealth",
+       2
+      ],
+      [
+       "bonuses.evasion",
+       2
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "Activate it like the core Sandevistan: the Primary Effects are toggles in the roll dialog, on by default, and the Secondary Effects are toggles that start off. Turn on only the ones you use.",
+    "It also needs 2 Internal Option Slots.",
+    "The Secondary Effect's MOVE +2 is not automated.",
+    "Humanity Loss for activating it and for each Secondary Effect is not automated.",
+    "The sheet gives no install location, so it uses the core Sandevistan's (Clinic)."
+   ]
+  },
+  "Militech Sandevistan \"Apogee\"": {
+   "base": "Sandevistan",
+   "folder": "Sandevistans",
+   "set": {
+    "size": 3
+   },
+   "effects": [
+    {
+     "name": "Apogee: Primary Effects",
+     "situational": true,
+     "on_by_default": true,
+     "changes": [
+      [
+       "bonuses.initiative",
+       8
+      ],
+      [
+       "bonuses.evasion",
+       3
+      ]
+     ]
+    },
+    {
+     "name": "Apogee: Secondary Effects",
+     "situational": true,
+     "changes": [
+      [
+       "bonuses.evasion",
+       1
+      ],
+      [
+       "bonuses.ranged",
+       4
+      ],
+      [
+       "bonuses.aimedShot",
+       4
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "Activate it like the core Sandevistan: the Primary Effects are toggles in the roll dialog, on by default, and the Secondary Effects are toggles that start off. Turn on only the ones you use.",
+    "It also needs 2 Internal Option Slots.",
+    "The Secondary Effect's MOVE +7 is not automated.",
+    "Humanity Loss for activating it and for each Secondary Effect is not automated.",
+    "The sheet gives no install location, so it uses the core Sandevistan's (Clinic)."
+   ]
+  },
+  "Arasaka Sandevistan \"Seiryu\"": {
+   "base": "Sandevistan",
+   "folder": "Sandevistans",
+   "set": {
+    "size": 3
+   },
+   "effects": [
+    {
+     "name": "Seiryu: Primary Effects",
+     "situational": true,
+     "on_by_default": true,
+     "changes": [
+      [
+       "bonuses.initiative",
+       7
+      ],
+      [
+       "bonuses.evasion",
+       4
+      ]
+     ]
+    },
+    {
+     "name": "Seiryu: Secondary Effects",
+     "situational": true,
+     "changes": [
+      [
+       "bonuses.evasion",
+       1
+      ],
+      [
+       "bonuses.melee",
+       4
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "Activate it like the core Sandevistan: the Primary Effects are toggles in the roll dialog, on by default, and the Secondary Effects are toggles that start off. Turn on only the ones you use.",
+    "It also needs 2 Internal Option Slots.",
+    "The extra ROF 1 attack and the Secondary Effect's MOVE +6 are not automated.",
+    "Its Note names the Apogee; the sheet probably means the Seiryu.",
+    "Humanity Loss for activating it and for each Secondary Effect is not automated.",
+    "The sheet gives no install location, so it uses the core Sandevistan's (Clinic)."
+   ]
+  },
+  "Militech Experimental Sandevistan \"Zenith\"": {
+   "base": "Sandevistan",
+   "folder": "Sandevistans",
+   "set": {
+    "size": 3
+   },
+   "effects": [
+    {
+     "name": "Zenith: Primary Effects",
+     "situational": true,
+     "on_by_default": true,
+     "changes": [
+      [
+       "bonuses.evasion",
+       6
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "Activate it like the core Sandevistan: the Primary Effects are toggles in the roll dialog, on by default, and the Secondary Effects are toggles that start off. Turn on only the ones you use.",
+    "It also needs 3 Internal Option Slots.",
+    "Starting at the top of the Initiative order and every Secondary Effect are not automated.",
+    "The sheet's cost is \"LOL\", so its price is 0 here.",
+    "Humanity Loss for activating it and for each Secondary Effect is not automated.",
+    "The sheet gives no install location, so it uses the core Sandevistan's (Clinic)."
+   ]
+  }
+ }
+}

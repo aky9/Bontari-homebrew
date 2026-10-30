@@ -1,0 +1,47 @@
+{
+ "_id": "ABwjmfELcpEVbqoe",
+ "_key": "!items!ABwjmfELcpEVbqoe",
+ "name": "bart.mos",
+ "type": "gear",
+ "img": "systems/cyberpunk-red-core/icons/compendium/gear/agent.svg",
+ "system": {
+  "amount": 1,
+  "brand": "",
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "description": {
+   "value": "<p><strong>Cost:</strong> 0eb</p>\n<p>Not an app, but a dark net website frequented by Netrunners. A forum board similar to websites like 4Chan. Only characters with at least Rank 1 Netrunner have access to this website.</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>Setting flavor: no rules effect.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Apps).</em></p>"
+  },
+  "equipped": "owned",
+  "favorite": false,
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "price": {
+   "market": 0
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "usage": "carried"
+ },
+ "effects": [],
+ "folder": "sXhaWkoUj28nbbrO",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

@@ -1,0 +1,189 @@
+{
+ "_id": "Ji1bOvd3A5JXOElo",
+ "_key": "!items!Ji1bOvd3A5JXOElo",
+ "name": "Arasaka Sandevistan \"Seiryu\"",
+ "type": "cyberware",
+ "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/sandevistan.svg",
+ "system": {
+  "ammoVariety": [],
+  "attackmod": 0,
+  "brand": "",
+  "canIgnoreArmor": true,
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "core": false,
+  "damage": "1d6",
+  "description": {
+   "value": "<p><strong>Cost:</strong> 50,000eb<br>\n<strong>Humanity Loss:</strong> 14 (4d6)</p>\n<p>Neuralware. Borgware. Requires 3 Neuralware Option Slots and 2 Internal Option Slots.<br>\nDuration: 4 rounds (12 seconds)<br>\nPrimary Effects:<br>\n+7 to Initiative.<br>\n+4 to Evasion<br>\nSecondary Effects (Limit 2 per Round):<br>\nBonus to Evasion is increased to +5 until the end of the round.<br>\n+4 to one Attack, Skill Check, or Special Move Resolution made with the Brawling, Melee Weapon, or Martial Arts Skill.<br>\nMake an additional attack with a ROF1 weapon.<br>\nIncrease MOVE by 6 for one turn, to a maximum of 15.</p>\n<p>Note: Activating the Apogee causes the user to suffer 2d6 Humanity Loss. Using any of the Secondary Effects will cause the user to suffer 1d6 Humanity Loss each time they are used.</p>\n<p><strong>Type:</strong> Neuralware<br>\n<strong>Option Slots:</strong> uses 3</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>Activate it like the core Sandevistan: the Primary Effects are toggles in the roll dialog, on by default, and the Secondary Effects are toggles that start off. Turn on only the ones you use.</li>\n<li>It also needs 2 Internal Option Slots.</li>\n<li>The extra ROF 1 attack and the Secondary Effect's MOVE +6 are not automated.</li>\n<li>Its Note names the Apogee; the sheet probably means the Seiryu.</li>\n<li>Humanity Loss for activating it and for each Secondary Effect is not automated.</li>\n<li>The sheet gives no install location, so it uses the core Sandevistan's (Clinic).</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Sandevistans).</em></p>"
+  },
+  "dvTable": "",
+  "favorite": false,
+  "fireModes": {
+   "autoFire": 0,
+   "suppressiveFire": false
+  },
+  "humanityLoss": {
+   "static": 14,
+   "roll": "4d6"
+  },
+  "ignoreArmorPercent": 50,
+  "installLocation": "clinic",
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "isFoundational": false,
+  "isRanged": false,
+  "isWeapon": false,
+  "magazine": {
+   "ammoData": null,
+   "max": 0,
+   "value": 0
+  },
+  "price": {
+   "market": 50000
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "rof": 1,
+  "size": 3,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "type": "neuralWare",
+  "unarmedAutomaticCalculation": true,
+  "usage": "toggled",
+  "usesType": "magazine",
+  "weaponSkill": "Archery",
+  "weaponType": "assaultRifle",
+  "critFailEffect": "jammed",
+  "ignoreBelowSP": 0
+ },
+ "effects": [
+  {
+   "_id": "PLkVFP3CCUDxai0K",
+   "_key": "!items.effects!Ji1bOvd3A5JXOElo.PLkVFP3CCUDxai0K",
+   "name": "Seiryu: Primary Effects",
+   "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/sandevistan.svg",
+   "changes": [
+    {
+     "key": "bonuses.initiative",
+     "mode": 2,
+     "priority": null,
+     "value": "7"
+    },
+    {
+     "key": "bonuses.evasion",
+     "mode": 2,
+     "priority": null,
+     "value": "4"
+    }
+   ],
+   "description": "",
+   "disabled": false,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "combat",
+       "1": "skill"
+      },
+      "situational": {
+       "0": {
+        "isSituational": true,
+        "onByDefault": true
+       },
+       "1": {
+        "isSituational": true,
+        "onByDefault": true
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  },
+  {
+   "_id": "86z5MwwpPjBSWgAT",
+   "_key": "!items.effects!Ji1bOvd3A5JXOElo.86z5MwwpPjBSWgAT",
+   "name": "Seiryu: Secondary Effects",
+   "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/sandevistan.svg",
+   "changes": [
+    {
+     "key": "bonuses.evasion",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.melee",
+     "mode": 2,
+     "priority": null,
+     "value": "4"
+    }
+   ],
+   "description": "",
+   "disabled": false,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "skill",
+       "1": "combat"
+      },
+      "situational": {
+       "0": {
+        "isSituational": true,
+        "onByDefault": false
+       },
+       "1": {
+        "isSituational": true,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  }
+ ],
+ "folder": "ws69HQijdb1wP7lW",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

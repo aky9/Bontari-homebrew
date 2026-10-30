@@ -1,0 +1,145 @@
+{
+ "_id": "I6VeGE8Kpo62tw1u",
+ "_key": "!items!I6VeGE8Kpo62tw1u",
+ "name": "Superchrome Coating",
+ "type": "itemUpgrade",
+ "img": "systems/cyberpunk-red-core/icons/compendium/upgrades/bayonet.svg",
+ "system": {
+  "ammoVariety": [],
+  "attackmod": 0,
+  "brand": "",
+  "canIgnoreArmor": false,
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "damage": "0",
+  "description": {
+   "value": "<p><strong>Applies To:</strong> All weapons<br>\n<strong>Cost:</strong> 500eb</p>\n<p>Covers exterior of weapon with a shiny metallic coating. When worn openly, user gets a +2 to Wardrobe and Style Skill Checks. This bonus only applies once and won’t combine with other weapons<br>\nthat grant a bonus to Wardrobe and Style.</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>The sheet does not give its slot cost, so it uses 1.</li>\n<li>The +2 to Wardrobe &amp; Style is the upgrade's own modifier; it does not stack with another weapon's.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Attachments).</em></p>"
+  },
+  "dvTable": "",
+  "favorite": false,
+  "fireModes": {
+   "autoFire": 0,
+   "suppressiveFire": false
+  },
+  "handsReq": 0,
+  "ignoreArmorPercent": 0,
+  "installLocation": "mall",
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": false,
+  "isRanged": false,
+  "magazine": {
+   "ammoData": null,
+   "max": 0,
+   "value": 0
+  },
+  "modifiers": {
+   "Wardrobe & Style": {
+    "type": "modifier",
+    "value": 2,
+    "isSituational": false,
+    "onByDefault": false
+   },
+   "attackmod": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "bodySp": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "cool": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "damage": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "headSp": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "magazine": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "rof": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "sdp": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "seats": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "secondaryWeapon": {
+    "configured": false
+   },
+   "shieldHp": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "slots": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   }
+  },
+  "price": {
+   "market": 0
+  },
+  "providesHardening": false,
+  "rof": 2,
+  "size": 1,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "type": "weapon",
+  "unarmedAutomaticCalculation": true,
+  "usesType": "magazine",
+  "weaponSkill": "Melee Weapon",
+  "weaponType": "lightMelee"
+ },
+ "effects": [],
+ "folder": "6y766dktQlrq9WwX",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

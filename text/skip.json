@@ -1,0 +1,9 @@
+{
+ "_notes": "Sheet rows the module deliberately does not build, each with the reason. tools/build.py fails on a row that is neither built nor listed here, and on an entry here that is not a row.",
+ "rows": {
+  "Shrapnel Arrows": "Incomplete: the sheet gives no cost.",
+  "Grenade Arrows": "Incomplete: the sheet gives only the name.",
+  "Militech SuperFlex Steel Limbs (WIP)": "Incomplete: marked WIP, with no cost.",
+  "Reflex Sight": "The rules text and cost are Corgo's 77 Collection's Reflex Sight, word for word; use that item."
+ }
+}

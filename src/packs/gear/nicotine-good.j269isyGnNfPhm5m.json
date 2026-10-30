@@ -1,0 +1,126 @@
+{
+ "_id": "j269isyGnNfPhm5m",
+ "_key": "!items!j269isyGnNfPhm5m",
+ "name": "Nicotine (Good)",
+ "type": "drug",
+ "img": "systems/cyberpunk-red-core/icons/compendium/drugs/synthcoke.svg",
+ "system": {
+  "amount": 1,
+  "brand": "",
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "consumed": "Nicotine (Good) Primary",
+  "description": {
+   "value": "<p><strong>Cost:</strong> Varies<br>\n<strong>Vendor:</strong> Open Market</p>\n<p>Drug. Smoked, chewed, or dermal patch. Comes as tobacco cigarettes, vapes, nicotine patches, or chewing tobacco.</p>\n<p>The price of nicotine highly depends on it's quality. High quality nicotine tends to have more effects than cheaper nicotine options. Each prive level of nicotine has the same Secondary Effect. Nicotine is typically purchased in packs of 10.</p>\n<p>Cheap: Mass-Market Cigarettes, Chewing Tobacco, Mass-Market Vape, Patches (1eb Dose)</p>\n<p>Primariy Effect: Lasts 5 minutes. Gives a +1 to Concentration.</p>\n<p>Good: Branded Cigarettes, Branded Vape (2eb Dose)</p>\n<p>Primariy Effect: Lasts 5 minutes. Gives a +1 to Concentration and +1 to Waredrobe &amp; Style while holding the cigarette/vape in hand.</p>\n<p>Expensive: Cigars, Executive Vapes (50eb Dose)</p>\n<p>Primary Effect: Lasts 1 hour. Gives +1 to Concentration. Gives +2 to Wardrobe &amp; Style while wearing a full outfit of Businesswear (top, bottom, jacket, shoes.)</p>\n<p>Secondary Effect (DV13): You are addicted to nicotine. Your lifestyle cost increases by 50eb. If you have TraumaTeam coverage you also have to pay an additional 50eb/month premium (even if you have corporate provided health insurance).</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>Price is per dose; it usually comes in packs of 10.</li>\n<li>Addiction raises lifestyle cost (and a Trauma Team premium) by 50eb a month; nothing is automated for it.</li>\n<li>Using it turns on \"Nicotine (Good) Primary\": +1 to Concentration.</li>\n<li>The Wardrobe &amp; Style bonus while holding the cigarette or vape is a toggle in the roll dialog.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Drugs).</em></p>"
+  },
+  "equipped": "owned",
+  "favorite": false,
+  "price": {
+   "market": 2
+  },
+  "revealed": true,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "usage": "snorted"
+ },
+ "effects": [
+  {
+   "_id": "UjozbIF8tePid0Ez",
+   "_key": "!items.effects!j269isyGnNfPhm5m.UjozbIF8tePid0Ez",
+   "name": "Nicotine (Good) Primary",
+   "img": "systems/cyberpunk-red-core/icons/compendium/drugs/synthcoke.svg",
+   "changes": [
+    {
+     "key": "bonuses.concentration",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    }
+   ],
+   "description": "",
+   "disabled": true,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "skill"
+      },
+      "situational": {
+       "0": {
+        "isSituational": false,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  },
+  {
+   "_id": "JPQBQ8jUwwPn9QyW",
+   "_key": "!items.effects!j269isyGnNfPhm5m.JPQBQ8jUwwPn9QyW",
+   "name": "Nicotine (Good): Wardrobe & Style",
+   "img": "systems/cyberpunk-red-core/icons/compendium/drugs/synthcoke.svg",
+   "changes": [
+    {
+     "key": "bonuses.wardrobeAndStyle",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    }
+   ],
+   "description": "",
+   "disabled": false,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "skill"
+      },
+      "situational": {
+       "0": {
+        "isSituational": true,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  }
+ ],
+ "folder": "bmxvz0wuNKMJzTjr",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

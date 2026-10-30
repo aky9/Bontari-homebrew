@@ -1,0 +1,158 @@
+{
+ "_id": "80wr6PSk7AZl1rJh",
+ "_key": "!items!80wr6PSk7AZl1rJh",
+ "name": "Ask Allen™",
+ "type": "gear",
+ "img": "systems/cyberpunk-red-core/icons/compendium/gear/agent.svg",
+ "system": {
+  "amount": 1,
+  "brand": "",
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "description": {
+   "value": "<p><strong>Cost:</strong> 500eb</p>\n<p>An AI based off the very old Tim Allen character from the show Home Improvement. Provides decent mechanic advise for just about anything, from cyberware to aircraft. Provides a +1 to all skills with the word \"Tech\" in their name.</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>An app runs on a Neuroport or an Agent and does nothing without one (see the House Rules journal). Keep it in the inventory while the character has either.</li>\n<li>The +1 applies automatically to every skill with \"Tech\" in its name: Air, Land, and Sea Vehicle Tech, Basic Tech, Cybertech, Electronics/Security Tech, and Weaponstech.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Apps).</em></p>"
+  },
+  "equipped": "owned",
+  "favorite": false,
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "price": {
+   "market": 500
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "usage": "carried"
+ },
+ "effects": [
+  {
+   "_id": "VhxNmZQyscDQ0YH5",
+   "_key": "!items.effects!80wr6PSk7AZl1rJh.VhxNmZQyscDQ0YH5",
+   "name": "Ask Allen™",
+   "img": "systems/cyberpunk-red-core/icons/compendium/gear/agent.svg",
+   "changes": [
+    {
+     "key": "bonuses.airVehicleTech",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.basicTech",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.cybertech",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.electronicsAndSecurityTech",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.landVehicleTech",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.seaVehicleTech",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.weaponstech",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    }
+   ],
+   "description": "",
+   "disabled": false,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "skill",
+       "1": "skill",
+       "2": "skill",
+       "3": "skill",
+       "4": "skill",
+       "5": "skill",
+       "6": "skill"
+      },
+      "situational": {
+       "0": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "1": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "2": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "3": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "4": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "5": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "6": {
+        "isSituational": false,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  }
+ ],
+ "folder": "VgRNmeEGbbMsc7Gg",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

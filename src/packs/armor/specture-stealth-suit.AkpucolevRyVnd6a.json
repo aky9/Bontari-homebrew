@@ -1,0 +1,107 @@
+{
+ "_id": "AkpucolevRyVnd6a",
+ "_key": "!items!AkpucolevRyVnd6a",
+ "name": "Specture Stealth Suit",
+ "type": "armor",
+ "img": "systems/cyberpunk-red-core/icons/compendium/armor/light-armorjack_body.svg",
+ "system": {
+  "bodyLocation": {
+   "ablation": 0,
+   "sp": 4
+  },
+  "brand": "",
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "description": {
+   "value": "<p><strong>SP:</strong> 4<br>\n<strong>Armor Penalty:</strong> None<br>\n<strong>Cost:</strong> 1,000eb (Very Expensive)<br>\n<strong>Vendor:</strong> Monarch (Militech) / Mr. Motomori (Arasaka)</p>\n<p>A lightly armored stealth suit with the apperance of normal Militech camo suit. Only covers the body and does not work while wearing other armors except the Specture HUD Helmet or when holding a non-concealable weapon. When the user remains still for 1 minute (20 rounds), they can activate an optical cloak that mimics the user's surroundings and provides a +3 to Stealth checks vs sight-based Perception, including against creatures with Low Light/Infrared vision. Activating the cloak does not require an Action. The cloak is deactivated automatically if the user moves further than 2 m/yds (1 square) within 3 seconds (1 Round). Vulnerable to EMP.</p>\n<p>Can also be found as Arasaka black &amp; red ninja suits.</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>The optical cloak's +3 to Stealth is a toggle in the roll dialog: turn it on against sight-based Perception after a minute standing still.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Armor).</em></p>"
+  },
+  "equipped": "owned",
+  "favorite": false,
+  "headLocation": {
+   "ablation": 0,
+   "sp": 0
+  },
+  "installedItems": {
+   "allowed": true,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 3,
+   "usedSlots": 0
+  },
+  "isBodyLocation": true,
+  "isElectronic": true,
+  "isHeadLocation": false,
+  "isShield": false,
+  "penalty": 0,
+  "price": {
+   "market": 1000
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "shieldHitPoints": {
+   "max": 0,
+   "value": 0
+  },
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "usage": "equipped"
+ },
+ "effects": [
+  {
+   "_id": "vLlLELqhLMIuDIMZ",
+   "_key": "!items.effects!AkpucolevRyVnd6a.vLlLELqhLMIuDIMZ",
+   "name": "Optical cloak",
+   "img": "systems/cyberpunk-red-core/icons/compendium/armor/light-armorjack_body.svg",
+   "changes": [
+    {
+     "key": "bonuses.stealth",
+     "mode": 2,
+     "priority": null,
+     "value": "3"
+    }
+   ],
+   "description": "",
+   "disabled": false,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "skill"
+      },
+      "situational": {
+       "0": {
+        "isSituational": true,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  }
+ ],
+ "folder": "jJhBrAtIzZMNCpWc",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

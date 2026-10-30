@@ -1,0 +1,92 @@
+{
+ "_id": "6giGIRLU63a6AT6P",
+ "_key": "!items!6giGIRLU63a6AT6P",
+ "name": "Agent, Standard (Bontari Edition)",
+ "type": "gear",
+ "img": "systems/cyberpunk-red-core/icons/compendium/gear/agent.svg",
+ "system": {
+  "amount": 1,
+  "brand": "",
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "description": {
+   "value": "<p><strong>Nerf, Buff, or Side-Grade:</strong> SIDE-GRADE/NERF<br>\n<strong>Reasoning:</strong> Neuroports replace the utility of Agents in cases, however Agents still have a role in game for non-cybernetic individuals or people who want a secondary line of communication. These changes are meant to integrate Agents into the Edgerunners Mission Kit's rules for quickhacks and the new role Netrunners play.</p>\n<p>Agents are effectively smartphones. Common among Nomads and Luddites to substitute the main functions of a Neuroport. Agents can be quickhacked like Neuroports, with damage dealt affecting the Agent. All Agents have 5 HP and are Destroyed when reduced to 0 HP.  When Jacking In to an Agent with Interface you skip the initial roll to avoid detection (unless the Agent is actively being used). By default the NetArc of an Agent is a single Control Node floor just like a Neuroport.</p>\n<p>Agents no longer provide a +2 to Library Search. Instead Library Search rolls take a -2 penalty when made without either an Agent or Neuroport. It's now standard to have an always accessable internet device.</p>\n<p>The DV of the Control Node is determined by the quality of the Agent. Most common Agent brands are Raven Microtechnics, Rocklin, and Zetatech.</p>\n<p>Standard (100eb, DV 8 Control Node)<br>\nExcellent (500eb, DV 10 Control Node)</p>\n<p><strong>Replaces:</strong> Agent (Cyberpunk RED - Core)</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>No +2 to Library Search; the core Agent's situational +2 to Wardrobe &amp; Style is kept.</li>\n<li>Its 5 HP and Control Node are tracked by hand. The -2 to Library Search without an Agent or Neuroport is in the House Rules journal.</li>\n<li>Standard: its Control Node is DV 8.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (OFFICIAL ITEMS WITH ALTERED RUL).</em></p>"
+  },
+  "equipped": "owned",
+  "favorite": false,
+  "installedItems": {
+   "allowed": true,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 3,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "price": {
+   "market": 100
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "usage": "carried"
+ },
+ "effects": [
+  {
+   "_id": "dfoZn9kiVojyAid7",
+   "_key": "!items.effects!6giGIRLU63a6AT6P.dfoZn9kiVojyAid7",
+   "name": "Agent",
+   "img": "systems/cyberpunk-red-core/icons/compendium/gear/agent.svg",
+   "changes": [
+    {
+     "key": "bonuses.wardrobeAndStyle",
+     "mode": 2,
+     "priority": null,
+     "value": "2"
+    }
+   ],
+   "description": "",
+   "disabled": false,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "skill"
+      },
+      "situational": {
+       "0": {
+        "isSituational": true,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  }
+ ],
+ "folder": "Rl4cS7gMvebkP25y",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

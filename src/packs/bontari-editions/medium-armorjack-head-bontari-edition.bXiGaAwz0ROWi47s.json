@@ -1,0 +1,62 @@
+{
+ "_id": "bXiGaAwz0ROWi47s",
+ "_key": "!items!bXiGaAwz0ROWi47s",
+ "name": "Medium Armorjack (Head) (Bontari Edition)",
+ "type": "armor",
+ "img": "systems/cyberpunk-red-core/icons/compendium/armor/medium-armorjack_head.svg",
+ "system": {
+  "bodyLocation": {
+   "ablation": 0,
+   "sp": 0
+  },
+  "brand": "",
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "description": {
+   "value": "<p><strong>Nerf, Buff, or Side-Grade:</strong> UPGRADE<br>\n<strong>Reasoning:</strong> So hopefully someone uses armor besides Light Armorjack.</p>\n<p>Stat penalties are reduced by 1.</p>\n<p><strong>Replaces:</strong> Medium Armorjack (Head) (Cyberpunk RED - Core)</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>The core Medium Armorjack with its armor penalty reduced from -2 to -1, as Bontari's sheet says. SP and cost are the core's.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (OFFICIAL ITEMS WITH ALTERED RUL).</em></p>"
+  },
+  "equipped": "owned",
+  "favorite": false,
+  "headLocation": {
+   "ablation": 0,
+   "sp": 12
+  },
+  "installedItems": {
+   "allowed": true,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 3,
+   "usedSlots": 0
+  },
+  "isBodyLocation": false,
+  "isElectronic": false,
+  "isHeadLocation": true,
+  "isShield": false,
+  "penalty": 1,
+  "price": {
+   "market": 100
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "shieldHitPoints": {
+   "max": 0,
+   "value": 0
+  },
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "usage": "equipped"
+ },
+ "effects": [],
+ "folder": "Rl4cS7gMvebkP25y",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

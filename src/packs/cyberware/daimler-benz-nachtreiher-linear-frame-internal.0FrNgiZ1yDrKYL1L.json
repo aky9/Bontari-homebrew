@@ -1,0 +1,179 @@
+{
+ "_id": "0FrNgiZ1yDrKYL1L",
+ "_key": "!items!0FrNgiZ1yDrKYL1L",
+ "name": "Daimler-Benz Nachtreiher Linear Frame (Internal)",
+ "type": "cyberware",
+ "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/implanted_linearframe_beta.svg",
+ "system": {
+  "ammoVariety": [],
+  "attackmod": 0,
+  "brand": "",
+  "canIgnoreArmor": true,
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "core": false,
+  "damage": "1d6",
+  "description": {
+   "value": "<p><strong>Install:</strong> Hospital<br>\n<strong>Cost:</strong> 5,000eb<br>\n<strong>Humanity Loss:</strong> 14 (4d6)</p>\n<p>This linear frame can be purchased as either external or internal. In either form, while connected properly to the frame, the user gains a +2 to Stealth checks relating to movement, increases their BODY to 12, and their Melee Ambush Attack Checks by +2. The internal frame requires two installations of Grafted Muscle &amp; Bone Lace. The external frame requires two installations of Interface Plugs and does not affect the user's HP or death saves.</p>\n<p><strong>Type:</strong> Borgware (Foundational)<br>\n<strong>Option Slots:</strong> provides 3</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>The +2 to movement Stealth and to Melee Ambush attacks are toggles in the roll dialog.</li>\n<li>The internal frame. Sets BODY to 12 while installed, like the core's Implanted Linear Frame β. Requires two installations of Grafted Muscle &amp; Bone Lace.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Cyberware).</em></p>"
+  },
+  "dvTable": "",
+  "favorite": false,
+  "fireModes": {
+   "autoFire": 0,
+   "suppressiveFire": false
+  },
+  "humanityLoss": {
+   "static": 14,
+   "roll": "4d6"
+  },
+  "ignoreArmorPercent": 50,
+  "installLocation": "hospital",
+  "installedItems": {
+   "allowed": true,
+   "allowedTypes": [
+    "itemUpgrade",
+    "cyberware"
+   ],
+   "list": [],
+   "slots": 3,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "isFoundational": true,
+  "isRanged": false,
+  "isWeapon": false,
+  "magazine": {
+   "ammoData": null,
+   "max": 0,
+   "value": 0
+  },
+  "price": {
+   "market": 5000
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "rof": 1,
+  "size": 0,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "type": "borgware",
+  "unarmedAutomaticCalculation": true,
+  "usage": "installed",
+  "usesType": "magazine",
+  "weaponSkill": "Archery",
+  "weaponType": "assaultRifle",
+  "critFailEffect": "jammed",
+  "ignoreBelowSP": 0
+ },
+ "effects": [
+  {
+   "_id": "nIldm3k8lIhjCVxL",
+   "_key": "!items.effects!0FrNgiZ1yDrKYL1L.nIldm3k8lIhjCVxL",
+   "name": "Nachtreiher Linear Frame",
+   "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/implanted_linearframe_beta.svg",
+   "changes": [
+    {
+     "key": "system.stats.body.value",
+     "mode": 5,
+     "priority": null,
+     "value": "12"
+    }
+   ],
+   "description": "",
+   "disabled": false,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "stat"
+      },
+      "situational": {
+       "0": {
+        "isSituational": false,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  },
+  {
+   "_id": "RBYWNbwP7ey6jLZS",
+   "_key": "!items.effects!0FrNgiZ1yDrKYL1L.RBYWNbwP7ey6jLZS",
+   "name": "Nachtreiher: Stealth and Ambush",
+   "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/implanted_linearframe_beta.svg",
+   "changes": [
+    {
+     "key": "bonuses.stealth",
+     "mode": 2,
+     "priority": null,
+     "value": "2"
+    },
+    {
+     "key": "bonuses.melee",
+     "mode": 2,
+     "priority": null,
+     "value": "2"
+    }
+   ],
+   "description": "",
+   "disabled": false,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "skill",
+       "1": "combat"
+      },
+      "situational": {
+       "0": {
+        "isSituational": true,
+        "onByDefault": false
+       },
+       "1": {
+        "isSituational": true,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  }
+ ],
+ "folder": "CjtH6s653rx9sjXJ",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

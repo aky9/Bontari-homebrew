@@ -1,0 +1,1039 @@
+{
+ "_id": "elu6cZ1o6P8TOpBT",
+ "_key": "!items!elu6cZ1o6P8TOpBT",
+ "name": "Spice",
+ "type": "drug",
+ "img": "systems/cyberpunk-red-core/icons/compendium/drugs/synthcoke.svg",
+ "system": {
+  "amount": 1,
+  "brand": "",
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "consumed": "Spice Primary",
+  "description": {
+   "value": "<p><strong>Cost:</strong> 2eb (Dirt Cheap)<br>\n<strong>Vendor:</strong> Dr. Feelgood/Open Market</p>\n<p>Drug. Smoked, Inhaled, or Injested. Cannbinoids, either organic or synthetic. A single dose is equal is the size of one joint, a few puffs of a vape, or a single gummy.</p>\n<p>Primary Effect: Lasts 4 hours. For the duration the user suffers a -2 to all INT-based skill checks and Concentration checks. Gain +1 COOL.</p>\n<p>Secondary Effects (DV 13): User becomes addicted to Spice and takes a -1 penalty to all INT-based skill checks and Concentration checks unless you are experiencing the Primary Effect.</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>Using the drug turns on \"Spice Primary\": -2 to every INT skill and to Concentration, +1 COOL.</li>\n<li>While addicted, switch on \"Spice Addiction\". When an addicted character doses, use \"Spice Addicted Primary\" instead of the normal primary effect; it cancels the addiction penalty for the duration.</li>\n<li>Durations are not automated.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Drugs).</em></p>"
+  },
+  "equipped": "owned",
+  "favorite": false,
+  "price": {
+   "market": 2
+  },
+  "revealed": true,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "usage": "snorted"
+ },
+ "effects": [
+  {
+   "_id": "Knjb4tmsfuMHMLKg",
+   "_key": "!items.effects!elu6cZ1o6P8TOpBT.Knjb4tmsfuMHMLKg",
+   "name": "Spice Primary",
+   "img": "systems/cyberpunk-red-core/icons/compendium/drugs/synthcoke.svg",
+   "changes": [
+    {
+     "key": "bonuses.accounting",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.animalHandling",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.bureaucracy",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.business",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.composition",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.concealOrRevealObject",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.criminology",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.cryptography",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.deduction",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.education",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.gamble",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.language",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.librarySearch",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.lipReading",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.localExpert",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.perception",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.tactics",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.tracking",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.wildernessSurvival",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.concentration",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "system.stats.cool.value",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    }
+   ],
+   "description": "",
+   "disabled": true,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "skill",
+       "1": "skill",
+       "2": "skill",
+       "3": "skill",
+       "4": "skill",
+       "5": "skill",
+       "6": "skill",
+       "7": "skill",
+       "8": "skill",
+       "9": "skill",
+       "10": "skill",
+       "11": "skill",
+       "12": "skill",
+       "13": "skill",
+       "14": "skill",
+       "15": "skill",
+       "16": "skill",
+       "17": "skill",
+       "18": "skill",
+       "19": "skill",
+       "20": "stat"
+      },
+      "situational": {
+       "0": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "1": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "2": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "3": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "4": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "5": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "6": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "7": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "8": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "9": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "10": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "11": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "12": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "13": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "14": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "15": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "16": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "17": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "18": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "19": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "20": {
+        "isSituational": false,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  },
+  {
+   "_id": "zsZ2VkrtkirqMbWQ",
+   "_key": "!items.effects!elu6cZ1o6P8TOpBT.zsZ2VkrtkirqMbWQ",
+   "name": "Spice Addiction",
+   "img": "systems/cyberpunk-red-core/icons/compendium/drugs/synthcoke.svg",
+   "changes": [
+    {
+     "key": "bonuses.accounting",
+     "mode": 2,
+     "priority": null,
+     "value": "-1"
+    },
+    {
+     "key": "bonuses.animalHandling",
+     "mode": 2,
+     "priority": null,
+     "value": "-1"
+    },
+    {
+     "key": "bonuses.bureaucracy",
+     "mode": 2,
+     "priority": null,
+     "value": "-1"
+    },
+    {
+     "key": "bonuses.business",
+     "mode": 2,
+     "priority": null,
+     "value": "-1"
+    },
+    {
+     "key": "bonuses.composition",
+     "mode": 2,
+     "priority": null,
+     "value": "-1"
+    },
+    {
+     "key": "bonuses.concealOrRevealObject",
+     "mode": 2,
+     "priority": null,
+     "value": "-1"
+    },
+    {
+     "key": "bonuses.criminology",
+     "mode": 2,
+     "priority": null,
+     "value": "-1"
+    },
+    {
+     "key": "bonuses.cryptography",
+     "mode": 2,
+     "priority": null,
+     "value": "-1"
+    },
+    {
+     "key": "bonuses.deduction",
+     "mode": 2,
+     "priority": null,
+     "value": "-1"
+    },
+    {
+     "key": "bonuses.education",
+     "mode": 2,
+     "priority": null,
+     "value": "-1"
+    },
+    {
+     "key": "bonuses.gamble",
+     "mode": 2,
+     "priority": null,
+     "value": "-1"
+    },
+    {
+     "key": "bonuses.language",
+     "mode": 2,
+     "priority": null,
+     "value": "-1"
+    },
+    {
+     "key": "bonuses.librarySearch",
+     "mode": 2,
+     "priority": null,
+     "value": "-1"
+    },
+    {
+     "key": "bonuses.lipReading",
+     "mode": 2,
+     "priority": null,
+     "value": "-1"
+    },
+    {
+     "key": "bonuses.localExpert",
+     "mode": 2,
+     "priority": null,
+     "value": "-1"
+    },
+    {
+     "key": "bonuses.perception",
+     "mode": 2,
+     "priority": null,
+     "value": "-1"
+    },
+    {
+     "key": "bonuses.tactics",
+     "mode": 2,
+     "priority": null,
+     "value": "-1"
+    },
+    {
+     "key": "bonuses.tracking",
+     "mode": 2,
+     "priority": null,
+     "value": "-1"
+    },
+    {
+     "key": "bonuses.wildernessSurvival",
+     "mode": 2,
+     "priority": null,
+     "value": "-1"
+    },
+    {
+     "key": "bonuses.concentration",
+     "mode": 2,
+     "priority": null,
+     "value": "-1"
+    }
+   ],
+   "description": "",
+   "disabled": true,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "skill",
+       "1": "skill",
+       "2": "skill",
+       "3": "skill",
+       "4": "skill",
+       "5": "skill",
+       "6": "skill",
+       "7": "skill",
+       "8": "skill",
+       "9": "skill",
+       "10": "skill",
+       "11": "skill",
+       "12": "skill",
+       "13": "skill",
+       "14": "skill",
+       "15": "skill",
+       "16": "skill",
+       "17": "skill",
+       "18": "skill",
+       "19": "skill"
+      },
+      "situational": {
+       "0": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "1": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "2": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "3": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "4": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "5": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "6": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "7": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "8": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "9": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "10": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "11": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "12": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "13": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "14": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "15": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "16": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "17": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "18": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "19": {
+        "isSituational": false,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  },
+  {
+   "_id": "7TVUyi5A7TlWgL2N",
+   "_key": "!items.effects!elu6cZ1o6P8TOpBT.7TVUyi5A7TlWgL2N",
+   "name": "Spice Addicted Primary",
+   "img": "systems/cyberpunk-red-core/icons/compendium/drugs/synthcoke.svg",
+   "changes": [
+    {
+     "key": "bonuses.accounting",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.animalHandling",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.bureaucracy",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.business",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.composition",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.concealOrRevealObject",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.criminology",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.cryptography",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.deduction",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.education",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.gamble",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.language",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.librarySearch",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.lipReading",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.localExpert",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.perception",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.tactics",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.tracking",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.wildernessSurvival",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "bonuses.concentration",
+     "mode": 2,
+     "priority": null,
+     "value": "-2"
+    },
+    {
+     "key": "system.stats.cool.value",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.accounting",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.animalHandling",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.bureaucracy",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.business",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.composition",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.concealOrRevealObject",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.criminology",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.cryptography",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.deduction",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.education",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.gamble",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.language",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.librarySearch",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.lipReading",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.localExpert",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.perception",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.tactics",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.tracking",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.wildernessSurvival",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    },
+    {
+     "key": "bonuses.concentration",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    }
+   ],
+   "description": "",
+   "disabled": true,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "skill",
+       "1": "skill",
+       "2": "skill",
+       "3": "skill",
+       "4": "skill",
+       "5": "skill",
+       "6": "skill",
+       "7": "skill",
+       "8": "skill",
+       "9": "skill",
+       "10": "skill",
+       "11": "skill",
+       "12": "skill",
+       "13": "skill",
+       "14": "skill",
+       "15": "skill",
+       "16": "skill",
+       "17": "skill",
+       "18": "skill",
+       "19": "skill",
+       "20": "stat",
+       "21": "skill",
+       "22": "skill",
+       "23": "skill",
+       "24": "skill",
+       "25": "skill",
+       "26": "skill",
+       "27": "skill",
+       "28": "skill",
+       "29": "skill",
+       "30": "skill",
+       "31": "skill",
+       "32": "skill",
+       "33": "skill",
+       "34": "skill",
+       "35": "skill",
+       "36": "skill",
+       "37": "skill",
+       "38": "skill",
+       "39": "skill",
+       "40": "skill"
+      },
+      "situational": {
+       "0": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "1": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "2": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "3": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "4": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "5": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "6": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "7": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "8": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "9": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "10": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "11": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "12": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "13": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "14": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "15": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "16": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "17": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "18": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "19": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "20": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "21": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "22": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "23": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "24": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "25": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "26": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "27": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "28": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "29": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "30": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "31": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "32": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "33": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "34": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "35": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "36": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "37": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "38": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "39": {
+        "isSituational": false,
+        "onByDefault": false
+       },
+       "40": {
+        "isSituational": false,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  }
+ ],
+ "folder": "bmxvz0wuNKMJzTjr",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

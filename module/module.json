@@ -2,7 +2,7 @@
   "id": "bontari-homebrew",
   "title": "Bontari Homebrew (Unofficial) for Cyberpunk RED - Core",
   "description": "<p>Bontari's homebrew items for Cyberpunk RED, as Foundry compendiums. Adds compendiums only; it does not change the Cyberpunk RED - Core system.</p><p>This is unofficial content provided under the Homebrew Content Policy of R. Talsorian Games and is not approved or endorsed by RTG. This content references materials that are the property of R. Talsorian Games and its licensees.</p>",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "url": "https://github.com/aky9/bontari-homebrew",
   "manifest": "https://github.com/aky9/bontari-homebrew/releases/latest/download/module.json",
   "download": "https://github.com/aky9/bontari-homebrew/releases/latest/download/module.zip",
@@ -36,11 +36,80 @@
   },
   "packs": [
     {
+      "name": "weapons",
+      "label": "Bontari: Weapons",
+      "path": "packs/weapons",
+      "type": "Item",
+      "system": "cyberpunk-red-core"
+    },
+    {
+      "name": "ammo",
+      "label": "Bontari: Ammunition",
+      "path": "packs/ammo",
+      "type": "Item",
+      "system": "cyberpunk-red-core"
+    },
+    {
+      "name": "armor",
+      "label": "Bontari: Armor & Shields",
+      "path": "packs/armor",
+      "type": "Item",
+      "system": "cyberpunk-red-core"
+    },
+    {
+      "name": "weapon-attachments",
+      "label": "Bontari: Weapon Attachments",
+      "path": "packs/weapon-attachments",
+      "type": "Item",
+      "system": "cyberpunk-red-core"
+    },
+    {
       "name": "cyberware",
       "label": "Bontari: Cyberware",
       "path": "packs/cyberware",
       "type": "Item",
       "system": "cyberpunk-red-core"
+    },
+    {
+      "name": "sandevistans",
+      "label": "Bontari: Sandevistans",
+      "path": "packs/sandevistans",
+      "type": "Item",
+      "system": "cyberpunk-red-core"
+    },
+    {
+      "name": "cyberware-upgrades",
+      "label": "Bontari: Cyberware Enhancements",
+      "path": "packs/cyberware-upgrades",
+      "type": "Item",
+      "system": "cyberpunk-red-core"
+    },
+    {
+      "name": "tech-upgrades",
+      "label": "Bontari: Invented Tech Upgrades",
+      "path": "packs/tech-upgrades",
+      "type": "Item",
+      "system": "cyberpunk-red-core"
+    },
+    {
+      "name": "gear",
+      "label": "Bontari: Gear, Apps & Drugs",
+      "path": "packs/gear",
+      "type": "Item",
+      "system": "cyberpunk-red-core"
+    },
+    {
+      "name": "bontari-editions",
+      "label": "Bontari: Bontari Editions",
+      "path": "packs/bontari-editions",
+      "type": "Item",
+      "system": "cyberpunk-red-core"
+    },
+    {
+      "name": "house-rules",
+      "label": "Bontari: House Rules",
+      "path": "packs/house-rules",
+      "type": "JournalEntry"
     }
   ],
   "packFolders": [
@@ -49,7 +118,17 @@
       "sorting": "m",
       "color": "#1f5a7a",
       "packs": [
-        "cyberware"
+        "weapons",
+        "ammo",
+        "armor",
+        "weapon-attachments",
+        "cyberware",
+        "sandevistans",
+        "cyberware-upgrades",
+        "tech-upgrades",
+        "gear",
+        "bontari-editions",
+        "house-rules"
       ]
     }
   ]

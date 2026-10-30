@@ -1,0 +1,73 @@
+{
+ "_id": "Jl3b9pmn0PWgvx3M",
+ "_key": "!items!Jl3b9pmn0PWgvx3M",
+ "name": "Hello Cutie Kitty Bap",
+ "type": "weapon",
+ "img": "systems/cyberpunk-red-core/icons/compendium/weapons/Shotgun.svg",
+ "system": {
+  "ammoVariety": [
+   "shotgunShell",
+   "shotgunSlug"
+  ],
+  "attackmod": 0,
+  "brand": "",
+  "canIgnoreArmor": false,
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "critFailEffect": "jammed",
+  "damage": "5d6",
+  "description": {
+   "value": "<p><strong>Cost:</strong> 500eb<br>\n<strong>Vendor:</strong> Sanroo (Corp)</p>\n<p>An Exotic shotgun with a Power Rebuild. Holds 5 rounds and is incompatible with any extended/drum magizine mods. Any mixture of rounds can be loaded into the gun and fired in any order. Despite being an exotic weapon it is capable of firing non-standard ammunition. Requires 2 Actions to reload. The shotgun is a break action with five barrels arranged to look like a paw print.</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>The sheet gives no damage, ROF, or hands, so it uses the core Shotgun's (5d6 slug or 3d6 shells, ROF 1, two-handed) with 5 rounds. Its Power Rebuild is not applied; install Corgo's 77 Power Rebuild if you use it.</li>\n<li>Exotic, but it fires normal shotgun ammunition. Reloading takes 2 Actions.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Weapons).</em></p>"
+  },
+  "dvTable": "DV Shotgun (Slug)",
+  "equipped": "owned",
+  "favorite": false,
+  "fireModes": {
+   "autoFire": 0,
+   "suppressiveFire": false
+  },
+  "handsReq": 2,
+  "ignoreArmorPercent": 0,
+  "ignoreBelowSP": 0,
+  "installedItems": {
+   "allowed": true,
+   "allowedTypes": [
+    "itemUpgrade",
+    "ammo"
+   ],
+   "list": [],
+   "slots": 3,
+   "usedSlots": 0
+  },
+  "isRanged": true,
+  "magazine": {
+   "ammoData": null,
+   "max": 5,
+   "value": 0
+  },
+  "price": {
+   "market": 0
+  },
+  "quality": "standard",
+  "revealed": true,
+  "rof": 1,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "unarmedAutomaticCalculation": true,
+  "usage": "equipped",
+  "usesType": "magazine",
+  "weaponSkill": "Shoulder Arms",
+  "weaponType": "shotgun"
+ },
+ "effects": [],
+ "folder": "ImoUjdZM3neFaVFD",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

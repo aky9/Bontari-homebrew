@@ -1,0 +1,147 @@
+{
+ "_id": "nR9wTL6HWPPjy2zR",
+ "_key": "!items!nR9wTL6HWPPjy2zR",
+ "name": "Daimler-Benz Nachtreiher Linear Frame (External)",
+ "type": "gear",
+ "img": "systems/cyberpunk-red-core/icons/compendium/gear/linearframe_beta.svg",
+ "system": {
+  "amount": 1,
+  "brand": "",
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "description": {
+   "value": "<p><strong>Install:</strong> Hospital<br>\n<strong>Cost:</strong> 5,000eb<br>\n<strong>Humanity Loss:</strong> 14 (4d6)</p>\n<p>This linear frame can be purchased as either external or internal. In either form, while connected properly to the frame, the user gains a +2 to Stealth checks relating to movement, increases their BODY to 12, and their Melee Ambush Attack Checks by +2. The internal frame requires two installations of Grafted Muscle &amp; Bone Lace. The external frame requires two installations of Interface Plugs and does not affect the user's HP or death saves.</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>The +2 to movement Stealth and to Melee Ambush attacks are toggles in the roll dialog.</li>\n<li>The external frame. Sets BODY to 12 while equipped, like the core's Linear Frame β. Requires two installations of Interface Plugs. It does not change HP or Death Saves; adjust those by hand.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Cyberware).</em></p>"
+  },
+  "equipped": "owned",
+  "favorite": false,
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "price": {
+   "market": 5000
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "usage": "equipped"
+ },
+ "effects": [
+  {
+   "_id": "jrhDtDmo2JdmNh1A",
+   "_key": "!items.effects!nR9wTL6HWPPjy2zR.jrhDtDmo2JdmNh1A",
+   "name": "Nachtreiher Linear Frame",
+   "img": "systems/cyberpunk-red-core/icons/compendium/gear/linearframe_beta.svg",
+   "changes": [
+    {
+     "key": "system.stats.body.value",
+     "mode": 5,
+     "priority": null,
+     "value": "12"
+    }
+   ],
+   "description": "",
+   "disabled": false,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "stat"
+      },
+      "situational": {
+       "0": {
+        "isSituational": false,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  },
+  {
+   "_id": "9rfd7XGRdx2vb2pW",
+   "_key": "!items.effects!nR9wTL6HWPPjy2zR.9rfd7XGRdx2vb2pW",
+   "name": "Nachtreiher: Stealth and Ambush",
+   "img": "systems/cyberpunk-red-core/icons/compendium/gear/linearframe_beta.svg",
+   "changes": [
+    {
+     "key": "bonuses.stealth",
+     "mode": 2,
+     "priority": null,
+     "value": "2"
+    },
+    {
+     "key": "bonuses.melee",
+     "mode": 2,
+     "priority": null,
+     "value": "2"
+    }
+   ],
+   "description": "",
+   "disabled": false,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "skill",
+       "1": "combat"
+      },
+      "situational": {
+       "0": {
+        "isSituational": true,
+        "onByDefault": false
+       },
+       "1": {
+        "isSituational": true,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  }
+ ],
+ "folder": "CjtH6s653rx9sjXJ",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

@@ -1,0 +1,47 @@
+{
+ "_notes": "Weapons tab.",
+ "folders": [
+  "Weapons",
+  "Worn Cyberware"
+ ],
+ "items": {
+  "Kinetic Impact Gauntlets": {
+   "base": "Unarmed",
+   "folder": "Weapons",
+   "set": {
+    "damage": "3d6",
+    "unarmedAutomaticCalculation": false
+   },
+   "notes": [
+    "Equip it for Brawling attacks at 3d6. The blanks (12 per gauntlet, 1eb each, used only on a hit), the knockback check, and the Facedown bonus are tracked by hand."
+   ]
+  },
+  "Hello Cutie Kitty Bap": {
+   "base": "Shotgun",
+   "base_type": "weapon",
+   "folder": "Weapons",
+   "set": {
+    "magazine.max": 5
+   },
+   "notes": [
+    "The sheet gives no damage, ROF, or hands, so it uses the core Shotgun's (5d6 slug or 3d6 shells, ROF 1, two-handed) with 5 rounds. Its Power Rebuild is not applied; install Corgo's 77 Power Rebuild if you use it.",
+    "Exotic, but it fires normal shotgun ammunition. Reloading takes 2 Actions."
+   ]
+  },
+  "Battleboot": {
+   "base": "Battleglove",
+   "folder": "Worn Cyberware",
+   "hl": [
+    0,
+    "0"
+   ],
+   "set": {
+    "type": "cyberLeg",
+    "installedItems.slots": 2
+   },
+   "notes": [
+    "Built like the core Battleglove, as Cyberleg cyberware with 2 slots, so cyberleg options can be installed in it. Equipping it takes an Action. Options in the leg it covers are not disabled automatically."
+   ]
+  }
+ }
+}

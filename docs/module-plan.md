@@ -83,7 +83,7 @@ headings and stat blocks, so they won't fit a spreadsheet as they are.
 - **MOD-CORE or MOD-OFFICIAL that change a rule** (Gorilla Arms, PLS, Cyberfingers, Exotic Bodysculpting).
   These go in the House Rules journal. I won't build Gorilla Arms or the PLS as items. Foundry has neither,
   and the sheet gives only the change, so building them would mean copying Edgerunners Mission Kit text.
-- **MOD-CORGO** (Subsonic, Bipod, Syn-Lungs, Lynx Paws). Full items carrying Bontari's rules, named
+- **MOD-CORGO** (Subsonic, Bipod, Syn-Lungs, Lynx Paws, Ballistic Coprocessor). Full items carrying Bontari's rules, named
   "<name> (Bontari Edition)". Each notes which Corgo item it replaces, so a world with both modules knows which one to use.
 - **COPY-CORGO** (Reflex Sight). Not built. The README points to Corgo's.
 - **NEW (built on X).** Built as full items. The base core item is named in the Foundry notes, and the base

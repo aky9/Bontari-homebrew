@@ -1,12 +1,522 @@
 {
- "_notes": "Automation data for the Cyberware tab, keyed by the item's name in the sheet. The item's text, cost, install, and Humanity Loss come from the sheet; see tools/build_cyberware.py for the fields.",
+ "_notes": "Automation data for the Cyberware tab (except the Self-ICE enhancements, in cyberware-upgrades.json, and the two Corgo's 77 items Bontari changes, in bontari-editions.json). Keyed by the row's name in the sheet; tools/build_items.py documents the fields.",
+ "folders": [
+  "Neuralware",
+  "Cyberoptics",
+  "Cyberaudio",
+  "Internal Body Cyberware",
+  "External Body Cyberware",
+  "Cyberarms",
+  "Cyberlegs",
+  "Linear Frames"
+ ],
  "items": {
+  "Zetatech Kyber Foundationware": {
+   "base": "Nasal Filters",
+   "folder": "Internal Body Cyberware",
+   "set": {
+    "size": 0,
+    "usage": "installed"
+   },
+   "notes": [
+    "The sheet does not say which kind of foundational cyberware this is (cyberarm, cyberleg, cybereye, and so on), so it is modeled as Internal Body Cyberware that takes no slot. Use it as a marker, and set Humanity Loss to 0 by hand on the options installed with it.",
+    "The sheet's cost is \"Varies\", so its price is 0 here."
+   ]
+  },
+  "Rosetta Stone PolyGlot": {
+   "base": "Skill Chip",
+   "folder": "Neuralware",
+   "set": {
+    "usage": "installed",
+    "installedItems.slots": 0,
+    "installedItems.allowed": false
+   },
+   "notes": [
+    "Chipware: install it in a Chipware Socket."
+   ]
+  },
+  "Kiroshi Mk. II's": {
+   "base": "Cybereye",
+   "folder": "Cyberoptics",
+   "effects": [
+    {
+     "name": "Image Enhance (built in)",
+     "situational": true,
+     "changes": [
+      [
+       "bonuses.lipReading",
+       2
+      ],
+      [
+       "bonuses.concealOrRevealObject",
+       2
+      ],
+      [
+       "bonuses.perceptionSight",
+       2
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "The built-in Image Enhance is this item's own effect, the same as the core Image Enhance's (+2 to sight-based Perception, Lip Reading, and Conceal/Reveal Object, as toggles in the roll dialog). It uses none of the 3 Option Slots."
+   ]
+  },
+  "Rocklin Audiomaster": {
+   "base": "Cyberaudio Suite",
+   "folder": "Cyberaudio",
+   "set": {
+    "installedItems.slots": 5
+   },
+   "effects": [
+    {
+     "name": "AudioVox (built in): Acting",
+     "changes": [
+      [
+       "bonuses.acting",
+       2
+      ]
+     ]
+    },
+    {
+     "name": "AudioVox (built in): Singing (Play Instrument)",
+     "changes": [
+      [
+       "bonuses.playInstrument",
+       2
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "The built-in AudioVox is this item's own effects, the same as the core AudioVox's. It uses none of the 5 Option Slots."
+   ]
+  },
   "Syn-Heart": {
-   "type": "cyberwareInternal",
-   "icon": "grafted_muscle_and_bone_lace",
-   "effects": [{"changes": [["bonuses.athletics", 2]]}],
-   "notes": ["The +2 to Athletics applies automatically while this is installed.",
-             "The +1 MOVE when paired with Syn-Lungs (Bontari Edition) is not automated: add it by hand when both are installed."]
+   "base": "Nasal Filters",
+   "folder": "Internal Body Cyberware",
+   "img": "cyberware/grafted_muscle_and_bone_lace.svg",
+   "set": {
+    "usage": "installed"
+   },
+   "effects": [
+    {
+     "changes": [
+      [
+       "bonuses.athletics",
+       2
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "The +2 to Athletics applies automatically while this is installed.",
+    "The +1 MOVE when paired with Syn-Lungs (Bontari Edition) is not automated: add it by hand when both are installed."
+   ]
+  },
+  "Advanced Neural Matrix": {
+   "base": "Chipware Socket",
+   "folder": "Neuralware",
+   "set": {
+    "size": 0,
+    "usage": "installed",
+    "installedItems.slots": 5
+   },
+   "notes": [
+    "Typed as Neuralware rather than Borgware: Cyberpunk RED - Core only lets an option install into cyberware of its own type, so this is what makes its 5 slots usable for Neuralware. Install it in a Neural Link (the Neuroport); it uses none of that link's slots."
+   ]
+  },
+  "NovelTech Corvette Cyberlegs": {
+   "base": "Cyberleg",
+   "folder": "Cyberlegs",
+   "set": {
+    "installedItems.slots": 2
+   },
+   "effects": [
+    {
+     "changes": [
+      [
+       "move",
+       1
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "One item is the pair of legs: install it once. Its 2 slots are the 2 option slots of each leg, so a paired option uses one of them.",
+    "The Skate Feet are built in and use none of the slots.",
+    "The +1 MOVE applies automatically while this is installed."
+   ]
+  },
+  "Arasaka Judoka Cyberarms": {
+   "base": "Cyberarm",
+   "folder": "Cyberarms",
+   "set": {
+    "installedItems.slots": 2
+   },
+   "notes": [
+    "One item is the pair of arms: install it once. Its 2 slots are the 2 option slots of each arm, so a paired option uses one of them.",
+    "Ignoring the -2 for grappling is not automated."
+   ]
+  },
+  "Kendachi/Rocklin Kensei Cyberarms": {
+   "base": "Cyberarm",
+   "folder": "Cyberarms",
+   "set": {
+    "installedItems.slots": 2
+   },
+   "effects": [
+    {
+     "changes": [
+      [
+       "bonuses.meleeWeapon",
+       1
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "One item is the pair of arms: install it once. Its 2 slots are the 2 option slots of each arm, so a paired option uses one of them.",
+    "The +1 to Melee Weapon applies automatically while this is installed."
+   ]
+  },
+  "Rocklin Augmentics Skystrikers": {
+   "base": "Cyberarm",
+   "folder": "Cyberarms",
+   "set": {
+    "installedItems.slots": 2
+   },
+   "notes": [
+    "One item is the pair of arms: install it once. Its 2 slots are the 2 option slots of each arm, so a paired option uses one of them.",
+    "The +3d6 against cover and the +1 to Martial Arts with Rocklin Augmentics Skydrivers (a Corgo's 77 cyberleg alternative) are not automated."
+   ]
+  },
+  "Rocklin Augmentics Skysmashers": {
+   "base": "Cyberarm",
+   "folder": "Cyberarms",
+   "set": {
+    "installedItems.slots": 2
+   },
+   "effects": [
+    {
+     "name": "With Rocklin Augmentics Skydrivers",
+     "situational": true,
+     "changes": [
+      [
+       "bonuses.brawling",
+       1
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "One item is the pair of arms: install it once. Its 2 slots are the 2 option slots of each arm, so a paired option uses one of them.",
+    "The +1 to Brawling with Rocklin Augmentics Skydrivers (a Corgo's 77 cyberleg alternative) is a toggle in the roll dialog. The +3d6 against cover is not automated."
+   ]
+  },
+  "Carolli/Rocklin Tesoro Cyberarms": {
+   "base": "Cyberarm",
+   "folder": "Cyberarms",
+   "set": {
+    "installedItems.slots": 2
+   },
+   "effects": [
+    {
+     "name": "Techscanner (built in, TUped +3)",
+     "changes": [
+      [
+       "bonuses.airVehicleTech",
+       3
+      ],
+      [
+       "bonuses.basicTech",
+       3
+      ],
+      [
+       "bonuses.cybertech",
+       3
+      ],
+      [
+       "bonuses.electronicsAndSecurityTech",
+       3
+      ],
+      [
+       "bonuses.landVehicleTech",
+       3
+      ],
+      [
+       "bonuses.seaVehicleTech",
+       3
+      ],
+      [
+       "bonuses.weaponstech",
+       3
+      ]
+     ]
+    },
+    {
+     "name": "Superchrome Covering (built in)",
+     "changes": [
+      [
+       "bonuses.wardrobeAndStyle",
+       2
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "One item is the pair of arms: install it once. Its 2 slots are the 2 option slots of each arm, so a paired option uses one of them.",
+    "The built-in Techscanner and Superchrome Covering are this item's own effects (the core items' effects, with the Techscanner at +3) and use none of the slots.",
+    "The second Field Repair is not automated."
+   ]
+  },
+  "Panzer-fists": {
+   "base": "Techscanner",
+   "base_type": "cyberware",
+   "folder": "Cyberarms",
+   "set": {
+    "size": 2
+   },
+   "notes": [
+    "Install one in each arm (2 slots per arm). Brawling ignoring half armor is not automated."
+   ]
+  },
+  "Rocklin Wallcrawler MagLegs": {
+   "base": "Cyberleg",
+   "folder": "Cyberlegs",
+   "set": {
+    "installedItems.slots": 2
+   },
+   "notes": [
+    "One item is the pair of legs: install it once. Its 2 slots are the 2 option slots of each leg, so a paired option uses one of them.",
+    "The Grip Feet are built in and use none of the slots. Moving on metal is not automated."
+   ]
+  },
+  "Zhirafa/Rocklin Earthshaker Cyberlegs": {
+   "base": "Cyberleg",
+   "folder": "Cyberlegs",
+   "set": {
+    "installedItems.slots": 2
+   },
+   "notes": [
+    "One item is the pair of legs: install it once. Its 2 slots are the 2 option slots of each leg, so a paired option uses one of them.",
+    "The knockdown is not automated."
+   ]
+  },
+  "Militech Siege Legs": {
+   "base": "Cyberleg",
+   "folder": "Cyberlegs",
+   "set": {
+    "installedItems.slots": 2
+   },
+   "notes": [
+    "One item is the pair of legs: install it once. Its 2 slots are the 2 option slots of each leg, so a paired option uses one of them.",
+    "The Stabilizers are not automated."
+   ]
+  },
+  "Secondary Heart": {
+   "base": "Nasal Filters",
+   "folder": "Internal Body Cyberware",
+   "set": {
+    "usage": "installed"
+   },
+   "notes": [
+    "Death Saves at the end of the turn, and advantage on the first, are not automated."
+   ]
+  },
+  "Daimler-Benz Nachtreiher Linear Frame": {
+   "base": "Implanted Linear Frame β (Beta)",
+   "folder": "Linear Frames",
+   "split": [
+    {
+     "name": "Daimler-Benz Nachtreiher Linear Frame (Internal)",
+     "effects": [
+      {
+       "name": "Nachtreiher Linear Frame",
+       "changes": [
+        [
+         "body",
+         12,
+         5
+        ]
+       ]
+      },
+      {
+       "name": "Nachtreiher: Stealth and Ambush",
+       "situational": true,
+       "changes": [
+        [
+         "bonuses.stealth",
+         2
+        ],
+        [
+         "bonuses.melee",
+         2
+        ]
+       ]
+      }
+     ],
+     "notes": [
+      "The internal frame. Sets BODY to 12 while installed, like the core's Implanted Linear Frame β. Requires two installations of Grafted Muscle & Bone Lace."
+     ]
+    },
+    {
+     "name": "Daimler-Benz Nachtreiher Linear Frame (External)",
+     "base": "Linear Frame β (Beta)",
+     "effects": [
+      {
+       "name": "Nachtreiher Linear Frame",
+       "changes": [
+        [
+         "body",
+         12,
+         5
+        ]
+       ]
+      },
+      {
+       "name": "Nachtreiher: Stealth and Ambush",
+       "situational": true,
+       "changes": [
+        [
+         "bonuses.stealth",
+         2
+        ],
+        [
+         "bonuses.melee",
+         2
+        ]
+       ]
+      }
+     ],
+     "notes": [
+      "The external frame. Sets BODY to 12 while equipped, like the core's Linear Frame β. Requires two installations of Interface Plugs. It does not change HP or Death Saves; adjust those by hand."
+     ]
+    }
+   ],
+   "notes": [
+    "The +2 to movement Stealth and to Melee Ambush attacks are toggles in the roll dialog."
+   ]
+  },
+  "Repair Nanites": {
+   "base": "Nasal Filters",
+   "folder": "Internal Body Cyberware",
+   "hl": [
+    0,
+    "0"
+   ],
+   "notes": [
+    "The sheet gives its Humanity Loss as \"NA\" (it goes only in an FBC or ACPA), so it is 0 here.",
+    "Restoring HP is not automated."
+   ]
+  },
+  "Arasaka Ozukumi Sx": {
+   "base": "Kerenzikov",
+   "folder": "Neuralware",
+   "set": {
+    "size": 2
+   },
+   "effects": [
+    {
+     "changes": [
+      [
+       "int",
+       1
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "The +1 INT applies automatically while this is installed. The maximum of 9 is not: a cap would also lower an INT above 9. The monthly 2d6 Humanity Loss is not automated."
+   ]
+  },
+  "Endocrine Regulator": {
+   "base": "Kerenzikov",
+   "folder": "Neuralware",
+   "effects": [
+    {
+     "changes": [
+      [
+       "will",
+       1
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "The sheet does not give its slot cost, so it uses 1. The +1 WILL applies automatically while this is installed; do not install a second."
+   ]
+  },
+  "Popup Targeting Laser": {
+   "base": "Techscanner",
+   "base_type": "cyberware",
+   "folder": "Cyberarms",
+   "set": {
+    "size": 1,
+    "usage": "toggled"
+   },
+   "effects": [
+    {
+     "name": "Popup Targeting Laser",
+     "situational": true,
+     "changes": [
+      [
+       "bonuses.ranged",
+       1
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "The sheet does not give its slot cost, so it uses 1. The +1 is a toggle in the roll dialog: turn it on for attacks with a Popup ranged weapon in the same arm."
+   ]
+  },
+  "FBC Experimental Shimmer Coating": {
+   "base": "External Vidscreen",
+   "folder": "External Body Cyberware",
+   "hl": [
+    0,
+    "0"
+   ],
+   "set": {
+    "usage": "toggled"
+   },
+   "notes": [
+    "The sheet gives no cost, install, or Humanity Loss, so they are 0 and the core External Vidscreen's install (Hospital) here.",
+    "Invisibility to cameras and cybereyes is not automated."
+   ]
+  },
+  "Militech Fortress Popup Shield": {
+   "base": "Popup Shield",
+   "folder": "Cyberarms",
+   "split": [
+    {
+     "name": "Militech Fortress Popup Shield",
+     "set": {
+      "size": 2
+     },
+     "notes": [
+      "Install one in each arm (2 slots per arm). Equip the Militech Fortress Popup Shield (Shield) item when it is deployed."
+     ]
+    },
+    {
+     "name": "Militech Fortress Popup Shield (Shield)",
+     "base": "Bullet Proof Shield",
+     "price": 0,
+     "set": {
+      "shieldHitPoints": {
+       "max": 30,
+       "value": 30
+      },
+      "installedItems.slots": 0,
+      "installedItems.allowed": false
+     },
+     "rules": "The deployed shield of the Militech Fortress Popup Shield cyberware. Equip this alongside the cyberware.",
+     "notes": [
+      "Halving explosive damage that gets through is not automated."
+     ]
+    }
+   ]
   }
  }
 }

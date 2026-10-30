@@ -1,0 +1,178 @@
+{
+ "_id": "lDLJji2AoKJohhQj",
+ "_key": "!items!lDLJji2AoKJohhQj",
+ "name": "Militech Sandevistan \"Falcon\"",
+ "type": "cyberware",
+ "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/sandevistan.svg",
+ "system": {
+  "ammoVariety": [],
+  "attackmod": 0,
+  "brand": "",
+  "canIgnoreArmor": true,
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "core": false,
+  "damage": "1d6",
+  "description": {
+   "value": "<p><strong>Cost:</strong> 6,000eb<br>\n<strong>Humanity Loss:</strong> 14 (4d6)</p>\n<p>Neuralware. Borgware. Requires 2 Neuralware Option Slots and 2 Internal Option Slots<br>\nDuration: 4 rounds (12 seconds)<br>\nPrimary Effects:<br>\n+5 to Initiative.<br>\n+2 to Evasion against one target per round.<br>\nSecondary Effects (Limit 2 per Round):<br>\nEvasion bonus from Primary Effect can be applied to a second target.<br>\n+2 to one Attack made with the Archery, Autofire, Handguns, Heavy Weapons, or Shoulder Arms Skill.<br>\nIncrease MOVE by 6 for one turn, to a maximum of 15.</p>\n<p>Note: Activating the Falcon causes the user to suffer 1d6 Humanity Loss. The Falcon may only be safely activated once per hour. Each time the Sandevistan is activated again before an hour can pass, the humanity loss is doubled, to 2d6, then 4d6, etc. until an hour is allowed to pass. Using any of the Secondary Effects will cause the user to suffer 3 Humanity Loss each time they are used.</p>\n<p><strong>Type:</strong> Neuralware<br>\n<strong>Option Slots:</strong> uses 2</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>Activate it like the core Sandevistan: the Primary Effects are toggles in the roll dialog, on by default, and the Secondary Effects are toggles that start off. Turn on only the ones you use.</li>\n<li>It also needs 2 Internal Option Slots.</li>\n<li>The second Evasion target and the Secondary Effect's MOVE +6 are not automated.</li>\n<li>Humanity Loss for activating it and for each Secondary Effect is not automated.</li>\n<li>The sheet gives no install location, so it uses the core Sandevistan's (Clinic).</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Sandevistans).</em></p>"
+  },
+  "dvTable": "",
+  "favorite": false,
+  "fireModes": {
+   "autoFire": 0,
+   "suppressiveFire": false
+  },
+  "humanityLoss": {
+   "static": 14,
+   "roll": "4d6"
+  },
+  "ignoreArmorPercent": 50,
+  "installLocation": "clinic",
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "isFoundational": false,
+  "isRanged": false,
+  "isWeapon": false,
+  "magazine": {
+   "ammoData": null,
+   "max": 0,
+   "value": 0
+  },
+  "price": {
+   "market": 6000
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "rof": 1,
+  "size": 2,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "type": "neuralWare",
+  "unarmedAutomaticCalculation": true,
+  "usage": "toggled",
+  "usesType": "magazine",
+  "weaponSkill": "Archery",
+  "weaponType": "assaultRifle",
+  "critFailEffect": "jammed",
+  "ignoreBelowSP": 0
+ },
+ "effects": [
+  {
+   "_id": "5FULFbh9vpt61h3v",
+   "_key": "!items.effects!lDLJji2AoKJohhQj.5FULFbh9vpt61h3v",
+   "name": "Falcon: Primary Effects",
+   "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/sandevistan.svg",
+   "changes": [
+    {
+     "key": "bonuses.initiative",
+     "mode": 2,
+     "priority": null,
+     "value": "5"
+    },
+    {
+     "key": "bonuses.evasion",
+     "mode": 2,
+     "priority": null,
+     "value": "2"
+    }
+   ],
+   "description": "",
+   "disabled": false,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "combat",
+       "1": "skill"
+      },
+      "situational": {
+       "0": {
+        "isSituational": true,
+        "onByDefault": true
+       },
+       "1": {
+        "isSituational": true,
+        "onByDefault": true
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  },
+  {
+   "_id": "fGTEwfGnMtQx0hkf",
+   "_key": "!items.effects!lDLJji2AoKJohhQj.fGTEwfGnMtQx0hkf",
+   "name": "Falcon: Secondary Effects",
+   "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/sandevistan.svg",
+   "changes": [
+    {
+     "key": "bonuses.ranged",
+     "mode": 2,
+     "priority": null,
+     "value": "2"
+    }
+   ],
+   "description": "",
+   "disabled": false,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "combat"
+      },
+      "situational": {
+       "0": {
+        "isSituational": true,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  }
+ ],
+ "folder": "ws69HQijdb1wP7lW",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

@@ -1,0 +1,95 @@
+{
+ "_notes": "Armor tab, and the Gear tab's Electromagnetic Shield.",
+ "folders": [
+  "Armor",
+  "Shields"
+ ],
+ "items": {
+  "Spectre HUD Helmet": {
+   "base": "Light Armorjack (Head)",
+   "folder": "Armor",
+   "set": {
+    "headLocation.sp": 11,
+    "penalty": 0,
+    "isElectronic": true
+   },
+   "notes": [
+    "Its built-in cybereye options and gear are not automated. They can't be removed."
+   ]
+  },
+  "Specture Stealth Suit": {
+   "base": "Light Armorjack (Body)",
+   "folder": "Armor",
+   "set": {
+    "bodyLocation.sp": 4,
+    "penalty": 0,
+    "isElectronic": true
+   },
+   "effects": [
+    {
+     "name": "Optical cloak",
+     "situational": true,
+     "changes": [
+      [
+       "bonuses.stealth",
+       3
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "The optical cloak's +3 to Stealth is a toggle in the roll dialog: turn it on against sight-based Perception after a minute standing still."
+   ]
+  },
+  "CyberMOD Helmet": {
+   "base": "Light Armorjack (Head)",
+   "folder": "Armor",
+   "set": {
+    "headLocation.sp": 12,
+    "penalty": 0
+   },
+   "notes": [
+    "Armor in Cyberpunk RED - Core can't hold cyberware, so its Cyberoptics, Cyberaudio, and Neuralware option slots are tracked by hand."
+   ]
+  },
+  "NUSAF Pilot Helmet": {
+   "base": "Light Armorjack (Head)",
+   "folder": "Armor",
+   "set": {
+    "headLocation.sp": 12,
+    "penalty": 0,
+    "isElectronic": true
+   },
+   "effects": [
+    {
+     "changes": [
+      [
+       "bonuses.pilotAirVehicle",
+       2
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "The +2 to Pilot Air Vehicle applies automatically while it is equipped.",
+    "Armor can't hold cyberware, so its 2 option slots and pre-installed options are tracked by hand."
+   ]
+  },
+  "Electromagnetic Shield": {
+   "base": "Bullet Proof Shield",
+   "folder": "Shields",
+   "set": {
+    "shieldHitPoints": {
+     "max": 25,
+     "value": 25
+    },
+    "installedItems.slots": 0,
+    "installedItems.allowed": false,
+    "isElectronic": true
+   },
+   "notes": [
+    "Halving damage that gets through is not automated. It takes no shield attachments, so it has no slots."
+   ]
+  }
+ }
+}

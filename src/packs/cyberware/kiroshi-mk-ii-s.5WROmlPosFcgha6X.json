@@ -1,0 +1,146 @@
+{
+ "_id": "5WROmlPosFcgha6X",
+ "_key": "!items!5WROmlPosFcgha6X",
+ "name": "Kiroshi Mk. II's",
+ "type": "cyberware",
+ "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/cybereye.svg",
+ "system": {
+  "ammoVariety": [],
+  "attackmod": 0,
+  "brand": "",
+  "canIgnoreArmor": true,
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "core": false,
+  "damage": "1d6",
+  "description": {
+   "value": "<p><strong>Install:</strong> Mall<br>\n<strong>Cost:</strong> 1,000eb<br>\n<strong>Humanity Loss:</strong> 14 (4d6)</p>\n<p>Cybereye. Comes pre-installed with the Image Enhance cybereye option, which does not count against max humanity, does not take up an option slot, and can not be removed without destroying the implant beyond repair.</p>\n<p><strong>Type:</strong> Cybereye (Foundational)<br>\n<strong>Option Slots:</strong> provides 3</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>The built-in Image Enhance is this item's own effect, the same as the core Image Enhance's (+2 to sight-based Perception, Lip Reading, and Conceal/Reveal Object, as toggles in the roll dialog). It uses none of the 3 Option Slots.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Cyberware).</em></p>"
+  },
+  "dvTable": "",
+  "favorite": false,
+  "fireModes": {
+   "autoFire": 0,
+   "suppressiveFire": false
+  },
+  "humanityLoss": {
+   "static": 14,
+   "roll": "4d6"
+  },
+  "ignoreArmorPercent": 50,
+  "installLocation": "mall",
+  "installedItems": {
+   "allowed": true,
+   "allowedTypes": [
+    "itemUpgrade",
+    "cyberware"
+   ],
+   "list": [],
+   "slots": 3,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "isFoundational": true,
+  "isRanged": false,
+  "isWeapon": false,
+  "magazine": {
+   "ammoData": null,
+   "max": 0,
+   "value": 0
+  },
+  "price": {
+   "market": 1000
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "rof": 1,
+  "size": 0,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "type": "cyberEye",
+  "unarmedAutomaticCalculation": true,
+  "usage": "toggled",
+  "usesType": "magazine",
+  "weaponSkill": "Archery",
+  "weaponType": "assaultRifle",
+  "critFailEffect": "jammed",
+  "ignoreBelowSP": 0
+ },
+ "effects": [
+  {
+   "_id": "pVnffGRolDvWDfZB",
+   "_key": "!items.effects!5WROmlPosFcgha6X.pVnffGRolDvWDfZB",
+   "name": "Image Enhance (built in)",
+   "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/cybereye.svg",
+   "changes": [
+    {
+     "key": "bonuses.lipReading",
+     "mode": 2,
+     "priority": null,
+     "value": "2"
+    },
+    {
+     "key": "bonuses.concealOrRevealObject",
+     "mode": 2,
+     "priority": null,
+     "value": "2"
+    },
+    {
+     "key": "bonuses.perceptionSight",
+     "mode": 2,
+     "priority": null,
+     "value": "2"
+    }
+   ],
+   "description": "",
+   "disabled": false,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "skill",
+       "1": "skill",
+       "2": "skill"
+      },
+      "situational": {
+       "0": {
+        "isSituational": true,
+        "onByDefault": false
+       },
+       "1": {
+        "isSituational": true,
+        "onByDefault": false
+       },
+       "2": {
+        "isSituational": true,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  }
+ ],
+ "folder": "E7lT6uJ7zLt0ZcHD",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

@@ -1,0 +1,62 @@
+{
+ "_id": "6QI2LBr217ePlQsK",
+ "_key": "!items!6QI2LBr217ePlQsK",
+ "name": "CyberMOD Helmet",
+ "type": "armor",
+ "img": "systems/cyberpunk-red-core/icons/compendium/armor/light-armorjack_head.svg",
+ "system": {
+  "bodyLocation": {
+   "ablation": 0,
+   "sp": 0
+  },
+  "brand": "",
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "description": {
+   "value": "<p><strong>SP:</strong> 12<br>\n<strong>Armor Penalty:</strong> None<br>\n<strong>Cost:</strong> 1,500eb</p>\n<p>This TUped Light Armorjack Helmet comes with 1 option slot each for Cyberoptics, Cyberaudio Options, and Neuralware</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>Armor in Cyberpunk RED - Core can't hold cyberware, so its Cyberoptics, Cyberaudio, and Neuralware option slots are tracked by hand.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Armor).</em></p>"
+  },
+  "equipped": "owned",
+  "favorite": false,
+  "headLocation": {
+   "ablation": 0,
+   "sp": 12
+  },
+  "installedItems": {
+   "allowed": true,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 3,
+   "usedSlots": 0
+  },
+  "isBodyLocation": false,
+  "isElectronic": false,
+  "isHeadLocation": true,
+  "isShield": false,
+  "penalty": 0,
+  "price": {
+   "market": 1500
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "shieldHitPoints": {
+   "max": 0,
+   "value": 0
+  },
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "usage": "equipped"
+ },
+ "effects": [],
+ "folder": "jJhBrAtIzZMNCpWc",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

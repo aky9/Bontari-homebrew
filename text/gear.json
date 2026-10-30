@@ -1,0 +1,721 @@
+{
+ "_notes": "Gear tab, Apps tab, Drugs tab, and the Gear tab's poison.",
+ "folders": [
+  "Apps",
+  "Apps & Websites (Setting)",
+  "Drugs",
+  "Poisons",
+  "General Gear"
+ ],
+ "items": {
+  "Big SAAI": {
+   "base": "Agent",
+   "folder": "Apps",
+   "set": {
+    "usage": "carried",
+    "installedItems.slots": 0,
+    "installedItems.allowed": false
+   },
+   "effects": [
+    {
+     "changes": [
+      [
+       "bonuses.librarySearch",
+       2
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "An app runs on a Neuroport or an Agent and does nothing without one (see the House Rules journal). Keep it in the inventory while the character has either.",
+    "The +2 to Library Search applies automatically while it is carried."
+   ]
+  },
+  "RunWay": {
+   "base": "Agent",
+   "folder": "Apps",
+   "set": {
+    "usage": "carried",
+    "installedItems.slots": 0,
+    "installedItems.allowed": false
+   },
+   "effects": [
+    {
+     "changes": [
+      [
+       "bonuses.wardrobeAndStyle",
+       1
+      ]
+     ]
+    },
+    {
+     "name": "RunWay: wearing its suggestions",
+     "situational": true,
+     "changes": [
+      [
+       "bonuses.wardrobeAndStyle",
+       1
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "An app runs on a Neuroport or an Agent and does nothing without one (see the House Rules journal). Keep it in the inventory while the character has either.",
+    "The +1 to Wardrobe & Style applies automatically; the extra +1 for wearing RunWay's suggestions is a toggle in the roll dialog."
+   ]
+  },
+  "Rossetta Lens™": {
+   "base": "Agent",
+   "folder": "Apps",
+   "set": {
+    "usage": "carried",
+    "installedItems.slots": 0,
+    "installedItems.allowed": false
+   },
+   "effects": [],
+   "notes": [
+    "An app runs on a Neuroport or an Agent and does nothing without one (see the House Rules journal). Keep it in the inventory while the character has either.",
+    "Translation is not automated."
+   ]
+  },
+  "Ask Allen™": {
+   "base": "Agent",
+   "folder": "Apps",
+   "set": {
+    "usage": "carried",
+    "installedItems.slots": 0,
+    "installedItems.allowed": false
+   },
+   "effects": [
+    {
+     "changes": [
+      [
+       "bonuses.airVehicleTech",
+       1
+      ],
+      [
+       "bonuses.basicTech",
+       1
+      ],
+      [
+       "bonuses.cybertech",
+       1
+      ],
+      [
+       "bonuses.electronicsAndSecurityTech",
+       1
+      ],
+      [
+       "bonuses.landVehicleTech",
+       1
+      ],
+      [
+       "bonuses.seaVehicleTech",
+       1
+      ],
+      [
+       "bonuses.weaponstech",
+       1
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "An app runs on a Neuroport or an Agent and does nothing without one (see the House Rules journal). Keep it in the inventory while the character has either.",
+    "The +1 applies automatically to every skill with \"Tech\" in its name: Air, Land, and Sea Vehicle Tech, Basic Tech, Cybertech, Electronics/Security Tech, and Weaponstech."
+   ]
+  },
+  "BlackMarketNC": {
+   "base": "Agent",
+   "folder": "Apps",
+   "set": {
+    "usage": "carried",
+    "installedItems.slots": 0,
+    "installedItems.allowed": false
+   },
+   "effects": [
+    {
+     "changes": [
+      [
+       "bonuses.streetWise",
+       2
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "An app runs on a Neuroport or an Agent and does nothing without one (see the House Rules journal). Keep it in the inventory while the character has either.",
+    "The +2 to Streetwise applies automatically. The Reputation requirement is not."
+   ]
+  },
+  "Anyware StudioPro": {
+   "base": "Agent",
+   "folder": "Apps",
+   "set": {
+    "usage": "carried",
+    "installedItems.slots": 0,
+    "installedItems.allowed": false
+   },
+   "effects": [
+    {
+     "changes": [
+      [
+       "bonuses.photographyAndFilm",
+       2
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "An app runs on a Neuroport or an Agent and does nothing without one (see the House Rules journal). Keep it in the inventory while the character has either.",
+    "The +2 to Photography/Film applies automatically. Image Enhance while still is not automated."
+   ]
+  },
+  "DeeJay (Premium)": {
+   "base": "Agent",
+   "folder": "Apps",
+   "set": {
+    "usage": "carried",
+    "installedItems.slots": 0,
+    "installedItems.allowed": false
+   },
+   "effects": [],
+   "notes": [
+    "An app runs on a Neuroport or an Agent and does nothing without one (see the House Rules journal). Keep it in the inventory while the character has either.",
+    "The reroll at a party is not automated."
+   ]
+  },
+  "Night City Times": {
+   "base": "Agent",
+   "folder": "Apps & Websites (Setting)",
+   "set": {
+    "usage": "carried",
+    "installedItems.slots": 0,
+    "installedItems.allowed": false
+   },
+   "notes": [
+    "Setting flavor: no rules effect."
+   ]
+  },
+  "bart.mos": {
+   "base": "Agent",
+   "folder": "Apps & Websites (Setting)",
+   "set": {
+    "usage": "carried",
+    "installedItems.slots": 0,
+    "installedItems.allowed": false
+   },
+   "notes": [
+    "Setting flavor: no rules effect."
+   ]
+  },
+  "NightZooCity.web": {
+   "base": "Agent",
+   "folder": "Apps & Websites (Setting)",
+   "set": {
+    "usage": "carried",
+    "installedItems.slots": 0,
+    "installedItems.allowed": false
+   },
+   "notes": [
+    "Setting flavor: no rules effect.",
+    "Removing the ads costs 20eb for 30 days."
+   ]
+  },
+  "WayBack.archive/ButterflyCookingweb/20430411": {
+   "base": "Agent",
+   "folder": "Apps & Websites (Setting)",
+   "set": {
+    "usage": "carried",
+    "installedItems.slots": 0,
+    "installedItems.allowed": false
+   },
+   "notes": [
+    "Setting flavor: no rules effect."
+   ],
+   "name": "WayBack.archive/ButterflyCooking.web/20430411"
+  },
+  "CandyVan": {
+   "base": "Agent",
+   "folder": "Apps & Websites (Setting)",
+   "set": {
+    "usage": "carried",
+    "installedItems.slots": 0,
+    "installedItems.allowed": false
+   },
+   "notes": [
+    "Setting flavor: no rules effect."
+   ]
+  },
+  "Spice": {
+   "base": "Synthcoke",
+   "folder": "Drugs",
+   "price": 2,
+   "consumed": "Spice Primary",
+   "effects": [
+    {
+     "name": "Spice Primary",
+     "disabled": true,
+     "changes": [
+      [
+       "bonuses.accounting",
+       -2
+      ],
+      [
+       "bonuses.animalHandling",
+       -2
+      ],
+      [
+       "bonuses.bureaucracy",
+       -2
+      ],
+      [
+       "bonuses.business",
+       -2
+      ],
+      [
+       "bonuses.composition",
+       -2
+      ],
+      [
+       "bonuses.concealOrRevealObject",
+       -2
+      ],
+      [
+       "bonuses.criminology",
+       -2
+      ],
+      [
+       "bonuses.cryptography",
+       -2
+      ],
+      [
+       "bonuses.deduction",
+       -2
+      ],
+      [
+       "bonuses.education",
+       -2
+      ],
+      [
+       "bonuses.gamble",
+       -2
+      ],
+      [
+       "bonuses.language",
+       -2
+      ],
+      [
+       "bonuses.librarySearch",
+       -2
+      ],
+      [
+       "bonuses.lipReading",
+       -2
+      ],
+      [
+       "bonuses.localExpert",
+       -2
+      ],
+      [
+       "bonuses.perception",
+       -2
+      ],
+      [
+       "bonuses.tactics",
+       -2
+      ],
+      [
+       "bonuses.tracking",
+       -2
+      ],
+      [
+       "bonuses.wildernessSurvival",
+       -2
+      ],
+      [
+       "bonuses.concentration",
+       -2
+      ],
+      [
+       "cool",
+       1
+      ]
+     ]
+    },
+    {
+     "name": "Spice Addiction",
+     "disabled": true,
+     "changes": [
+      [
+       "bonuses.accounting",
+       -1
+      ],
+      [
+       "bonuses.animalHandling",
+       -1
+      ],
+      [
+       "bonuses.bureaucracy",
+       -1
+      ],
+      [
+       "bonuses.business",
+       -1
+      ],
+      [
+       "bonuses.composition",
+       -1
+      ],
+      [
+       "bonuses.concealOrRevealObject",
+       -1
+      ],
+      [
+       "bonuses.criminology",
+       -1
+      ],
+      [
+       "bonuses.cryptography",
+       -1
+      ],
+      [
+       "bonuses.deduction",
+       -1
+      ],
+      [
+       "bonuses.education",
+       -1
+      ],
+      [
+       "bonuses.gamble",
+       -1
+      ],
+      [
+       "bonuses.language",
+       -1
+      ],
+      [
+       "bonuses.librarySearch",
+       -1
+      ],
+      [
+       "bonuses.lipReading",
+       -1
+      ],
+      [
+       "bonuses.localExpert",
+       -1
+      ],
+      [
+       "bonuses.perception",
+       -1
+      ],
+      [
+       "bonuses.tactics",
+       -1
+      ],
+      [
+       "bonuses.tracking",
+       -1
+      ],
+      [
+       "bonuses.wildernessSurvival",
+       -1
+      ],
+      [
+       "bonuses.concentration",
+       -1
+      ]
+     ]
+    },
+    {
+     "name": "Spice Addicted Primary",
+     "disabled": true,
+     "changes": [
+      [
+       "bonuses.accounting",
+       -2
+      ],
+      [
+       "bonuses.animalHandling",
+       -2
+      ],
+      [
+       "bonuses.bureaucracy",
+       -2
+      ],
+      [
+       "bonuses.business",
+       -2
+      ],
+      [
+       "bonuses.composition",
+       -2
+      ],
+      [
+       "bonuses.concealOrRevealObject",
+       -2
+      ],
+      [
+       "bonuses.criminology",
+       -2
+      ],
+      [
+       "bonuses.cryptography",
+       -2
+      ],
+      [
+       "bonuses.deduction",
+       -2
+      ],
+      [
+       "bonuses.education",
+       -2
+      ],
+      [
+       "bonuses.gamble",
+       -2
+      ],
+      [
+       "bonuses.language",
+       -2
+      ],
+      [
+       "bonuses.librarySearch",
+       -2
+      ],
+      [
+       "bonuses.lipReading",
+       -2
+      ],
+      [
+       "bonuses.localExpert",
+       -2
+      ],
+      [
+       "bonuses.perception",
+       -2
+      ],
+      [
+       "bonuses.tactics",
+       -2
+      ],
+      [
+       "bonuses.tracking",
+       -2
+      ],
+      [
+       "bonuses.wildernessSurvival",
+       -2
+      ],
+      [
+       "bonuses.concentration",
+       -2
+      ],
+      [
+       "cool",
+       1
+      ],
+      [
+       "bonuses.accounting",
+       1
+      ],
+      [
+       "bonuses.animalHandling",
+       1
+      ],
+      [
+       "bonuses.bureaucracy",
+       1
+      ],
+      [
+       "bonuses.business",
+       1
+      ],
+      [
+       "bonuses.composition",
+       1
+      ],
+      [
+       "bonuses.concealOrRevealObject",
+       1
+      ],
+      [
+       "bonuses.criminology",
+       1
+      ],
+      [
+       "bonuses.cryptography",
+       1
+      ],
+      [
+       "bonuses.deduction",
+       1
+      ],
+      [
+       "bonuses.education",
+       1
+      ],
+      [
+       "bonuses.gamble",
+       1
+      ],
+      [
+       "bonuses.language",
+       1
+      ],
+      [
+       "bonuses.librarySearch",
+       1
+      ],
+      [
+       "bonuses.lipReading",
+       1
+      ],
+      [
+       "bonuses.localExpert",
+       1
+      ],
+      [
+       "bonuses.perception",
+       1
+      ],
+      [
+       "bonuses.tactics",
+       1
+      ],
+      [
+       "bonuses.tracking",
+       1
+      ],
+      [
+       "bonuses.wildernessSurvival",
+       1
+      ],
+      [
+       "bonuses.concentration",
+       1
+      ]
+     ]
+    }
+   ],
+   "notes": [
+    "Using the drug turns on \"Spice Primary\": -2 to every INT skill and to Concentration, +1 COOL.",
+    "While addicted, switch on \"Spice Addiction\". When an addicted character doses, use \"Spice Addicted Primary\" instead of the normal primary effect; it cancels the addiction penalty for the duration.",
+    "Durations are not automated."
+   ]
+  },
+  "Nicotine": {
+   "base": "Synthcoke",
+   "folder": "Drugs",
+   "split": [
+    {
+     "name": "Nicotine (Cheap)",
+     "price": 1,
+     "consumed": "Nicotine (Cheap) Primary",
+     "effects": [
+      {
+       "name": "Nicotine (Cheap) Primary",
+       "disabled": true,
+       "changes": [
+        [
+         "bonuses.concentration",
+         1
+        ]
+       ]
+      }
+     ],
+     "notes": [
+      "Using it turns on \"Nicotine (Cheap) Primary\": +1 to Concentration."
+     ]
+    },
+    {
+     "name": "Nicotine (Good)",
+     "price": 2,
+     "consumed": "Nicotine (Good) Primary",
+     "effects": [
+      {
+       "name": "Nicotine (Good) Primary",
+       "disabled": true,
+       "changes": [
+        [
+         "bonuses.concentration",
+         1
+        ]
+       ]
+      },
+      {
+       "name": "Nicotine (Good): Wardrobe & Style",
+       "situational": true,
+       "changes": [
+        [
+         "bonuses.wardrobeAndStyle",
+         1
+        ]
+       ]
+      }
+     ],
+     "notes": [
+      "Using it turns on \"Nicotine (Good) Primary\": +1 to Concentration.",
+      "The Wardrobe & Style bonus while holding the cigarette or vape is a toggle in the roll dialog."
+     ]
+    },
+    {
+     "name": "Nicotine (Expensive)",
+     "price": 50,
+     "consumed": "Nicotine (Expensive) Primary",
+     "effects": [
+      {
+       "name": "Nicotine (Expensive) Primary",
+       "disabled": true,
+       "changes": [
+        [
+         "bonuses.concentration",
+         1
+        ]
+       ]
+      },
+      {
+       "name": "Nicotine (Expensive): Wardrobe & Style",
+       "situational": true,
+       "changes": [
+        [
+         "bonuses.wardrobeAndStyle",
+         2
+        ]
+       ]
+      }
+     ],
+     "notes": [
+      "Using it turns on \"Nicotine (Expensive) Primary\": +1 to Concentration.",
+      "The Wardrobe & Style bonus while wearing a full outfit of Businesswear is a toggle in the roll dialog."
+     ]
+    }
+   ],
+   "notes": [
+    "Price is per dose; it usually comes in packs of 10.",
+    "Addiction raises lifestyle cost (and a Trauma Team premium) by 50eb a month; nothing is automated for it."
+   ]
+  },
+  "Delayed Super-Biotoxin": {
+   "base": "Flashlight",
+   "folder": "Poisons",
+   "set": {
+    "usage": "carried",
+    "isElectronic": false
+   },
+   "notes": [
+    "Nothing is automated: the BODY loss, damage, and Perception check are applied by hand."
+   ]
+  },
+  "UV Flashlight": {
+   "base": "Flashlight",
+   "folder": "General Gear",
+   "keep_effects": true,
+   "notes": [
+    "Lights the scene like the core Flashlight when toggled on. Only characters with UV vision cyberware benefit; nothing else is automated."
+   ]
+  }
+ }
+}

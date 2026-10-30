@@ -1,0 +1,92 @@
+{
+ "_id": "2nXfXXDSQCBiHuKc",
+ "_key": "!items!2nXfXXDSQCBiHuKc",
+ "name": "Anyware StudioPro",
+ "type": "gear",
+ "img": "systems/cyberpunk-red-core/icons/compendium/gear/agent.svg",
+ "system": {
+  "amount": 1,
+  "brand": "",
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "description": {
+   "value": "<p><strong>Cost:</strong> 500eb</p>\n<p>A photography AI that automatically optimizes your device's camera settings to achieve your photography goals. It is the only app on the market that doesn't use AI to artifically enhance images.</p>\n<p>Adds +2 to Photography/Film for pictures or video . By standing still for 1 minute (20 rounds) or keeping the Agent's camera stationary for 1 minute you gain the benefits of the Image Enhance cybereye option, which immediately ends when you move or use the Evasion skill.</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>An app runs on a Neuroport or an Agent and does nothing without one (see the House Rules journal). Keep it in the inventory while the character has either.</li>\n<li>The +2 to Photography/Film applies automatically. Image Enhance while still is not automated.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Apps).</em></p>"
+  },
+  "equipped": "owned",
+  "favorite": false,
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "price": {
+   "market": 500
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "usage": "carried"
+ },
+ "effects": [
+  {
+   "_id": "Z5874NcusEZpHO03",
+   "_key": "!items.effects!2nXfXXDSQCBiHuKc.Z5874NcusEZpHO03",
+   "name": "Anyware StudioPro",
+   "img": "systems/cyberpunk-red-core/icons/compendium/gear/agent.svg",
+   "changes": [
+    {
+     "key": "bonuses.photographyAndFilm",
+     "mode": 2,
+     "priority": null,
+     "value": "2"
+    }
+   ],
+   "description": "",
+   "disabled": false,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "skill"
+      },
+      "situational": {
+       "0": {
+        "isSituational": false,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  }
+ ],
+ "folder": "VgRNmeEGbbMsc7Gg",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

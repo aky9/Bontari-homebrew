@@ -1,0 +1,47 @@
+{
+ "_id": "Us5dVvba00pdKNB2",
+ "_key": "!items!Us5dVvba00pdKNB2",
+ "name": "Rossetta Lens™",
+ "type": "gear",
+ "img": "systems/cyberpunk-red-core/icons/compendium/gear/agent.svg",
+ "system": {
+  "amount": 1,
+  "brand": "",
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "description": {
+   "value": "<p><strong>Cost:</strong> 50eb</p>\n<p>Translate text in any language to your native one. Requires an Action to scan and translate a single sign or a few words. Takes 1 minute (20 rounds) of scanning to translate an entire page of text. Provides the literal meaning of the text and struggles with highly technical information.</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>An app runs on a Neuroport or an Agent and does nothing without one (see the House Rules journal). Keep it in the inventory while the character has either.</li>\n<li>Translation is not automated.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Apps).</em></p>"
+  },
+  "equipped": "owned",
+  "favorite": false,
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "price": {
+   "market": 50
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "usage": "carried"
+ },
+ "effects": [],
+ "folder": "VgRNmeEGbbMsc7Gg",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

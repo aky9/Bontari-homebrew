@@ -1,0 +1,6 @@
+{
+ "_notes": "Enhancement targets that Cyberpunk RED - Core 0.92.4 ships no item for (copied from corgo-77-module). validate.mjs counts these as resolved; anything else has to match a real item name.",
+ "absent": {
+  "Self-ICE": "Neuralware from official Cyberpunk RED material by R. Talsorian Games; no item in 0.92.4 under any name."
+ }
+}

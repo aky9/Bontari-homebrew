@@ -1,0 +1,107 @@
+{
+ "_id": "nUHHwrfhvZl5YBQh",
+ "_key": "!items!nUHHwrfhvZl5YBQh",
+ "name": "NUSAF Pilot Helmet",
+ "type": "armor",
+ "img": "systems/cyberpunk-red-core/icons/compendium/armor/light-armorjack_head.svg",
+ "system": {
+  "bodyLocation": {
+   "ablation": 0,
+   "sp": 0
+  },
+  "brand": "",
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "description": {
+   "value": "<p><strong>SP:</strong> 12<br>\n<strong>Armor Penalty:</strong> None<br>\n<strong>Cost:</strong> 5,000eb</p>\n<p>This TUped Light Armorjack Helmet has 2 Option Slots that can be used for Cyberaudio or Cybereye options, and comes pre-installed with a Radio Communicator, Anti-Dazzle and Low Light/Infrared/UV Vision. The User gains +2 to their Pilot Air Vehicle skill.</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>The +2 to Pilot Air Vehicle applies automatically while it is equipped.</li>\n<li>Armor can't hold cyberware, so its 2 option slots and pre-installed options are tracked by hand.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Armor).</em></p>"
+  },
+  "equipped": "owned",
+  "favorite": false,
+  "headLocation": {
+   "ablation": 0,
+   "sp": 12
+  },
+  "installedItems": {
+   "allowed": true,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 3,
+   "usedSlots": 0
+  },
+  "isBodyLocation": false,
+  "isElectronic": true,
+  "isHeadLocation": true,
+  "isShield": false,
+  "penalty": 0,
+  "price": {
+   "market": 5000
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "shieldHitPoints": {
+   "max": 0,
+   "value": 0
+  },
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "usage": "equipped"
+ },
+ "effects": [
+  {
+   "_id": "5ISaP9Q8dSqQ3d8I",
+   "_key": "!items.effects!nUHHwrfhvZl5YBQh.5ISaP9Q8dSqQ3d8I",
+   "name": "NUSAF Pilot Helmet",
+   "img": "systems/cyberpunk-red-core/icons/compendium/armor/light-armorjack_head.svg",
+   "changes": [
+    {
+     "key": "bonuses.pilotAirVehicle",
+     "mode": 2,
+     "priority": null,
+     "value": "2"
+    }
+   ],
+   "description": "",
+   "disabled": false,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "skill"
+      },
+      "situational": {
+       "0": {
+        "isSituational": false,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  }
+ ],
+ "folder": "jJhBrAtIzZMNCpWc",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

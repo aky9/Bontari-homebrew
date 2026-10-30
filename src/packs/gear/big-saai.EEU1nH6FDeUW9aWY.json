@@ -1,0 +1,92 @@
+{
+ "_id": "EEU1nH6FDeUW9aWY",
+ "_key": "!items!EEU1nH6FDeUW9aWY",
+ "name": "Big SAAI",
+ "type": "gear",
+ "img": "systems/cyberpunk-red-core/icons/compendium/gear/agent.svg",
+ "system": {
+  "amount": 1,
+  "brand": "",
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "description": {
+   "value": "<p><strong>Cost:</strong> 100eb</p>\n<p>A premium internet search AI developed by ZetaTech. It (almost) always provides a factual analysis of a topic based on an internet search. It's common knowledge that corporations can pay to have it say whatever they want labeled, but nobody cares.</p>\n<p>Adds +2 to Library Search.</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>An app runs on a Neuroport or an Agent and does nothing without one (see the House Rules journal). Keep it in the inventory while the character has either.</li>\n<li>The +2 to Library Search applies automatically while it is carried.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Apps).</em></p>"
+  },
+  "equipped": "owned",
+  "favorite": false,
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "price": {
+   "market": 100
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "usage": "carried"
+ },
+ "effects": [
+  {
+   "_id": "M2PPd3IuNz9HODw4",
+   "_key": "!items.effects!EEU1nH6FDeUW9aWY.M2PPd3IuNz9HODw4",
+   "name": "Big SAAI",
+   "img": "systems/cyberpunk-red-core/icons/compendium/gear/agent.svg",
+   "changes": [
+    {
+     "key": "bonuses.librarySearch",
+     "mode": 2,
+     "priority": null,
+     "value": "2"
+    }
+   ],
+   "description": "",
+   "disabled": false,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "skill"
+      },
+      "situational": {
+       "0": {
+        "isSituational": false,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  }
+ ],
+ "folder": "VgRNmeEGbbMsc7Gg",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

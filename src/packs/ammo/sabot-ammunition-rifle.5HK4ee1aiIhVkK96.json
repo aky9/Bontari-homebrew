@@ -1,0 +1,48 @@
+{
+ "_id": "5HK4ee1aiIhVkK96",
+ "_key": "!items!5HK4ee1aiIhVkK96",
+ "name": "Sabot Ammunition (Rifle)",
+ "type": "ammo",
+ "img": "systems/cyberpunk-red-core/icons/compendium/ammo/rifle_armorpiercing.png",
+ "system": {
+  "ablationValue": 2,
+  "amount": 10,
+  "brand": "",
+  "concealable": {
+   "concealable": true,
+   "isConcealed": false
+  },
+  "description": {
+   "value": "<p><strong>Ammo Types Available:</strong> Bullets, Slugs<br>\n<strong>Cost:</strong> 100eb for 10</p>\n<p>Ignores armor with SP11 or lower (Military use only)</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>Ignoring SP 11 or lower is not automated.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Ammo).</em></p>"
+  },
+  "favorite": false,
+  "overrides": {
+   "autofire": {
+    "minimum": 3,
+    "mode": "none",
+    "value": -1
+   },
+   "damage": {
+    "minimum": "1d6",
+    "mode": "none",
+    "value": "3d6"
+   }
+  },
+  "price": {
+   "market": 100
+  },
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "type": "special",
+  "variety": "rifle"
+ },
+ "effects": [],
+ "folder": "EvOzujGwW4en6U8I",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

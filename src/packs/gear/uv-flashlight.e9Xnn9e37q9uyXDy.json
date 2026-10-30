@@ -1,0 +1,92 @@
+{
+ "_id": "e9Xnn9e37q9uyXDy",
+ "_key": "!items!e9Xnn9e37q9uyXDy",
+ "name": "UV Flashlight",
+ "type": "gear",
+ "img": "systems/cyberpunk-red-core/icons/compendium/gear/flashlight.svg",
+ "system": {
+  "amount": 1,
+  "brand": "",
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "description": {
+   "value": "<p><strong>Cost:</strong> 20eb<br>\n<strong>Vendor:</strong> Anywhere/Toaster</p>\n<p>\"Never shine a lack light in a motel. Ignorance is bliss.\"</p>\n<p>Allows someone with UV Vision to benefit from that cyberware. The UV Light is visible only to people with the UV Vision cyberware.</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>Lights the scene like the core Flashlight when toggled on. Only characters with UV vision cyberware benefit; nothing else is automated.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Gear).</em></p>"
+  },
+  "equipped": "owned",
+  "favorite": false,
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "price": {
+   "market": 20
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "usage": "toggled"
+ },
+ "effects": [
+  {
+   "_id": "7VyeEp7S6atcp45f",
+   "_key": "!items.effects!e9Xnn9e37q9uyXDy.7VyeEp7S6atcp45f",
+   "name": "UV Flashlight",
+   "img": "systems/cyberpunk-red-core/icons/compendium/gear/flashlight.svg",
+   "changes": [
+    {
+     "key": "ATL.light.bright",
+     "mode": 2,
+     "priority": null,
+     "value": "50"
+    }
+   ],
+   "description": "",
+   "disabled": true,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "custom"
+      },
+      "situational": {
+       "0": {
+        "isSituational": false,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  }
+ ],
+ "folder": "hn8axVeHMaFHXa3H",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

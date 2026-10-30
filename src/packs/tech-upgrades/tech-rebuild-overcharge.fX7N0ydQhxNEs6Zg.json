@@ -1,0 +1,145 @@
+{
+ "_id": "fX7N0ydQhxNEs6Zg",
+ "_key": "!items!fX7N0ydQhxNEs6Zg",
+ "name": "Tech Rebuild: Overcharge",
+ "type": "itemUpgrade",
+ "img": "systems/cyberpunk-red-core/icons/compendium/upgrades/bayonet.svg",
+ "system": {
+  "ammoVariety": [],
+  "attackmod": 0,
+  "brand": "",
+  "canIgnoreArmor": false,
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "damage": "0",
+  "description": {
+   "value": "<p><strong>Upgrade DV:</strong> DV 29<br>\n<strong>Cost:</strong> Cost #1: Cost of the Tech Rebuild\n\nCost #2: 5,000eb<br>\n<strong>Thermometer:</strong> Provides a large straight forward offensive upgrade with a managable downside.<br>\n<strong>Applies To:</strong> A Tech Weapon Rebuild<br>\n<strong>Vendor:</strong> Toaster</p>\n<p>The Tech Rebuild no longer requres a Move action to charge. However, unless the user of this weapon has a Cyberarm they gain the Torn Muscle Critical Injury (but not the bonus damage) whenever they fire the weapon.</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>Price is Cost #2 only; Cost #1 is the cost of the Tech Rebuild.</li>\n<li>Not automated. The Tech, Smart, and Power Rebuilds are Corgo's 77 weapon mods.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Invented Tech Upgrades).</em></p>"
+  },
+  "dvTable": "",
+  "favorite": false,
+  "fireModes": {
+   "autoFire": 0,
+   "suppressiveFire": false
+  },
+  "handsReq": 0,
+  "ignoreArmorPercent": 0,
+  "installLocation": "mall",
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": false,
+  "isRanged": false,
+  "magazine": {
+   "ammoData": null,
+   "max": 0,
+   "value": 0
+  },
+  "modifiers": {
+   "Wardrobe & Style": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "attackmod": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "bodySp": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "cool": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "damage": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "headSp": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "magazine": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "rof": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "sdp": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "seats": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "secondaryWeapon": {
+    "configured": false
+   },
+   "shieldHp": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "slots": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   }
+  },
+  "price": {
+   "market": 5000
+  },
+  "providesHardening": false,
+  "rof": 2,
+  "size": 0,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "type": "weapon",
+  "unarmedAutomaticCalculation": true,
+  "usesType": "magazine",
+  "weaponSkill": "Melee Weapon",
+  "weaponType": "lightMelee"
+ },
+ "effects": [],
+ "folder": "fP4IUn6KA0mClNc0",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

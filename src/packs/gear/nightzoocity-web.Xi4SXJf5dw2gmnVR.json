@@ -1,0 +1,47 @@
+{
+ "_id": "Xi4SXJf5dw2gmnVR",
+ "_key": "!items!Xi4SXJf5dw2gmnVR",
+ "name": "NightZooCity.web",
+ "type": "gear",
+ "img": "systems/cyberpunk-red-core/icons/compendium/gear/agent.svg",
+ "system": {
+  "amount": 1,
+  "brand": "",
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "description": {
+   "value": "<p><strong>Cost:</strong> 0eb (with ads)</p>\n<p>A video website focus on Exotic porn and the official website for the Animals owned strip club \"The Zoo\". Also comes as an app with the icon of a suggestively winking lioness. Most people keep it hidden in inconspicuously named folders. You can pay 20eb to remove ads for 30 days.</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>Setting flavor: no rules effect.</li>\n<li>Removing the ads costs 20eb for 30 days.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Apps).</em></p>"
+  },
+  "equipped": "owned",
+  "favorite": false,
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "price": {
+   "market": 0
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "usage": "carried"
+ },
+ "effects": [],
+ "folder": "sXhaWkoUj28nbbrO",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

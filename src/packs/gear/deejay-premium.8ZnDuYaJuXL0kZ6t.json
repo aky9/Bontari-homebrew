@@ -1,0 +1,47 @@
+{
+ "_id": "8ZnDuYaJuXL0kZ6t",
+ "_key": "!items!8ZnDuYaJuXL0kZ6t",
+ "name": "DeeJay (Premium)",
+ "type": "gear",
+ "img": "systems/cyberpunk-red-core/icons/compendium/gear/agent.svg",
+ "system": {
+  "amount": 1,
+  "brand": "",
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "description": {
+   "value": "<p><strong>Cost:</strong> 100eb</p>\n<p>An app created by the celebrity Night City DJ \"Scratch Master\". The basic app is free, which is an algorithmically personalized radio. However the premium version of the app allows you to use an AI trained off of Scratch Master's DJ-ing. It is the highest rated app on the Night City Zetatech app store. It's praise for it's quality, user friendliness, and the fact it is a one-time purchase instead of a subscription service. Though everyone says it does not compare to Scratch Master actually DJing at your party.</p>\n<p>When you throw a party to regain Humanity, You can choose to connect your Neuroport/App to connect to a Pocket Amplifier or larger speaker. Doing so for the duration of the party allows attendees to reroll 1s on their roll to regain Humanity for that party.</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>An app runs on a Neuroport or an Agent and does nothing without one (see the House Rules journal). Keep it in the inventory while the character has either.</li>\n<li>The reroll at a party is not automated.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Apps).</em></p>"
+  },
+  "equipped": "owned",
+  "favorite": false,
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "price": {
+   "market": 100
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "usage": "carried"
+ },
+ "effects": [],
+ "folder": "VgRNmeEGbbMsc7Gg",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

@@ -1,0 +1,136 @@
+{
+ "_id": "KpAMlSAKoUKP5wnu",
+ "_key": "!items!KpAMlSAKoUKP5wnu",
+ "name": "RunWay",
+ "type": "gear",
+ "img": "systems/cyberpunk-red-core/icons/compendium/gear/agent.svg",
+ "system": {
+  "amount": 1,
+  "brand": "",
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "description": {
+   "value": "<p><strong>Cost:</strong> 50eb</p>\n<p>Have an AI give you fashion advice for all the latest trends, including tips on how to maximize the style of your existing wardrobe.</p>\n<p>Add +1 to your Waredrobe &amp; Style. This increases to +2 if you wear the clothes that RunWay suggests to you which often requires a purchase.</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>An app runs on a Neuroport or an Agent and does nothing without one (see the House Rules journal). Keep it in the inventory while the character has either.</li>\n<li>The +1 to Wardrobe &amp; Style applies automatically; the extra +1 for wearing RunWay's suggestions is a toggle in the roll dialog.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Apps).</em></p>"
+  },
+  "equipped": "owned",
+  "favorite": false,
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "price": {
+   "market": 50
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "usage": "carried"
+ },
+ "effects": [
+  {
+   "_id": "4Mqan8nUFVX2FhpB",
+   "_key": "!items.effects!KpAMlSAKoUKP5wnu.4Mqan8nUFVX2FhpB",
+   "name": "RunWay",
+   "img": "systems/cyberpunk-red-core/icons/compendium/gear/agent.svg",
+   "changes": [
+    {
+     "key": "bonuses.wardrobeAndStyle",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    }
+   ],
+   "description": "",
+   "disabled": false,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "skill"
+      },
+      "situational": {
+       "0": {
+        "isSituational": false,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  },
+  {
+   "_id": "s075UmWkwo6nKHSm",
+   "_key": "!items.effects!KpAMlSAKoUKP5wnu.s075UmWkwo6nKHSm",
+   "name": "RunWay: wearing its suggestions",
+   "img": "systems/cyberpunk-red-core/icons/compendium/gear/agent.svg",
+   "changes": [
+    {
+     "key": "bonuses.wardrobeAndStyle",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    }
+   ],
+   "description": "",
+   "disabled": false,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "skill"
+      },
+      "situational": {
+       "0": {
+        "isSituational": true,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  }
+ ],
+ "folder": "VgRNmeEGbbMsc7Gg",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

@@ -14,10 +14,10 @@ counts as a copy.
 |---|---|---|
 | **MOD-CORE** | Changes an official item. Where the Foundry system has it, it's named in the table. | 4 |
 | **MOD-OFFICIAL** | Changes an official item (Edgerunners Mission Kit) that the Foundry system does not include. | 2 |
-| **MOD-CORGO** | Same name as a Corgo's 77 item, with Bontari's own rules, cost, or Humanity Loss. | 4 |
+| **MOD-CORGO** | Same name as a Corgo's 77 item, with Bontari's own rules, cost, or Humanity Loss. | 5 |
 | **COPY-CORGO** | Rules text is Corgo's, word for word. | 1 |
 | **NEW (built on X)** | A new item that is an existing item plus changes (a branded Cyberarm, a TUped helmet). | 24 |
-| **NEW** | Bontari's own item. | 50 |
+| **NEW** | Bontari's own item. | 49 |
 | **LORE** | No mechanics: websites and free apps that are setting flavor. | 5 |
 | **RULE** | Not an item: HQ upgrades. | 2 |
 | **INCOMPLETE** | Missing the text needed to build it. | 3 |
@@ -107,7 +107,7 @@ The tab opens with a rule: apps run on a Neuroport or an Agent and do nothing wi
 | Rocklin Wallcrawler MagLegs | NEW (built on Cyberleg + Grip Foot) | |
 | Zhirafa/Rocklin Earthshaker Cyberlegs | NEW (built on Cyberleg) | |
 | Militech Siege Legs | NEW (built on Cyberleg) | |
-| Ballistic Coprocessor | NEW | |
+| Ballistic Coprocessor | MOD-CORGO | Same cost, install, and Humanity Loss as Corgo's. Corgo's: +1 to Ricochet Attacks from Power Rebuilds. Bontari's: the ricochet penalty drops from −4 to −2. Missed by the first name pass; caught by the build's name check. |
 | Secondary Heart | NEW | Same idea as Corgo's Second Heart, different rules. |
 | Daimler-Benz Nachtreiher Linear Frame | NEW | Two forms, external (gear) and internal (cyberware), like the core's frames. |
 | Repair Nanites | NEW ⚠ | Humanity Loss "NA". |

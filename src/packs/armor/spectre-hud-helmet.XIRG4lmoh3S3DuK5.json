@@ -1,0 +1,62 @@
+{
+ "_id": "XIRG4lmoh3S3DuK5",
+ "_key": "!items!XIRG4lmoh3S3DuK5",
+ "name": "Spectre HUD Helmet",
+ "type": "armor",
+ "img": "systems/cyberpunk-red-core/icons/compendium/armor/light-armorjack_head.svg",
+ "system": {
+  "bodyLocation": {
+   "ablation": 0,
+   "sp": 0
+  },
+  "brand": "",
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "description": {
+   "value": "<p><strong>SP:</strong> 11<br>\n<strong>Armor Penalty:</strong> None<br>\n<strong>Cost:</strong> 5,000eb (Luxury)<br>\n<strong>Vendor:</strong> Monarch (Militech) / Mr. Motomori (Arasaka)</p>\n<p>A fully enclosed helmet designed to work with the Specture Stealth Suit. Cameras on the outside of the helmet take a live 360 field of vision and project it on the curved video screen inside. It can be worn with the Specture Stealth suit and provides the benefits of the Anti-Dazzle and Chryon cybereye options. Also counts as an Anti-Smog Breathing Mask, Auto Level Dampening Ear Protectors, Radio Communicator, Scrambler/Descrambler, and Virtuality goggles. These options can not be removed without Destroying the item Beyond Repair. Can be Tech Upgraded to allow for an additional cybereye option slot which must be purchased seperatly but does not need to be paired. Vulnerable to EMP.</p>\n<p>Comes olive camo for Militech, and black &amp; red for Arasaka ninjas.</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>Its built-in cybereye options and gear are not automated. They can't be removed.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Armor).</em></p>"
+  },
+  "equipped": "owned",
+  "favorite": false,
+  "headLocation": {
+   "ablation": 0,
+   "sp": 11
+  },
+  "installedItems": {
+   "allowed": true,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 3,
+   "usedSlots": 0
+  },
+  "isBodyLocation": false,
+  "isElectronic": true,
+  "isHeadLocation": true,
+  "isShield": false,
+  "penalty": 0,
+  "price": {
+   "market": 5000
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "shieldHitPoints": {
+   "max": 0,
+   "value": 0
+  },
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "usage": "equipped"
+ },
+ "effects": [],
+ "folder": "jJhBrAtIzZMNCpWc",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

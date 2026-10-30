@@ -1,0 +1,78 @@
+{
+ "_id": "MUdSV4YXlV5wtwYD",
+ "_key": "!items!MUdSV4YXlV5wtwYD",
+ "name": "Zetatech Kyber Foundationware",
+ "type": "cyberware",
+ "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/nasal_filters.svg",
+ "system": {
+  "ammoVariety": [],
+  "attackmod": 0,
+  "brand": "",
+  "canIgnoreArmor": true,
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "core": false,
+  "damage": "1d6",
+  "description": {
+   "value": "<p><strong>Install:</strong> Clinic<br>\n<strong>Cost:</strong> Varies<br>\n<strong>Humanity Loss:</strong> 0</p>\n<p>Foundational Cyberware. High-quality foundationware that cause no Humanity Loss upon installation. In addition, any cyberware options purchased and installed at the same time also cause no Humanity Loss. Any cyberware options installed after the initial installation cause Humanity Loss as normal. There may also be some hidden side effects…</p>\n<p><strong>Type:</strong> Internal Body Cyberware<br>\n<strong>Option Slots:</strong> uses 0</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>The sheet does not say which kind of foundational cyberware this is (cyberarm, cyberleg, cybereye, and so on), so it is modeled as Internal Body Cyberware that takes no slot. Use it as a marker, and set Humanity Loss to 0 by hand on the options installed with it.</li>\n<li>The sheet's cost is \"Varies\", so its price is 0 here.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Cyberware).</em></p>"
+  },
+  "dvTable": "",
+  "favorite": false,
+  "fireModes": {
+   "autoFire": 0,
+   "suppressiveFire": false
+  },
+  "humanityLoss": {
+   "static": 0,
+   "roll": "0"
+  },
+  "ignoreArmorPercent": 50,
+  "installLocation": "clinic",
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "isFoundational": false,
+  "isRanged": false,
+  "isWeapon": false,
+  "magazine": {
+   "ammoData": null,
+   "max": 0,
+   "value": 0
+  },
+  "price": {
+   "market": 0
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "rof": 1,
+  "size": 0,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "type": "cyberwareInternal",
+  "unarmedAutomaticCalculation": true,
+  "usage": "installed",
+  "usesType": "magazine",
+  "weaponSkill": "Archery",
+  "weaponType": "assaultRifle",
+  "critFailEffect": "jammed",
+  "ignoreBelowSP": 0
+ },
+ "effects": [],
+ "folder": "8qxTip0BhFJyWFSa",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

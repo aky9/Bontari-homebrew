@@ -1,0 +1,145 @@
+{
+ "_id": "wrxHQo2KUsPk94ew",
+ "_key": "!items!wrxHQo2KUsPk94ew",
+ "name": "Self-ICE Hyōheki Upgrade",
+ "type": "itemUpgrade",
+ "img": "systems/cyberpunk-red-core/icons/compendium/upgrades/bayonet.svg",
+ "system": {
+  "ammoVariety": [],
+  "attackmod": 0,
+  "brand": "",
+  "canIgnoreArmor": false,
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "damage": "0",
+  "description": {
+   "value": "<p><strong>Install:</strong> Hospital<br>\n<strong>Cost:</strong> 2,500eb</p>\n<p>Cyberwear Enhancement. Requires 3 installations of Self-ICE. User gains an additional layer of Self-ICE with a DV10. Incompatible with all other Self-ICE Cyberware Enhancements.</p>\n<p><strong>Enhances:</strong> Self-ICE</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>Self-ICE is from official R. Talsorian material (Edgerunners Mission Kit) that Cyberpunk RED - Core does not include, so there is no Self-ICE item to install this in. Keep it in the inventory as a record.</li>\n<li>Needs three installations of Self-ICE. The extra DV 10 layer is not automated.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Cyberware).</em></p>"
+  },
+  "dvTable": "",
+  "favorite": false,
+  "fireModes": {
+   "autoFire": 0,
+   "suppressiveFire": false
+  },
+  "handsReq": 0,
+  "ignoreArmorPercent": 0,
+  "installLocation": "mall",
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": false,
+  "isRanged": false,
+  "magazine": {
+   "ammoData": null,
+   "max": 0,
+   "value": 0
+  },
+  "modifiers": {
+   "Wardrobe & Style": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "attackmod": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "bodySp": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "cool": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "damage": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "headSp": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "magazine": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "rof": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "sdp": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "seats": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "secondaryWeapon": {
+    "configured": false
+   },
+   "shieldHp": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   },
+   "slots": {
+    "isSituational": false,
+    "onByDefault": false,
+    "type": "modifier",
+    "value": null
+   }
+  },
+  "price": {
+   "market": 2500
+  },
+  "providesHardening": false,
+  "rof": 2,
+  "size": 0,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "type": "cyberware",
+  "unarmedAutomaticCalculation": true,
+  "usesType": "magazine",
+  "weaponSkill": "Melee Weapon",
+  "weaponType": "lightMelee"
+ },
+ "effects": [],
+ "folder": "XUrVtOiBzTbqAJpS",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

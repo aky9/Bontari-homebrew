@@ -1,0 +1,78 @@
+{
+ "_id": "Gy7CcLjkgYT4r0wy",
+ "_key": "!items!Gy7CcLjkgYT4r0wy",
+ "name": "FBC Experimental Shimmer Coating",
+ "type": "cyberware",
+ "img": "systems/cyberpunk-red-core/icons/compendium/must_have_cyberware_deals/external_vidscreen.svg",
+ "system": {
+  "ammoVariety": [],
+  "attackmod": 0,
+  "brand": "",
+  "canIgnoreArmor": true,
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "core": false,
+  "damage": "1d6",
+  "description": {
+   "value": "<p>External Body Cyberware. May only be installed in an FBC. As an Action, the user can activate the Shimmer coating to make themselves invisible on cameras and cybereyes. No effect on meat eyes.</p>\n<p><strong>Type:</strong> External Body Cyberware<br>\n<strong>Option Slots:</strong> uses 1</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>The sheet gives no cost, install, or Humanity Loss, so they are 0 and the core External Vidscreen's install (Hospital) here.</li>\n<li>Invisibility to cameras and cybereyes is not automated.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Cyberware).</em></p>"
+  },
+  "dvTable": "",
+  "favorite": false,
+  "fireModes": {
+   "autoFire": 0,
+   "suppressiveFire": false
+  },
+  "humanityLoss": {
+   "static": 0,
+   "roll": "0"
+  },
+  "ignoreArmorPercent": 50,
+  "installLocation": "hospital",
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": false,
+  "isFoundational": false,
+  "isRanged": false,
+  "isWeapon": false,
+  "magazine": {
+   "ammoData": null,
+   "max": 0,
+   "value": 0
+  },
+  "price": {
+   "market": 0
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "rof": 1,
+  "size": 1,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "type": "cyberwareExternal",
+  "unarmedAutomaticCalculation": true,
+  "usage": "toggled",
+  "usesType": "magazine",
+  "weaponSkill": "",
+  "weaponType": "",
+  "critFailEffect": "jammed",
+  "ignoreBelowSP": 0
+ },
+ "effects": [],
+ "folder": "nxyDwuvD15UqjAz3",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

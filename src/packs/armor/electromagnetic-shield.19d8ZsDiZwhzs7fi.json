@@ -1,0 +1,62 @@
+{
+ "_id": "19d8ZsDiZwhzs7fi",
+ "_key": "!items!19d8ZsDiZwhzs7fi",
+ "name": "Electromagnetic Shield",
+ "type": "armor",
+ "img": "systems/cyberpunk-red-core/icons/compendium/armor/bullet_proof_shield.svg",
+ "system": {
+  "bodyLocation": {
+   "ablation": 0,
+   "sp": 0
+  },
+  "brand": "",
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "description": {
+   "value": "<p><strong>Cost:</strong> 1,000eb</p>\n<p>A shield with 25HP. Any damage that penetrates the shield is halved and dealt to the user. Can be installed as a Popup shield. Incompatible with all shield enhancements and attachments.</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>Halving damage that gets through is not automated. It takes no shield attachments, so it has no slots.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Gear).</em></p>"
+  },
+  "equipped": "owned",
+  "favorite": false,
+  "headLocation": {
+   "ablation": 0,
+   "sp": 0
+  },
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isBodyLocation": false,
+  "isElectronic": true,
+  "isHeadLocation": false,
+  "isShield": true,
+  "penalty": 0,
+  "price": {
+   "market": 1000
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "shieldHitPoints": {
+   "max": 25,
+   "value": 25
+  },
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "usage": "equipped"
+ },
+ "effects": [],
+ "folder": "TOyGMnKnkUhdcEod",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

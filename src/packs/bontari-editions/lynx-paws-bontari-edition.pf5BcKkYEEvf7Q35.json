@@ -1,0 +1,123 @@
+{
+ "_id": "pf5BcKkYEEvf7Q35",
+ "_key": "!items!pf5BcKkYEEvf7Q35",
+ "name": "Lynx Paws (Bontari Edition)",
+ "type": "cyberware",
+ "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/grip_foot.svg",
+ "system": {
+  "ammoVariety": [],
+  "attackmod": 0,
+  "brand": "",
+  "canIgnoreArmor": true,
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "core": false,
+  "damage": "1d6",
+  "description": {
+   "value": "<p><strong>Install:</strong> Hospital<br>\n<strong>Cost:</strong> 500eb<br>\n<strong>Humanity Loss:</strong> 7 (2d6)</p>\n<p>Cyberleg option. Must be paired. Grants +2 to Stealth checks so long as you move no farther than half your movement on your turn (rounded down).</p>\n<p><strong>Type:</strong> Cyberleg<br>\n<strong>Option Slots:</strong> uses 1<br>\n<strong>Replaces:</strong> Lynx Paws (Corgo's 77 Collection)</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>Paired: install one in each Cyberleg. The sheet does not give its slot cost, so each uses 1.</li>\n<li>The +2 to Stealth is a toggle in the roll dialog: turn it on when you moved no more than half your MOVE.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Cyberware).</em></p>"
+  },
+  "dvTable": "",
+  "favorite": false,
+  "fireModes": {
+   "autoFire": 0,
+   "suppressiveFire": false
+  },
+  "humanityLoss": {
+   "static": 7,
+   "roll": "2d6"
+  },
+  "ignoreArmorPercent": 50,
+  "installLocation": "hospital",
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": false,
+  "isFoundational": false,
+  "isRanged": false,
+  "isWeapon": false,
+  "magazine": {
+   "ammoData": null,
+   "max": 0,
+   "value": 0
+  },
+  "price": {
+   "market": 500
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "rof": 1,
+  "size": 1,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "type": "cyberLeg",
+  "unarmedAutomaticCalculation": true,
+  "usage": "toggled",
+  "usesType": "magazine",
+  "weaponSkill": "Archery",
+  "weaponType": "assaultRifle",
+  "critFailEffect": "jammed",
+  "ignoreBelowSP": 0
+ },
+ "effects": [
+  {
+   "_id": "NqxW58HZvTbEI8HQ",
+   "_key": "!items.effects!pf5BcKkYEEvf7Q35.NqxW58HZvTbEI8HQ",
+   "name": "Lynx Paws",
+   "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/grip_foot.svg",
+   "changes": [
+    {
+     "key": "bonuses.stealth",
+     "mode": 2,
+     "priority": null,
+     "value": "2"
+    }
+   ],
+   "description": "",
+   "disabled": false,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "skill"
+      },
+      "situational": {
+       "0": {
+        "isSituational": true,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  }
+ ],
+ "folder": "f72oPlLbCCKJprMw",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

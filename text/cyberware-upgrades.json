@@ -1,0 +1,57 @@
+{
+ "_notes": "Cyberware Enhancements: itemUpgrades of type cyberware, size 0, no Active Effects (see tools/build_items.py).",
+ "items": {
+  "Self-ICE Pykrete Upgrade": {
+   "base": "Bayonet",
+   "set": {
+    "type": "cyberware",
+    "size": 0
+   },
+   "folder": "Self-ICE Enhancements",
+   "enhances": "Self-ICE",
+   "notes": [
+    "Self-ICE is from official R. Talsorian material (Edgerunners Mission Kit) that Cyberpunk RED - Core does not include, so there is no Self-ICE item to install this in. Keep it in the inventory as a record.",
+    "Counting as Borgware and the +1 DV are not automated."
+   ]
+  },
+  "Self-ICE Canary Upgrade": {
+   "base": "Bayonet",
+   "set": {
+    "type": "cyberware",
+    "size": 0
+   },
+   "folder": "Self-ICE Enhancements",
+   "enhances": "Self-ICE",
+   "notes": [
+    "Self-ICE is from official R. Talsorian material (Edgerunners Mission Kit) that Cyberpunk RED - Core does not include, so there is no Self-ICE item to install this in. Keep it in the inventory as a record.",
+    "The extra Interface Check is not automated."
+   ]
+  },
+  "Self-ICE Hyōheki Upgrade": {
+   "base": "Bayonet",
+   "set": {
+    "type": "cyberware",
+    "size": 0
+   },
+   "folder": "Self-ICE Enhancements",
+   "enhances": "Self-ICE",
+   "notes": [
+    "Self-ICE is from official R. Talsorian material (Edgerunners Mission Kit) that Cyberpunk RED - Core does not include, so there is no Self-ICE item to install this in. Keep it in the inventory as a record.",
+    "Needs three installations of Self-ICE. The extra DV 10 layer is not automated."
+   ]
+  },
+  "Self-ICE Permafrost Upgrade": {
+   "base": "Bayonet",
+   "set": {
+    "type": "cyberware",
+    "size": 0
+   },
+   "folder": "Self-ICE Enhancements",
+   "enhances": "Self-ICE",
+   "notes": [
+    "Self-ICE is from official R. Talsorian material (Edgerunners Mission Kit) that Cyberpunk RED - Core does not include, so there is no Self-ICE item to install this in. Keep it in the inventory as a record.",
+    "Needs three installations of Self-ICE. The DV 12 floor is not automated."
+   ]
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "_id": "P8ceQmGnIczwt9pU",
+ "_key": "!journal!P8ceQmGnIczwt9pU",
+ "name": "Bontari House Rules: HQ Upgrades",
+ "pages": [
+  {
+   "_id": "LkkMoLT1h2OOjMqg",
+   "_key": "!journal.pages!P8ceQmGnIczwt9pU.LkkMoLT1h2OOjMqg",
+   "name": "Morale Boost X+: Outdoor Pet Area",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>A small outdoor area where crew pets can run around, get some exercise, and use the bathroom as they please.</p>\n<p>Reduces the Animal Handling skill base requirement of Mook and Lieutenant level cyberpets by 1.</p>\n<p>Upgrade: Reduces the Animal Handling skill base requirement of Mini-Boss and Boss level cyberpets by 1.</p>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (HQ Upgrades).</em></p>"
+   },
+   "sort": 100000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "system": {}
+  },
+  {
+   "_id": "8bNZ19PQ46fjycCX",
+   "_key": "!journal.pages!P8ceQmGnIczwt9pU.8bNZ19PQ46fjycCX",
+   "name": "Armory",
+   "type": "text",
+   "title": {
+    "show": true,
+    "level": 1
+   },
+   "text": {
+    "format": 1,
+    "content": "<p>A secure armory for storing crew weapons and gear.</p>\n<p>Provides a space to securely store group weapons, armor, and ammunition hidden behind the choice of either: A physical lock (DV 17 Pick Lock to bypass) with enough keys for each crew member OR a digital security code pad (15 Electronics/Security Tech to bypass). The walls count as Thin Steel cover.</p>\n<p>Upgrade: The DV to bypass increases to 21 for the physical lock and DV 17 for the digital security code pad. The walls increase in thickness to Thick Steel cover. In addition, failed attempts to bypass either security method now send an alert to crew Agents/Neuroports.</p>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (HQ Upgrades).</em></p>"
+   },
+   "sort": 200000,
+   "ownership": {
+    "default": -1
+   },
+   "flags": {},
+   "system": {}
+  }
+ ],
+ "folder": null,
+ "sort": 300000,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

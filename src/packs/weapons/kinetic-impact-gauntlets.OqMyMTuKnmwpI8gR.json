@@ -1,0 +1,69 @@
+{
+ "_id": "OqMyMTuKnmwpI8gR",
+ "_key": "!items!OqMyMTuKnmwpI8gR",
+ "name": "Kinetic Impact Gauntlets",
+ "type": "weapon",
+ "img": "systems/cyberpunk-red-core/icons/compendium/weapons/unarmed.svg",
+ "system": {
+  "ammoVariety": [],
+  "attackmod": 0,
+  "brand": "",
+  "canIgnoreArmor": false,
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "critFailEffect": "jammed",
+  "damage": "3d6",
+  "description": {
+   "value": "<p><strong>Cost:</strong> 1,000eb<br>\n<strong>Vendor:</strong> Monarch</p>\n<p>A pair of exotic metal gauntlets designed to fire special shotgun blanks on impact. The gaunlets come as a pair and can not be concealed. Unloaded the gauntlets do nothing. When loaded with up to 12 specially designed blank shells (1eb per blank) per gauntlet, brawling attacks with these gaunlets deal a minimum of 3d6 damage and force the target to make a DV 13 Brawling check. On a failed check the target is pushed 2m away and falls prone. Blanks are only consumed on a successful hit.</p>\n<p>When making a Facedown you can pump the action on the gauntlets. Doing so gives you a +1 to your Facedown roll and shows that these hands are chambered for 60 gauge.</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>Equip it for Brawling attacks at 3d6. The blanks (12 per gauntlet, 1eb each, used only on a hit), the knockback check, and the Facedown bonus are tracked by hand.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Weapons).</em></p>"
+  },
+  "dvTable": "",
+  "equipped": "owned",
+  "favorite": false,
+  "fireModes": {
+   "autoFire": 0,
+   "suppressiveFire": false
+  },
+  "handsReq": 1,
+  "ignoreArmorPercent": 0,
+  "ignoreBelowSP": 0,
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isRanged": false,
+  "magazine": {
+   "ammoData": null,
+   "max": 0,
+   "value": 0
+  },
+  "price": {
+   "market": 0
+  },
+  "quality": "standard",
+  "revealed": true,
+  "rof": 2,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "unarmedAutomaticCalculation": false,
+  "usage": "equipped",
+  "usesType": "magazine",
+  "weaponSkill": "Brawling",
+  "weaponType": "unarmed"
+ },
+ "effects": [],
+ "folder": "ImoUjdZM3neFaVFD",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}

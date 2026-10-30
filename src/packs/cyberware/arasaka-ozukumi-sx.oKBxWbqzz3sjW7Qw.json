@@ -1,0 +1,123 @@
+{
+ "_id": "oKBxWbqzz3sjW7Qw",
+ "_key": "!items!oKBxWbqzz3sjW7Qw",
+ "name": "Arasaka Ozukumi Sx",
+ "type": "cyberware",
+ "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/kerenzikov.svg",
+ "system": {
+  "ammoVariety": [],
+  "attackmod": 0,
+  "brand": "",
+  "canIgnoreArmor": true,
+  "concealable": {
+   "concealable": false,
+   "isConcealed": false
+  },
+  "core": false,
+  "damage": "1d6",
+  "description": {
+   "value": "<p><strong>Install:</strong> Hospital<br>\n<strong>Cost:</strong> 5,000eb<br>\n<strong>Humanity Loss:</strong> 14 (4d6)</p>\n<p>Neuralware. Requires 2 Option Slots. Increases user's INT by 1, to a maximum of 9. Does not stack with drugs. At the end of every month, if the user has had this piece of cyberware installed for at least a week, they take 2d6 humanity loss.</p>\n<p><strong>Type:</strong> Neuralware<br>\n<strong>Option Slots:</strong> uses 2</p>\n<p><strong>Foundry notes:</strong></p>\n<ul>\n<li>The +1 INT applies automatically while this is installed. The maximum of 9 is not: a cap would also lower an INT above 9. The monthly 2d6 Humanity Loss is not automated.</li>\n</ul>\n<p><em>From Bontari Homebrew Cyberpunk Items by Bontari (Cyberware).</em></p>"
+  },
+  "dvTable": "",
+  "favorite": false,
+  "fireModes": {
+   "autoFire": 0,
+   "suppressiveFire": false
+  },
+  "humanityLoss": {
+   "static": 14,
+   "roll": "4d6"
+  },
+  "ignoreArmorPercent": 50,
+  "installLocation": "hospital",
+  "installedItems": {
+   "allowed": false,
+   "allowedTypes": [
+    "itemUpgrade"
+   ],
+   "list": [],
+   "slots": 0,
+   "usedSlots": 0
+  },
+  "isElectronic": true,
+  "isFoundational": false,
+  "isRanged": false,
+  "isWeapon": false,
+  "magazine": {
+   "ammoData": null,
+   "max": 0,
+   "value": 0
+  },
+  "price": {
+   "market": 5000
+  },
+  "providesHardening": false,
+  "revealed": true,
+  "rof": 1,
+  "size": 2,
+  "source": {
+   "book": "Bontari Homebrew Cyberpunk Items",
+   "page": 0
+  },
+  "type": "neuralWare",
+  "unarmedAutomaticCalculation": true,
+  "usage": "installed",
+  "usesType": "magazine",
+  "weaponSkill": "Archery",
+  "weaponType": "assaultRifle",
+  "critFailEffect": "jammed",
+  "ignoreBelowSP": 0
+ },
+ "effects": [
+  {
+   "_id": "RPAeM7Rz0vxjnHFd",
+   "_key": "!items.effects!oKBxWbqzz3sjW7Qw.RPAeM7Rz0vxjnHFd",
+   "name": "Arasaka Ozukumi Sx",
+   "img": "systems/cyberpunk-red-core/icons/compendium/cyberware/kerenzikov.svg",
+   "changes": [
+    {
+     "key": "system.stats.int.value",
+     "mode": 2,
+     "priority": null,
+     "value": "1"
+    }
+   ],
+   "description": "",
+   "disabled": false,
+   "duration": {
+    "combat": null,
+    "rounds": null,
+    "seconds": null,
+    "startRound": null,
+    "startTime": null,
+    "startTurn": null,
+    "turns": null
+   },
+   "flags": {
+    "cyberpunk-red-core": {
+     "changes": {
+      "cats": {
+       "0": "stat"
+      },
+      "situational": {
+       "0": {
+        "isSituational": false,
+        "onByDefault": false
+       }
+      }
+     }
+    }
+   },
+   "statuses": [],
+   "system": {},
+   "transfer": true,
+   "type": "base"
+  }
+ ],
+ "folder": "v0f3RMVvjESx5G15",
+ "sort": 0,
+ "ownership": {
+  "default": 0
+ },
+ "flags": {}
+}
